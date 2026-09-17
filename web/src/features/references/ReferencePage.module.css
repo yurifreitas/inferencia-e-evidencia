@@ -1,0 +1,24 @@
+.page { max-width: 1240px; margin-inline: auto; }
+.crumbs { display: flex; gap: var(--space-2); align-items: center; margin-bottom: var(--space-8); font-size: var(--text-sm); color: var(--text-muted); }
+.crumbs a { text-decoration: none; min-height: 32px; display: inline-flex; align-items: center; }
+.crumbs a:hover { color: var(--brand); }
+.layout { display: grid; gap: var(--space-12); }
+@media (min-width: 1200px) { .layout { grid-template-columns: minmax(0, 1fr) 320px; gap: var(--space-16); } }
+.main { min-width: 0; display: grid; gap: var(--space-16); align-content: start; }
+.aside { display: grid; gap: var(--space-4); align-content: start; }
+@media (min-width: 1200px) { .aside { position: sticky; top: var(--space-12); } }
+.box { padding: var(--space-6); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); display: grid; gap: var(--space-3); }
+.boxTitle { display: flex; justify-content: space-between; align-items: baseline; font: 500 var(--text-xs) var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); }
+.boxTitle span { color: var(--brand); }
+.links { display: grid; gap: 2px; margin-inline: calc(-1 * var(--space-3)); }
+.links a { display: grid; gap: 1px; padding: var(--space-2) var(--space-3); border-radius: var(--radius-md); text-decoration: none; transition: background var(--dur) var(--ease); }
+.links a:hover { background: var(--surface-2); }
+.links a:hover span { color: var(--brand); }
+.links span { font-size: var(--text-sm); font-weight: 500; transition: color var(--dur) var(--ease); }
+.links code { font: 400 11px var(--font-mono); color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.muted { color: var(--text-muted); font-size: var(--text-sm); }
+.related { display: grid; gap: var(--space-2); padding-top: var(--space-12); border-top: 1px solid var(--border); }
+.h2 { font: 600 var(--text-xl) var(--font-serif); }
+.sub { color: var(--text-muted); font-size: var(--text-sm); margin-bottom: var(--space-4); }
+.relatedGrid { display: grid; gap: 0 var(--space-8); }
+@media (min-width: 900px) { .relatedGrid { grid-template-columns: 1fr 1fr; } }

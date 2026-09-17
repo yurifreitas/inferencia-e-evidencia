@@ -1,0 +1,25 @@
+.layout { display: grid; gap: var(--space-12); max-width: 1320px; margin-inline: auto; }
+.aside { display: none; }
+@media (min-width: 1200px) {
+  .layout { grid-template-columns: 240px 1fr; }
+  .aside { display: block; position: sticky; top: var(--space-12); align-self: start; max-height: calc(100vh - var(--space-24)); overflow-y: auto; padding-right: var(--space-2); }
+}
+.content { min-width: 0; }
+.groups { display: grid; gap: var(--space-16); }
+.group { display: grid; gap: var(--space-6); }
+.groupTitle { font: 600 var(--text-xl) var(--font-serif); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-4); }
+.card {
+  display: grid; align-content: start; gap: var(--space-3); height: 100%; padding: var(--space-6);
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); text-decoration: none;
+  transition: border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.card:hover { border-color: var(--border-strong); box-shadow: var(--shadow-card); transform: translateY(-2px); }
+.cardName { font: 600 var(--text-lg)/1.25 var(--font-serif); }
+.cardFormula { font: 400 var(--text-xs) var(--font-mono); color: var(--brand); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cardDef { font-size: var(--text-sm); color: var(--text-muted); line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.cardMeta { font-size: var(--text-xs); color: var(--teal); font-weight: 500; }
+.groupHead { display: grid; grid-template-columns: auto 1fr; gap: var(--space-4); align-items: start; }
+.step { font: 600 var(--text-2xl)/1 var(--font-mono); color: transparent; -webkit-text-stroke: 1px var(--brand); padding-top: 2px; }
+.groupDesc { color: var(--text-muted); margin-top: var(--space-1); }
+.done { color: var(--teal); font-family: var(--font-sans); }

@@ -1,0 +1,4 @@
+.wrap { display: grid; gap: var(--space-4); }
+.count { font-size: var(--text-sm); color: var(--text-muted); }
+.count strong { color: var(--text); font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.list { display: grid; gap: var(--space-4); }

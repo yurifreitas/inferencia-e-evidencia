@@ -1,0 +1,6 @@
+.btn {
+  min-height: 32px; padding: 0; border: 0; background: none; cursor: pointer;
+  color: var(--text-muted); font: 500 var(--text-sm) var(--font-sans);
+  transition: color var(--dur) var(--ease);
+}
+.btn:hover { color: var(--brand); }

@@ -1,0 +1,23 @@
+.page { max-width: 880px; margin-inline: auto; display: grid; gap: var(--space-6); }
+.page > header { margin-bottom: var(--space-2); }
+.filters { display: grid; gap: var(--space-3); }
+.stats { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.stats div { display: flex; flex-direction: column-reverse; gap: 2px; padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); background: var(--surface-2); min-width: 120px; }
+.stats dt { font-size: var(--text-xs); color: var(--text-muted); }
+.stats dd { font: 600 var(--text-lg) var(--font-mono); font-variant-numeric: tabular-nums; }
+.card { display: grid; gap: var(--space-6); padding: var(--space-8); border-radius: var(--radius-lg); background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-card); }
+.cardHead { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-3); }
+.concept { font: 600 var(--text-xs) var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--brand); text-decoration: none; }
+.concept:hover { text-decoration: underline; }
+.box { font: 500 var(--text-xs) var(--font-mono); color: var(--text-muted); }
+.question { font: 500 22px/1.45 var(--font-serif); white-space: pre-line; }
+.answer { display: grid; gap: var(--space-2); padding: var(--space-6); border-radius: var(--radius-md); background: var(--teal-soft); }
+.answerLabel { font: 600 var(--text-xs) var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--teal); }
+.answerText { font-weight: 600; font-size: 18px; }
+.solution { line-height: 1.65; white-space: pre-line; color: var(--text); }
+.grade { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); }
+.grade span { font-size: var(--text-sm); color: var(--text-muted); margin-right: auto; }
+.button { min-height: 44px; padding: 0 var(--space-6); border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--surface); font-weight: 600; font-size: var(--text-sm); cursor: pointer; justify-self: start; }
+.primary { background: var(--brand); color: var(--brand-fg); border-color: var(--brand); }
+.right { background: var(--teal); color: var(--surface); border-color: var(--teal); }
+.wrong { border-color: var(--brand); color: var(--brand); }

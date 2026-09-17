@@ -1,0 +1,18 @@
+.figure { margin: 0; overflow-x: auto; }
+.grid { display: grid; grid-template-columns: auto minmax(120px, 1fr) minmax(120px, 1fr) auto; gap: var(--space-2); align-items: stretch; }
+.colHead { font: 500 var(--text-xs) var(--font-mono); color: var(--text-muted); text-align: center; padding-bottom: var(--space-1); }
+.rowHead { font: 500 var(--text-xs) var(--font-mono); color: var(--text-muted); writing-mode: vertical-rl; transform: rotate(180deg); text-align: center; }
+.cell { display: grid; gap: 2px; align-content: center; min-height: 108px; padding: var(--space-4); border-radius: var(--radius-md); }
+.cellLabel { font: 600 var(--text-xs) var(--font-mono); letter-spacing: .06em; opacity: .8; }
+.count { font: 600 var(--text-2xl)/1.1 var(--font-mono); font-variant-numeric: tabular-nums; }
+.sub { font-size: 11px; opacity: .85; line-height: 1.35; }
+.ok { background: var(--teal-soft); color: var(--teal); }
+.fp { background: var(--gold-soft); color: var(--text); }
+.fn { background: var(--brand-soft); color: var(--brand); }
+.input {
+  width: 100%; min-width: 0; height: 44px; padding: 0 var(--space-2); border: 1px solid transparent; border-radius: var(--radius-sm);
+  background: color-mix(in oklch, var(--surface) 70%, transparent); font: 600 var(--text-xl) var(--font-mono); font-variant-numeric: tabular-nums; color: inherit;
+}
+.input:focus { outline: none; border-color: currentColor; }
+.margin { display: grid; place-items: center; font: 500 var(--text-xs) var(--font-mono); color: var(--text-muted); font-variant-numeric: tabular-nums; padding: 0 var(--space-2); }
+.total { color: var(--text); font-weight: 600; }

@@ -1,0 +1,15 @@
+.figure { margin: 0; display: grid; gap: var(--space-3); }
+.head { display: grid; gap: 2px; }
+.title { font-weight: 600; font-size: var(--text-sm); }
+.subtitle { font-size: var(--text-xs); color: var(--text-muted); }
+.svg { width: 100%; height: auto; overflow: visible; }
+.grid { stroke: var(--grid); }
+.tick { font: 10px var(--font-mono); fill: var(--text-muted); }
+.axisLabel { font: 500 11px var(--font-sans); fill: var(--text-muted); }
+.baseline { stroke: var(--border-strong); stroke-dasharray: 4 4; }
+.baselineLabel { font: 10px var(--font-mono); fill: var(--text-muted); }
+.area { fill: var(--brand); opacity: .07; }
+.curve { fill: none; stroke: var(--brand); stroke-width: 2.25; stroke-linejoin: round; }
+.youden { stroke: var(--teal); stroke-width: 2; stroke-dasharray: 3 3; }
+.halo { fill: var(--brand); opacity: .2; }
+.point { fill: var(--surface); stroke: var(--brand); stroke-width: 2.5; }

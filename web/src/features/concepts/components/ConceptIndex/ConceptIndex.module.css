@@ -1,0 +1,11 @@
+.index { display: grid; gap: var(--space-6); }
+.group { display: grid; gap: var(--space-1); }
+.groupLabel { font: 500 var(--text-xs) var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); padding: 0 var(--space-3) var(--space-1); }
+.link {
+  display: flex; align-items: center; min-height: 34px; padding: var(--space-1) var(--space-3); border-radius: var(--radius-sm);
+  font-size: var(--text-sm); line-height: 1.35; text-decoration: none; color: var(--text-muted);
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+.link:hover { background: var(--surface-2); color: var(--text); }
+.link[aria-current="page"] { background: var(--brand-soft); color: var(--brand); font-weight: 600; }
+.check { margin-left: auto; padding-left: var(--space-2); color: var(--teal); font-weight: 700; }

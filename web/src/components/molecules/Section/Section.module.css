@@ -1,0 +1,5 @@
+.section { scroll-margin-top: 84px; }
+.header { display: grid; gap: var(--space-2); margin-bottom: var(--space-8); max-width: 68ch; }
+.eyebrow { font: 500 var(--text-xs) var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--brand); }
+.title { font: 600 var(--text-2xl)/1.15 var(--font-serif); letter-spacing: -.01em; }
+.lead { color: var(--text-muted); }

@@ -1,0 +1,6 @@
+.cite { display: inline-block; padding: 0 6px; margin: 0 1px; border-radius: 5px; background: var(--surface-2); font-size: .82em; font-weight: 500; text-decoration: none; white-space: nowrap; vertical-align: baseline; transition: background var(--dur) var(--ease), color var(--dur) var(--ease); }
+.cite:hover { background: var(--brand-soft); color: var(--brand); }
+.concept { color: inherit; text-decoration: underline; text-decoration-color: var(--brand); text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.concept:hover { color: var(--brand); }
+.root { color: inherit; text-decoration: underline; text-decoration-style: dotted; text-decoration-color: var(--teal); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.root:hover { color: var(--teal); }

@@ -1,0 +1,3 @@
+.page { max-width: 1040px; margin-inline: auto; }
+.pageWide { max-width: 1400px; margin-inline: auto; }
+.stack { display: grid; gap: var(--space-8); }

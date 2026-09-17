@@ -1,0 +1,13 @@
+.page { max-width: 960px; margin-inline: auto; }
+.list { display: grid; gap: var(--space-4); }
+.card {
+  display: grid; grid-template-columns: auto 1fr; gap: var(--space-6); padding: var(--space-8); border-radius: var(--radius-lg);
+  background: var(--surface); border: 1px solid var(--border); text-decoration: none;
+  transition: border-color var(--dur) var(--ease), transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+.card:hover { border-color: var(--brand); transform: translateY(-2px); box-shadow: var(--shadow-card); }
+.num { font: 600 var(--text-3xl)/1 var(--font-mono); color: transparent; -webkit-text-stroke: 1px var(--border-strong); }
+.body { display: grid; gap: var(--space-2); }
+.title { font: 600 clamp(24px, 2.6vw, 30px)/1.2 var(--font-serif); letter-spacing: -.01em; }
+.subtitle { color: var(--text-muted); font-size: 17px; line-height: 1.5; }
+.meta { font: 500 var(--text-xs) var(--font-mono); color: var(--teal); }

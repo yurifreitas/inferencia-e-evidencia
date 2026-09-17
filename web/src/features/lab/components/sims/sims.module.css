@@ -1,0 +1,34 @@
+.buttons { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.button {
+  min-height: 40px; padding: 0 var(--space-4); border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--surface);
+  font-size: var(--text-sm); font-weight: 600; cursor: pointer; transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+.button:hover { border-color: var(--brand); color: var(--brand); }
+.primary { background: var(--brand); color: var(--brand-fg); border-color: var(--brand); }
+.primary:hover { color: var(--brand-fg); filter: brightness(1.05); }
+.axis { stroke: var(--border-strong); }
+.grid { stroke: var(--grid); }
+.tick { font: 10px var(--font-mono); fill: var(--text-muted); }
+.label { font: 500 11px var(--font-sans); fill: var(--text-muted); }
+.barPop { fill: var(--class-neg); opacity: .55; }
+.barMean { fill: var(--brand); opacity: .8; }
+.curve { fill: none; stroke: var(--teal); stroke-width: 2.25; }
+.truth { stroke: var(--text); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.hit { stroke: var(--teal); stroke-width: 2.5; stroke-linecap: round; }
+.miss { stroke: var(--brand); stroke-width: 3; stroke-linecap: round; }
+.dotHit { fill: var(--teal); }
+.dotMiss { fill: var(--brand); }
+.sig { fill: var(--brand); }
+.ns { fill: var(--class-neg); }
+.alphaLine { stroke: var(--brand); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.powerLine { fill: none; stroke-width: 2.25; }
+.p1 { stroke: var(--class-neg); }
+.p2 { stroke: var(--gold); }
+.p3 { stroke: var(--teal); }
+.current { fill: var(--surface); stroke: var(--brand); stroke-width: 2.5; }
+.eighty { stroke: var(--text-muted); stroke-dasharray: 3 3; }
+.select { display: grid; gap: var(--space-2); }
+.selectLabel { font-size: var(--text-sm); font-weight: 500; }
+.legend { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); font-size: var(--text-xs); color: var(--text-muted); margin-top: var(--space-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }

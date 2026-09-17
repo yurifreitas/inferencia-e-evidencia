@@ -1,0 +1,275 @@
+[
+  {
+    "id": "fine-tuning-metodos",
+    "title": "Fine-tuning: métodos e o que medir",
+    "summary": "Transferência, LoRA, instruções, esquecimento, destilação e contaminação — com foco em como avaliar.",
+    "steps": [
+      {
+        "refId": "yosinski-2014",
+        "note": "Base experimental do que transfere entre tarefas e por que ajustar tudo ajuda."
+      },
+      {
+        "refId": "dodge-2020",
+        "note": "Mostra que a semente sozinha move resultados de fine-tuning: leia antes de comparar métodos."
+      },
+      {
+        "refId": "hu-2022-lora",
+        "note": "O método PEFT mais usado e um modelo de comparação com o fine-tuning completo."
+      },
+      {
+        "refId": "wei-2022-flan",
+        "note": "Como desenhar avaliação em tarefas retidas para afirmar generalização."
+      },
+      {
+        "refId": "lopez-paz-2017",
+        "note": "Métricas ACC, BWT e FWT para medir esquecimento de forma padronizada."
+      },
+      {
+        "refId": "stanton-2021",
+        "note": "Separa fidelidade e acurácia ao avaliar destilação."
+      },
+      {
+        "refId": "sainz-2023",
+        "note": "Por que medir contaminação por benchmark antes de acreditar num número."
+      },
+      {
+        "refId": "golchin-surdeanu-2024",
+        "note": "Um método prático para detectar contaminação sem acesso ao corpus de treino."
+      }
+    ]
+  },
+  {
+    "id": "alinhamento-preferencias",
+    "title": "Alinhamento: RLHF, recompensa e preferências",
+    "summary": "De preferências humanas a DPO, e por que otimizar a recompensa demais sai caro.",
+    "steps": [
+      {
+        "refId": "christiano-2017",
+        "note": "Onde nasce a ideia de aprender uma recompensa a partir de comparações humanas."
+      },
+      {
+        "refId": "bradley-terry-1952",
+        "note": "O modelo estatístico por trás da perda do modelo de recompensa e do DPO."
+      },
+      {
+        "refId": "stiennon-2020",
+        "note": "O pipeline recompensa + PPO + KL em texto, já com sinais de superotimização."
+      },
+      {
+        "refId": "ouyang-2022",
+        "note": "InstructGPT: RLHF completo, avaliado por preferência humana e com dados de concordância entre anotadores."
+      },
+      {
+        "refId": "gao-2023",
+        "note": "Quantifica como a recompensa verdadeira cai quando se otimiza demais o proxy."
+      },
+      {
+        "refId": "rafailov-2023",
+        "note": "Deriva o DPO e mostra a recompensa implícita na própria política."
+      },
+      {
+        "refId": "lambert-2024",
+        "note": "Como medir modelos de recompensa por acurácia pareada."
+      },
+      {
+        "refId": "dubois-2024",
+        "note": "Por que win rates julgados por LLM precisam de controle de comprimento."
+      }
+    ]
+  },
+  {
+    "id": "avaliar-llms",
+    "title": "Avaliar LLMs com rigor",
+    "summary": "Curvas, hiperparâmetros, escala, harnesses, deduplicação e o que \"emergência\" diz sobre a métrica.",
+    "steps": [
+      {
+        "refId": "hendrycks-2021",
+        "note": "Entenda como é um benchmark de múltipla escolha amplo e o que um número agregado resume."
+      },
+      {
+        "refId": "liang-2023-helm",
+        "note": "Veja por que avaliar com várias métricas e cenários padronizados muda as conclusões."
+      },
+      {
+        "refId": "sclar-2024",
+        "note": "Mostra que a formatação do prompt pode mover a acurácia mais que a diferença entre modelos."
+      },
+      {
+        "refId": "biderman-2024",
+        "note": "Lições práticas de reprodutibilidade de quem mantém o harness mais usado."
+      },
+      {
+        "refId": "miller-2024",
+        "note": "Receita para erros-padrão, pareamento e poder em avaliações de LLM."
+      },
+      {
+        "refId": "dodge-2019",
+        "note": "Como reportar resultados levando em conta o orçamento de busca de hiperparâmetros."
+      },
+      {
+        "refId": "lee-2022",
+        "note": "Deduplicação e sobreposição treino–teste como pré-condição de avaliação válida."
+      },
+      {
+        "refId": "schaeffer-2023",
+        "note": "Fecha com a lição de que a escolha da métrica pode fabricar ou esconder tendências."
+      }
+    ]
+  },
+  {
+    "id": "imagem-difusao-ajuste",
+    "title": "Imagens: difusão, LoRA e controle",
+    "summary": "Como modelos de difusão geram, como são ajustados (LoRA, DreamBooth, ControlNet) e o que pode vazar do treino.",
+    "steps": [
+      {
+        "refId": "ho-2020-ddpm",
+        "note": "Fundamento prático: agenda de ruído, objetivo de prever o ruído com MSE e avaliação por FID."
+      },
+      {
+        "refId": "rombach-2022",
+        "note": "Difusão no latente e atenção cruzada: a arquitetura sobre a qual todo o resto é ajustado."
+      },
+      {
+        "refId": "ho-salimans-2022-cfg",
+        "note": "Guidance como botão de troca entre diversidade e qualidade; base para ler curvas FID × CLIP."
+      },
+      {
+        "refId": "ruiz-2023-dreambooth",
+        "note": "Personalização com preservação de prior e o protocolo DINO/CLIP-I/CLIP-T, com seus limites."
+      },
+      {
+        "refId": "kumari-2023",
+        "note": "Ajuste mínimo da atenção cruzada e composição de conceitos; ponte para LoRA em difusão."
+      },
+      {
+        "refId": "zhang-2023-controlnet",
+        "note": "Controle espacial com convoluções zero e o problema de medir obediência à condição."
+      },
+      {
+        "refId": "somepalli-2023",
+        "note": "Recuperação de imagens como detector de cópia: limiares, descritores e taxa de replicação."
+      },
+      {
+        "refId": "carlini-2023-diffusion",
+        "note": "Extração de dados de treino e o papel da duplicação na memorização."
+      }
+    ]
+  },
+  {
+    "id": "imagem-avaliacao",
+    "title": "Avaliar imagens geradas",
+    "summary": "Além do FID: precisão e recall gerativos, métricas perceptuais, preferência humana e alinhamento com o texto.",
+    "steps": [
+      {
+        "refId": "heusel-2017",
+        "note": "Ponto de partida: o FID que as métricas seguintes criticam e complementam."
+      },
+      {
+        "refId": "binkowski-2018",
+        "note": "Por que o viés com n finito importa e como o KID o evita."
+      },
+      {
+        "refId": "kynkaanniemi-2019",
+        "note": "Separa fidelidade e diversidade como precisão e recall."
+      },
+      {
+        "refId": "naeem-2020",
+        "note": "Mostra as falhas por outliers e propõe density e coverage."
+      },
+      {
+        "refId": "blau-michaeli-2018",
+        "note": "O teorema que explica por que PSNR e realismo divergem."
+      },
+      {
+        "refId": "zhang-2018-lpips",
+        "note": "Como calibrar uma distância com julgamentos humanos 2AFC."
+      },
+      {
+        "refId": "kirstain-2023",
+        "note": "Preferência humana em escala e seu uso como modelo de recompensa."
+      },
+      {
+        "refId": "lin-2024-vqascore",
+        "note": "Estado atual do alinhamento texto–imagem e da validação contra humanos."
+      }
+    ]
+  },
+  {
+    "id": "audio-avaliacao",
+    "title": "Áudio e fala: gerar e avaliar",
+    "summary": "Testes de escuta, métricas objetivas, similaridade de voz e o que os modelos de áudio realmente medem.",
+    "steps": [
+      {
+        "refId": "itu-t-p800-1996",
+        "note": "Base do teste ACR e do MOS: entenda o gold standard humano antes das métricas automáticas."
+      },
+      {
+        "refId": "ribeiro-2011",
+        "note": "Como fazer testes MOS em escala com crowdsourcing e intervalos de confiança."
+      },
+      {
+        "refId": "le-roux-2019",
+        "note": "Crítica curta e clara de uma métrica objetiva manipulável e a correção invariante à escala."
+      },
+      {
+        "refId": "kilgour-2019",
+        "note": "A FAD: como a ideia da FID chegou ao áudio."
+      },
+      {
+        "refId": "gui-2024",
+        "note": "Por que a FAD depende do embedding e do tamanho da amostra."
+      },
+      {
+        "refId": "huang-2022-voicemos",
+        "note": "Protocolo para validar preditores de MOS: nível de enunciado vs sistema e fora de domínio."
+      },
+      {
+        "refId": "defossez-2023",
+        "note": "Codecs neurais e RVQ, com avaliação MUSHRA — a base dos tokens de áudio."
+      },
+      {
+        "refId": "wang-2023-valle",
+        "note": "TTS zero-shot avaliado com WER, similaridade de locutor e testes humanos."
+      }
+    ]
+  },
+  {
+    "id": "midia-sintetica",
+    "title": "Mídia sintética: detectar e confiar",
+    "summary": "Detecção de deepfakes, marca d’água, proveniência e vieses — com as taxas de erro que importam.",
+    "steps": [
+      {
+        "refId": "martin-1997",
+        "note": "De onde vem a curva DET e a leitura de erros em escala normal."
+      },
+      {
+        "refId": "kinnunen-2020",
+        "note": "Por que a EER não basta e como pôr priors e custos na avaliação."
+      },
+      {
+        "refId": "wang-2020-cnn",
+        "note": "O protocolo de generalização entre geradores e seu aviso 'for now'."
+      },
+      {
+        "refId": "ojha-2023",
+        "note": "A quebra da generalização entre GANs e difusão e uma saída."
+      },
+      {
+        "refId": "kirchenbauer-2023",
+        "note": "Marca d'água como teste de hipótese com p-valor explícito."
+      },
+      {
+        "refId": "saberi-2024",
+        "note": "Limites fundamentais: remoção e falsificação de marcas e fragilidade de detectores."
+      },
+      {
+        "refId": "nist-ai-100-4",
+        "note": "Visão de conjunto: proveniência, marca e detecção como camadas."
+      },
+      {
+        "refId": "bianchi-2023",
+        "note": "Evidência de amplificação de estereótipos e como foi medida."
+      }
+    ]
+  }
+]

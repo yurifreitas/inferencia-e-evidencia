@@ -1,0 +1,23 @@
+name: Verificar referências
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # toda segunda-feira
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run verify:refs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-verificacao
+          path: web/verification/REPORT.md

@@ -1,0 +1,12 @@
+.chip {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  min-height: 36px; padding: 0 var(--space-4);
+  border: 1px solid var(--border); border-radius: var(--radius-full);
+  background: var(--surface); color: var(--text);
+  font: 500 var(--text-sm) var(--font-sans); cursor: pointer;
+  transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.chip:hover { border-color: var(--border-strong); }
+.chip:active { transform: scale(.97); }
+.chip[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.count { font: 500 var(--text-xs) var(--font-mono); opacity: .6; font-variant-numeric: tabular-nums; }

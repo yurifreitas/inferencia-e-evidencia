@@ -1,0 +1,1943 @@
+[
+  {
+    "id": "acuracia-99-positivo",
+    "myth": "Se o teste é 90% (ou 99%) sensível, um resultado positivo significa 90% (ou 99%) de chance de ter a doença.",
+    "reality": "A chance de estar doente dado um positivo (valor preditivo positivo) depende da prevalência; com condição rara, a maioria dos positivos pode ser falsa.",
+    "category": "probabilidade",
+    "whyItHappens": "O erro troca P(positivo | doente), que é a sensibilidade, por P(doente | positivo), que é o que o paciente quer saber. Os dois condicionais têm as mesmas palavras e parecem simétricos, mas não são. Além disso, a taxa-base (quantas pessoas têm a condição antes do teste) é uma informação abstrata e costuma ser ignorada, fenômeno descrito por Kahneman e Tversky.\n\nQuando os dados vêm em porcentagens condicionais, até profissionais treinados erram; quando vêm em frequências naturais (contagens de pessoas), o cálculo fica quase óbvio.",
+    "explanation": [
+      "Sensibilidade e especificidade descrevem o teste olhando a partir da verdade: entre os doentes, quantos dão positivo; entre os sadios, quantos dão negativo. O valor preditivo olha no sentido oposto: entre os positivos, quantos estão doentes.",
+      "Em rastreamento, a condição é rara. Um pequeno percentual de falsos positivos aplicado à enorme massa de pessoas sadias produz mais positivos falsos do que os poucos positivos verdadeiros vindos do pequeno grupo de doentes.",
+      "A mesma máquina, com a mesma sensibilidade e especificidade, terá valor preditivo muito maior em uma clínica especializada (alta prevalência) do que em rastreamento populacional."
+    ],
+    "numbers": {
+      "population": 1000,
+      "prevalence": 0.01,
+      "sensitivity": 0.9,
+      "specificity": 0.91,
+      "caption": "De 1.000 mulheres rastreadas, 10 têm câncer de mama; 9 delas dão positivo. Das 990 sem câncer, cerca de 89 também dão positivo. De ~98 positivos, só 9 têm câncer: cerca de 1 em 10.",
+      "unit": "mulheres rastreadas",
+      "yes": "com câncer",
+      "no": "sem câncer",
+      "positive": "têm mamografia positiva"
+    },
+    "worked": [
+      {
+        "text": "Doentes entre 1.000 mulheres com prevalência de 1%",
+        "math": "1000 × 0,01 = 10"
+      },
+      {
+        "text": "Verdadeiros positivos com sensibilidade de 90%",
+        "math": "10 × 0,90 = 9"
+      },
+      {
+        "text": "Falsos positivos com taxa de falso positivo de 9%",
+        "math": "990 × 0,09 = 89,1 ≈ 89"
+      },
+      {
+        "text": "Valor preditivo positivo",
+        "math": "9 / (9 + 89,1) ≈ 0,092 → cerca de 9%"
+      },
+      {
+        "text": "Cenário de Casscells: prevalência 1/1000, falso positivo 5%, sensibilidade 100%",
+        "math": "1 / (1 + 999 × 0,05) ≈ 0,0196 → cerca de 2%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Médicos de Harvard e o problema de Casscells (1978; replicado em 2014)",
+        "year": "1978 / 2014",
+        "summary": "Casscells, Schoenberger e Graboys perguntaram a médicos e estudantes qual a chance de doença após um positivo em teste com prevalência de 1/1000 e 5% de falsos positivos. A resposta correta é cerca de 2%, mas a resposta mais comum foi 95%. Manrai e colegas repetiram a pergunta em 2013–2014 e a maioria continuou errando.",
+        "refIds": [
+          "casscells-1978",
+          "manrai-2014"
+        ]
+      },
+      {
+        "title": "160 ginecologistas e a mamografia (Gigerenzer et al., 2007)",
+        "year": "2007",
+        "summary": "Com os dados em probabilidades condicionais (prevalência 1%, sensibilidade 90%, falso positivo 9%), apenas 21% de 160 ginecologistas escolheram a resposta certa (cerca de 1 em 10). Depois de aprender a traduzir para frequências naturais, 87% acertaram.",
+        "refIds": [
+          "gigerenzer-2007"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Qual é a prevalência na população em que o teste está sendo usado?",
+      "O número citado é sensibilidade (a partir dos doentes) ou valor preditivo (a partir dos positivos)?",
+      "Refaça a conta com 1.000 ou 10.000 pessoas: quantos positivos verdadeiros e quantos falsos?",
+      "Existe um segundo teste confirmatório antes de uma decisão importante?"
+    ],
+    "conceptIds": [
+      "prevalencia-bayes",
+      "precisao",
+      "sensibilidade",
+      "especificidade",
+      "frequencias-naturais"
+    ],
+    "refIds": [
+      "casscells-1978",
+      "manrai-2014",
+      "gigerenzer-2007",
+      "tversky-kahneman-1974"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "acuracia-alta-classe-rara",
+    "myth": "Um modelo com 96% de acurácia é um bom modelo.",
+    "reality": "Com classes desbalanceadas, um classificador que sempre prevê a classe majoritária pode ter acurácia maior do que um que realmente detecta algo.",
+    "category": "metricas",
+    "whyItHappens": "Acurácia é uma média sobre todos os casos, e os casos comuns dominam a média. Se 98% dos dias não têm tornado, ou 99,9% das transações não são fraude, acertar os negativos já garante um número bonito. O número isolado não diz nada sobre a classe que interessa.\n\nO erro é reforçado porque acurácia é a métrica padrão de muitas bibliotecas e é a mais fácil de explicar para quem não é técnico.",
+    "explanation": [
+      "Compare sempre a acurácia com a de um classificador trivial (prever sempre a classe mais frequente). Se o modelo não supera essa linha de base de forma clara, ele pode não estar aprendendo nada útil.",
+      "Para eventos raros, olhe a matriz de confusão completa e métricas que se concentram na classe rara: sensibilidade (recall), precisão, curva precisão–recall, MCC ou acurácia balanceada.",
+      "O caso Finley (1884) mostra que o problema é conhecido há mais de um século e deu origem a toda uma família de escores de habilidade (skill scores) em meteorologia."
+    ],
+    "numbers": {
+      "population": 2803,
+      "prevalence": 0.0182,
+      "sensitivity": 0.549,
+      "specificity": 0.9738,
+      "caption": "Das 2.803 previsões de Finley, 51 ocasiões tiveram tornado. Ele acertou 28 delas, errou 23 e emitiu 72 alarmes falsos; os outros 2.680 'sem tornado' estavam certos.",
+      "unit": "previsões",
+      "yes": "com tornado",
+      "no": "sem tornado",
+      "positive": "anunciam tornado"
+    },
+    "worked": [
+      {
+        "text": "Acurácia de Finley",
+        "math": "(28 + 2680) / 2803 ≈ 0,966 → 96,6%"
+      },
+      {
+        "text": "Acurácia de prever sempre 'sem tornado'",
+        "math": "(2680 + 72) / 2803 ≈ 0,982 → 98,2%"
+      },
+      {
+        "text": "Recall de Finley (tornados detectados)",
+        "math": "28 / 51 ≈ 0,549 → 55%"
+      },
+      {
+        "text": "Precisão de Finley (alertas confirmados)",
+        "math": "28 / 100 = 0,28 → 28%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "As previsões de tornado de John P. Finley (1884)",
+        "year": "1884",
+        "summary": "Finley anunciou 96,6% de acertos em previsões de tornado. Críticos, como G. K. Gilbert, notaram que prever 'nenhum tornado' todos os dias teria dado 98,2%. Só 28 de 100 previsões de tornado se confirmaram. O episódio (o 'caso Finley', revisto por Murphy em 1996) levou Peirce e outros a propor medidas de habilidade.",
+        "refIds": [
+          "murphy-1996",
+          "peirce-1884"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Qual é a proporção da classe rara nos dados?",
+      "Qual seria a acurácia de um modelo que sempre prevê a classe majoritária?",
+      "Quantos casos positivos o modelo realmente encontrou (recall) e quantos alertas foram falsos (precisão)?",
+      "A matriz de confusão completa foi mostrada?"
+    ],
+    "conceptIds": [
+      "acuracia",
+      "matriz-confusao",
+      "acuracia-balanceada",
+      "mcc",
+      "curva-pr",
+      "escolha-metrica"
+    ],
+    "refIds": [
+      "murphy-1996",
+      "peirce-1884",
+      "saito-2015",
+      "chicco-jurman-2020",
+      "powers-2011"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "falacia-promotor",
+    "myth": "Se a chance de isso acontecer por acaso é de 1 em 73 milhões, então a chance de o réu ser inocente é de 1 em 73 milhões.",
+    "reality": "P(evidência | inocente) não é P(inocente | evidência); é preciso comparar com a probabilidade da evidência sob a hipótese alternativa.",
+    "category": "probabilidade",
+    "whyItHappens": "É a mesma troca de condicionais do teste médico, agora em tribunal: a probabilidade de observar a evidência se a pessoa for inocente é lida como a probabilidade de a pessoa ser inocente. Um número muito pequeno impressiona e parece encerrar a questão.\n\nSomam-se dois erros: calcular a probabilidade da coincidência supondo independência onde ela não existe e esquecer que a explicação alternativa (culpa) também é extremamente rara.",
+    "explanation": [
+      "Evidência raramente é conclusiva sozinha. O que importa é a razão entre a probabilidade da evidência sob as duas hipóteses (razão de verossimilhança), combinada com as probabilidades prévias de cada hipótese.",
+      "No caso de duas mortes súbitas de bebês na mesma família, tanto duas mortes naturais quanto dois homicídios são eventos raríssimos. A pergunta relevante é qual das duas explicações raras é mais provável, não quão rara é uma delas.",
+      "Multiplicar probabilidades exige independência. Fatores genéticos e ambientais tornam uma segunda morte súbita na mesma família mais provável do que numa família qualquer."
+    ],
+    "worked": [
+      {
+        "text": "Taxa citada de morte súbita para uma família com o perfil dos Clark",
+        "math": "1 / 8.543"
+      },
+      {
+        "text": "Elevar ao quadrado supondo independência (o passo criticado)",
+        "math": "8.543 × 8.543 = 72.982.849 ≈ 1 em 73 milhões"
+      },
+      {
+        "text": "O que o número NÃO é",
+        "math": "P(duas mortes | inocência) ≠ P(inocência | duas mortes)"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Sally Clark e a declaração da Royal Statistical Society (1999–2003)",
+        "year": "1999 / 2001 / 2003",
+        "summary": "Sally Clark foi condenada em 1999 pela morte de dois filhos. O pediatra Roy Meadow afirmou que a chance de duas mortes súbitas naturais era de 1 em 73 milhões, elevando ao quadrado 1 em 8.543. Em 23 de outubro de 2001, a Royal Statistical Society declarou que o número 'não tem base estatística' por supor independência, e alertou que tratá-lo como chance de inocência é a falácia do promotor. A condenação foi anulada em 2003.",
+        "refIds": [
+          "rss-2001"
+        ]
+      }
+    ],
+    "howToRead": [
+      "O número descreve a probabilidade da evidência dado inocente, ou de inocência dada a evidência?",
+      "Qual é a probabilidade da mesma evidência sob a explicação alternativa?",
+      "Os eventos multiplicados são realmente independentes?",
+      "Quem calculou tem formação em estatística ou só citou uma taxa?"
+    ],
+    "conceptIds": [
+      "prevalencia-bayes",
+      "razao-verossimilhanca"
+    ],
+    "refIds": [
+      "rss-2001",
+      "tversky-kahneman-1974"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "p-valor-prob-hipotese",
+    "myth": "p = 0,03 significa 3% de chance de a hipótese nula ser verdadeira (ou de o resultado ser obra do acaso).",
+    "reality": "O p-valor é a probabilidade de dados tão extremos quanto os observados supondo que a hipótese nula e todo o modelo estejam corretos; não é a probabilidade de a hipótese ser verdadeira.",
+    "category": "inferencia",
+    "whyItHappens": "O que o pesquisador quer saber é P(hipótese | dados), mas o p-valor entrega algo como P(dados tão extremos | hipótese nula). É outra vez a troca de condicionais. A linguagem 'o resultado é significativo' e o corte de 0,05 transformam um número contínuo em veredito.\n\nIncentivos de publicação reforçam o atalho: 'p < 0,05' vira sinônimo de 'descoberta'.",
+    "explanation": [
+      "O p-valor mede incompatibilidade entre os dados e um modelo estatístico específico (hipótese nula mais suposições). Ele não mede o tamanho do efeito nem a importância prática.",
+      "A probabilidade de um achado 'significativo' ser falso depende também da proporção de hipóteses verdadeiras testadas no campo e do poder dos estudos, exatamente como o valor preditivo de um teste depende da prevalência.",
+      "A American Statistical Association publicou em 2016 seis princípios, entre eles: p-valores não medem a probabilidade de a hipótese estudada ser verdadeira, nem a probabilidade de os dados terem sido produzidos só pelo acaso."
+    ],
+    "numbers": {
+      "population": 1000,
+      "prevalence": 0.1,
+      "sensitivity": 0.8,
+      "specificity": 0.95,
+      "caption": "Ilustração: de 1.000 hipóteses testadas, 100 são verdadeiras. Com poder de 80%, 80 dão p < 0,05. Das 900 falsas, 5% (45) também dão p < 0,05. Dos 125 resultados 'significativos', 45 (36%) são falsos.",
+      "unit": "hipóteses testadas",
+      "yes": "verdadeiras",
+      "no": "falsas",
+      "positive": "dão p < 0,05"
+    },
+    "worked": [
+      {
+        "text": "Efeitos reais detectados (poder 80%)",
+        "math": "100 × 0,80 = 80"
+      },
+      {
+        "text": "Falsos positivos entre 900 nulas verdadeiras (α = 0,05)",
+        "math": "900 × 0,05 = 45"
+      },
+      {
+        "text": "Proporção de 'significativos' que são falsos",
+        "math": "45 / (80 + 45) = 0,36 → 36%, não 5%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Declaração da ASA sobre p-valores (2016)",
+        "year": "2016",
+        "summary": "Pela primeira vez em sua história, a American Statistical Association publicou uma declaração formal sobre uma prática estatística, com seis princípios sobre p-valores (Wasserstein e Lazar, The American Statistician 70(2):129–133). Ela afirma explicitamente que o p-valor não mede a probabilidade de a hipótese ser verdadeira.",
+        "refIds": [
+          "wasserstein-lazar-2016"
+        ]
+      },
+      {
+        "title": "Guia de 25 interpretações erradas (Greenland et al., 2016)",
+        "year": "2016",
+        "summary": "Sete estatísticos, entre eles Sander Greenland e Douglas Altman, catalogaram interpretações incorretas comuns de p-valores, intervalos de confiança e poder no European Journal of Epidemiology (31:337–350). A primeira da lista é justamente tomar o p-valor como probabilidade de a hipótese nula ser verdadeira.",
+        "refIds": [
+          "greenland-2016"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Qual é o tamanho do efeito e seu intervalo, além do p-valor?",
+      "Quantas hipóteses foram testadas até chegar a esse p?",
+      "Quão plausível era a hipótese antes do estudo?",
+      "O estudo tinha poder suficiente? Estudos pequenos com p < 0,05 exageram efeitos."
+    ],
+    "conceptIds": [
+      "p-valor",
+      "erros-tipo",
+      "prevalencia-bayes",
+      "poder-amostra"
+    ],
+    "refIds": [
+      "wasserstein-lazar-2016",
+      "greenland-2016",
+      "ioannidis-2005"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "intervalo-confianca-95-probabilidade",
+    "myth": "Há 95% de probabilidade de o valor verdadeiro estar dentro deste intervalo de confiança de 95%.",
+    "reality": "Os 95% descrevem o procedimento: se repetido muitas vezes, 95% dos intervalos construídos assim cobririam o valor verdadeiro; um intervalo específico cobre ou não.",
+    "category": "inferencia",
+    "whyItHappens": "A leitura probabilística sobre o parâmetro é exatamente a que as pessoas querem, e o nome 'confiança' sugere um grau de crença. Na estatística frequentista o parâmetro é fixo; o que varia de amostra para amostra é o intervalo.\n\nA frase correta é longa e contraintuitiva, e muitos livros e cursos a resumem de forma escorregadia.",
+    "explanation": [
+      "O nível de 95% é uma propriedade de longo prazo do método. Depois de calculado, o intervalo concreto não carrega uma probabilidade de 95% sem suposições adicionais.",
+      "Uma afirmação do tipo '95% de probabilidade de o parâmetro estar aqui' é um intervalo de credibilidade bayesiano, que depende de uma distribuição a priori. Em alguns casos simples os números coincidem, mas os significados não.",
+      "Na prática, o intervalo continua muito útil: mostra a faixa de valores compatíveis com os dados sob o modelo e a precisão da estimativa, o que é bem mais informativo do que um p-valor."
+    ],
+    "cases": [
+      {
+        "title": "Pesquisadores e o 'Professor Bumbledorf' (Hoekstra et al., 2014)",
+        "year": "2014",
+        "summary": "Hoekstra, Morey, Rouder e Wagenmakers apresentaram seis interpretações, todas incorretas, de um intervalo de confiança de 95% (0,1 a 0,4) a 442 estudantes de graduação, 34 de mestrado e 120 pesquisadores em psicologia. Em média, os grupos endossaram cerca de 3 a 3,5 das seis afirmações falsas, e a experiência de pesquisa não reduziu os erros.",
+        "refIds": [
+          "hoekstra-2014"
+        ]
+      }
+    ],
+    "howToRead": [
+      "O texto afirma probabilidade sobre o parâmetro? Se sim, trata-se de um método bayesiano?",
+      "Qual a largura do intervalo, e ela inclui valores sem importância prática e valores muito importantes?",
+      "As suposições do modelo (amostragem, independência, ausência de viés) são razoáveis?",
+      "O intervalo foi escolhido depois de ver os dados ou entre muitas análises?"
+    ],
+    "conceptIds": [
+      "intervalo-confianca",
+      "p-valor"
+    ],
+    "refIds": [
+      "hoekstra-2014",
+      "greenland-2016"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "nao-significativo-sem-efeito",
+    "myth": "O resultado não foi estatisticamente significativo, portanto não há efeito (ou os tratamentos são equivalentes).",
+    "reality": "Ausência de evidência não é evidência de ausência; um estudo pequeno pode ser incapaz de detectar efeitos importantes.",
+    "category": "inferencia",
+    "whyItHappens": "A dicotomia 'significativo / não significativo' convida a ler o limiar de 0,05 como uma fronteira entre existir e não existir. Chamar estudos de 'negativos' reforça essa leitura.\n\nComo muitos estudos têm poder baixo, é comum que um efeito real e clinicamente relevante não atinja significância.",
+    "explanation": [
+      "Um p-valor acima de 0,05 só diz que os dados são compatíveis com efeito zero; eles podem ser igualmente compatíveis com efeitos grandes. O intervalo de confiança mostra isso diretamente.",
+      "Para afirmar equivalência ou ausência de efeito relevante é preciso um desenho próprio (por exemplo, testes de equivalência ou não inferioridade) e um intervalo estreito que exclua efeitos importantes.",
+      "Dois estudos, um 'significativo' e outro não, podem ter estimativas praticamente iguais. Declarar que eles 'conflitam' é outro sintoma do mesmo equívoco."
+    ],
+    "worked": [
+      {
+        "text": "Artigos que interpretaram resultado não significativo como 'sem efeito', segundo Amrhein et al.",
+        "math": "402 / 791 ≈ 0,508 → cerca de 51%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Altman e Bland: 'Absence of evidence is not evidence of absence' (1995)",
+        "year": "1995",
+        "summary": "Na série Statistics Notes do BMJ (311:485), Altman e Bland alertaram que ensaios clínicos 'negativos' geralmente só mostram ausência de evidência, porque o tamanho de amostra costuma ser insuficiente para detectar diferenças clinicamente relevantes.",
+        "refIds": [
+          "altman-bland-1995"
+        ]
+      },
+      {
+        "title": "'Retire statistical significance' na Nature (2019)",
+        "year": "2019",
+        "summary": "Amrhein, Greenland e McShane, com mais de 800 cossignatários, relataram que cerca de 51% (402 de 791) dos artigos de cinco periódicos analisados interpretaram erroneamente resultados não significativos como indicação de 'nenhum efeito', e defenderam abandonar o uso dicotômico da significância.",
+        "refIds": [
+          "amrhein-2019"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Qual é o intervalo de confiança? Ele exclui efeitos que importariam na prática?",
+      "O estudo tinha poder para detectar o efeito mínimo relevante?",
+      "O objetivo declarado era demonstrar equivalência, com desenho apropriado?",
+      "Outros estudos apontam na mesma direção, mesmo sem significância individual?"
+    ],
+    "conceptIds": [
+      "p-valor",
+      "intervalo-confianca",
+      "poder-amostra",
+      "erros-tipo"
+    ],
+    "refIds": [
+      "altman-bland-1995",
+      "amrhein-2019",
+      "greenland-2016"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "risco-relativo-sem-absoluto",
+    "myth": "O remédio dobra o risco de trombose (aumento de 100%), então é muito perigoso.",
+    "reality": "Um risco relativo grande pode corresponder a uma mudança absoluta minúscula; sem o risco de base, o percentual relativo não permite decidir.",
+    "category": "comunicacao",
+    "whyItHappens": "Riscos relativos produzem números grandes e manchetes fortes, tanto para assustar ('dobra o risco') quanto para vender ('reduz 50% das mortes'). O risco de base, que daria a escala, costuma ficar de fora.\n\nPessoas reagem ao tamanho do percentual e não à contagem de pessoas afetadas.",
+    "explanation": [
+      "Risco absoluto é a proporção de pessoas que sofrem o evento; risco relativo é a razão entre dois riscos absolutos. Ir de 1 em 7.000 para 2 em 7.000 é um aumento relativo de 100% e um aumento absoluto de 1 em 7.000.",
+      "O número necessário para tratar (ou para causar dano) traduz a diferença absoluta: quantas pessoas precisam ser expostas para que uma a mais tenha o evento.",
+      "Decisões sensatas comparam riscos absolutos das alternativas reais; no caso da pílula, a gravidez e o aborto também têm riscos."
+    ],
+    "numbers": {
+      "population": 7000,
+      "caption": "De 7.000 mulheres usando a pílula de segunda geração, cerca de 1 teve trombose; com a de terceira geração, cerca de 2."
+    },
+    "worked": [
+      {
+        "text": "Risco relativo",
+        "math": "(2/7000) / (1/7000) = 2 → aumento relativo de 100%"
+      },
+      {
+        "text": "Aumento absoluto de risco",
+        "math": "2/7000 − 1/7000 = 1/7000 ≈ 0,0143 %"
+      },
+      {
+        "text": "Número necessário para causar um caso a mais",
+        "math": "1 / (1/7000) = 7.000 mulheres"
+      }
+    ],
+    "cases": [
+      {
+        "title": "O 'pill scare' do Reino Unido (1995)",
+        "year": "1995–1996",
+        "summary": "Em outubro de 1995 o Committee on Safety of Medicines alertou que pílulas de terceira geração dobravam o risco de trombose. Os estudos mostravam cerca de 1 caso em 7.000 usuárias da pílula anterior contra cerca de 2 em 7.000. Muitas mulheres abandonaram a pílula; Furedi (1999) relata cerca de 26.000 concepções a mais e 13.601 abortos a mais na Inglaterra e no País de Gales em 1996. Gigerenzer et al. (2007) usam o episódio como exemplo de comunicação por risco relativo.",
+        "refIds": [
+          "furedi-1999",
+          "gigerenzer-2007"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Aumenta ou reduz de quanto para quanto, em números absolutos?",
+      "Quantas pessoas precisam ser expostas para um caso a mais (ou a menos)?",
+      "Qual é o risco da alternativa real (não tratar, outro tratamento)?",
+      "O denominador é o mesmo nos dois grupos e no mesmo período?"
+    ],
+    "conceptIds": [
+      "risco-relativo-absoluto",
+      "frequencias-naturais",
+      "prevalencia-bayes"
+    ],
+    "refIds": [
+      "gigerenzer-2007",
+      "furedi-1999"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "regressao-media-efeito",
+    "myth": "Os pacientes selecionados por estarem com a pressão muito alta melhoraram depois da intervenção, então a intervenção funciona.",
+    "reality": "Quem é selecionado por um valor extremo tende a apresentar valor mais próximo da média na medição seguinte, mesmo sem nenhum tratamento.",
+    "category": "inferencia",
+    "whyItHappens": "Toda medição tem uma parte estável e uma parte de variação (erro de medida, flutuação do dia). Selecionar pelos valores extremos seleciona também quem teve flutuação desfavorável naquele momento, e essa flutuação não se repete.\n\nNosso instinto procura uma causa para qualquer mudança; como a intervenção aconteceu entre as duas medidas, ela recebe o crédito.",
+    "explanation": [
+      "O fenômeno foi descrito por Galton ao comparar alturas de pais e filhos: filhos de pais muito altos tendem a ser altos, mas menos extremos que os pais.",
+      "Quanto menor a correlação entre medida inicial e seguinte (mais ruído), maior a regressão à média esperada.",
+      "A proteção principal é um grupo controle randomizado selecionado pelo mesmo critério; também ajuda usar a média de várias medições na seleção."
+    ],
+    "worked": [
+      {
+        "text": "Ilustração: média populacional 130 mmHg, selecionado com 160, correlação teste–reteste 0,6",
+        "math": "valor esperado = 130 + 0,6 × (160 − 130) = 148"
+      },
+      {
+        "text": "'Melhora' esperada sem tratamento algum",
+        "math": "160 − 148 = 12 mmHg"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Galton e a 'regressão para a mediocridade' (1886–1888)",
+        "year": "1886–1888",
+        "summary": "Ao estudar dados antropométricos de pais e filhos, Francis Galton observou que descendentes de pais extremos tendem a se aproximar da média, fenômeno que deu nome à regressão. Seu trabalho sobre co-relações de 1888 formalizou a ideia de correlação.",
+        "refIds": [
+          "galton-1888"
+        ]
+      },
+      {
+        "title": "Revisão de Barnett, van der Pols e Dobson (2005)",
+        "year": "2005",
+        "summary": "No International Journal of Epidemiology (34:215–220), os autores mostram como a regressão à média pode fazer a variação natural parecer mudança real, sobretudo quando o acompanhamento é feito só em um subgrupo selecionado pelo valor inicial, e recomendam grupos controle randomizados e múltiplas medições basais.",
+        "refIds": [
+          "barnett-2005"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Os participantes foram escolhidos por estarem em um extremo (pior desempenho, pior sintoma, pior mês)?",
+      "Existe grupo controle selecionado pelo mesmo critério?",
+      "A medida tem muita variação de um dia para outro?",
+      "A 'melhora' do grupo tratado é maior do que a do controle?"
+    ],
+    "conceptIds": [
+      "regressao-media"
+    ],
+    "refIds": [
+      "galton-1888",
+      "barnett-2005"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "simpson-agregado",
+    "myth": "Se no total o grupo A tem taxa maior que o B, então A é melhor (ou favorecido) em cada subgrupo.",
+    "reality": "Uma associação no agregado pode se inverter dentro de todos os subgrupos quando uma terceira variável altera a composição dos grupos (paradoxo de Simpson).",
+    "category": "inferencia",
+    "whyItHappens": "Médias ponderadas escondem os pesos. Se um grupo está concentrado nos subgrupos 'difíceis' (casos graves, departamentos concorridos), sua taxa total cai mesmo quando ele vai melhor em cada subgrupo.\n\nOs dados agregados parecem mais 'completos' e confiáveis, o que leva a preferi-los sem perguntar pela composição.",
+    "explanation": [
+      "O paradoxo não é um erro aritmético: as duas tabelas estão corretas. A questão é causal: qual comparação responde à pergunta de interesse depende de como a terceira variável se relaciona com tratamento e resultado.",
+      "Em avaliação de modelos, o mesmo fenômeno aparece quando se compara desempenho agregado entre conjuntos de dados com misturas diferentes de casos fáceis e difíceis.",
+      "Quando ver uma comparação de taxas, pergunte pela distribuição dos grupos nas categorias relevantes antes de concluir."
+    ],
+    "worked": [
+      {
+        "text": "Cálculos renais, cirurgia aberta (A): pedras pequenas",
+        "math": "81 / 87 ≈ 93,1%"
+      },
+      {
+        "text": "Nefrolitotomia percutânea (B): pedras pequenas",
+        "math": "234 / 270 ≈ 86,7%"
+      },
+      {
+        "text": "Pedras grandes: A vs. B",
+        "math": "192 / 263 ≈ 73,0%  vs.  55 / 80 ≈ 68,8%"
+      },
+      {
+        "text": "Total: A vs. B (inversão)",
+        "math": "273 / 350 = 78,0%  vs.  289 / 350 ≈ 82,6%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Admissões na pós-graduação de Berkeley (1973)",
+        "year": "1973 / 1975",
+        "summary": "No outono de 1973, cerca de 44% de 8.442 homens e 35% de 4.321 mulheres foram admitidos. Bickel, Hammel e O'Connell (Science, 1975) mostraram que, departamento por departamento, quase não havia viés contra mulheres; elas se candidatavam mais a departamentos com baixa taxa de admissão. Considerando os departamentos, havia até um pequeno viés a favor delas.",
+        "refIds": [
+          "bickel-1975"
+        ]
+      },
+      {
+        "title": "Tratamento de cálculos renais (Charig et al., 1986)",
+        "year": "1986 / 1994",
+        "summary": "No estudo de Charig et al. (BMJ, 1986), a cirurgia aberta teve maior sucesso tanto para pedras pequenas quanto grandes, mas a nefrolitotomia percutânea parecia melhor no total (82,6% vs. 78,0%), porque foi usada mais em pedras pequenas. Julious e Mullee (BMJ, 1994) popularizaram o exemplo como paradoxo de Simpson.",
+        "refIds": [
+          "charig-1986",
+          "julious-mullee-1994"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Os grupos comparados têm a mesma composição (gravidade, idade, tipo de caso)?",
+      "O resultado se mantém dentro de subgrupos relevantes?",
+      "Quem decidiu quem recebe o quê, e com base em quê?",
+      "A pergunta é sobre o total ou sobre o efeito para um indivíduo de um tipo específico?"
+    ],
+    "conceptIds": [
+      "simpson",
+      "prevalencia-bayes"
+    ],
+    "refIds": [
+      "bickel-1975",
+      "charig-1986",
+      "julious-mullee-1994",
+      "yule-1900"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "multiplas-comparacoes",
+    "myth": "Encontrei um resultado com p < 0,05, então é uma descoberta real, não importa quantas coisas eu tenha testado.",
+    "reality": "Quanto mais comparações (explícitas ou escolhas de análise feitas depois de ver os dados), maior a chance de pelo menos um falso positivo.",
+    "category": "inferencia",
+    "whyItHappens": "O limiar de 5% controla o erro de um teste isolado. Ao testar muitas regiões do cérebro, muitos subgrupos ou muitas variantes de análise, os 5% se acumulam. Muitas vezes o pesquisador nem percebe: cada escolha (excluir outliers, trocar variável, escolher subgrupo) parece razoável isoladamente.\n\nPublicação premia resultados positivos; análises 'que não deram nada' ficam na gaveta.",
+    "explanation": [
+      "Com 20 testes independentes e nenhuma diferença real, a chance de pelo menos um p < 0,05 é de cerca de 64%.",
+      "Gelman e Loken chamam de 'jardim dos caminhos que se bifurcam' a situação em que só uma análise é feita, mas ela foi escolhida em função dos dados: o efeito é semelhante ao de testar muitas.",
+      "Remédios incluem correção para comparações múltiplas (Bonferroni, FDR), pré-registro, conjuntos de validação separados e replicação. Em aprendizado de máquina, ajustar hiperparâmetros repetidamente no conjunto de teste é a mesma armadilha."
+    ],
+    "worked": [
+      {
+        "text": "Chance de ao menos um falso positivo em 20 testes independentes (α = 0,05)",
+        "math": "1 − 0,95²⁰ ≈ 0,64"
+      },
+      {
+        "text": "Em 100 testes",
+        "math": "1 − 0,95¹⁰⁰ ≈ 0,994"
+      },
+      {
+        "text": "Modelo de Ioannidis: razão pré-estudo R = 0,1, poder 80%, α = 0,05",
+        "math": "VPP = 0,8·0,1 / (0,1 − 0,2·0,1 + 0,05) ≈ 0,62"
+      }
+    ],
+    "cases": [
+      {
+        "title": "O salmão morto no fMRI (Bennett et al., 2009–2010)",
+        "year": "2009 / 2010",
+        "summary": "Pesquisadores escanearam um salmão-do-atlântico morto enquanto 'mostravam' fotos de pessoas em situações sociais. Sem correção para comparações múltiplas entre milhares de voxels, a análise apontou atividade 'significativa' no cérebro do peixe; com correção, ela desapareceu. O trabalho recebeu o Ig Nobel em 2012.",
+        "refIds": [
+          "bennett-2010"
+        ]
+      },
+      {
+        "title": "'Why most published research findings are false' (Ioannidis, 2005)",
+        "year": "2005",
+        "summary": "Em ensaio na PLoS Medicine, Ioannidis modelou a probabilidade de um achado publicado ser verdadeiro e argumentou que ela cai com estudos pequenos, efeitos pequenos, muitas relações testadas, flexibilidade de análise e interesses envolvidos.",
+        "refIds": [
+          "ioannidis-2005"
+        ]
+      },
+      {
+        "title": "O jardim dos caminhos que se bifurcam (Gelman e Loken, 2014)",
+        "year": "2014",
+        "summary": "Na American Scientist (102(6):460), Gelman e Loken mostraram que análises dependentes dos dados geram 'significância' espúria mesmo sem pesca deliberada de p-valores, explicando por que muitos achados não se replicam.",
+        "refIds": [
+          "gelman-loken-2014"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Quantas hipóteses, desfechos, subgrupos ou modelos foram testados?",
+      "A análise foi pré-registrada ou definida antes de ver os dados?",
+      "Houve correção para múltiplas comparações?",
+      "O resultado foi replicado em dados novos, ou avaliado em um conjunto de teste tocado uma única vez?"
+    ],
+    "conceptIds": [
+      "multiplas-comparacoes",
+      "p-valor",
+      "comparacao-estatistica",
+      "overfitting-generalizacao",
+      "benchmarks"
+    ],
+    "refIds": [
+      "bennett-2010",
+      "ioannidis-2005",
+      "gelman-loken-2014",
+      "demsar-2006",
+      "recht-2019"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "sensibilidade-fixa",
+    "myth": "Sensibilidade e especificidade são propriedades fixas do teste e valem para qualquer população.",
+    "reality": "Elas variam com o espectro de pacientes (gravidade, sintomas, comorbidades) e com o contexto; valores medidos em casos graves contra voluntários sadios costumam ser otimistas.",
+    "category": "metricas",
+    "whyItHappens": "Livros ensinam que o valor preditivo depende da prevalência e a sensibilidade não, o que é verdade apenas se o teste se comporta igual em todas as populações. Na prática, casos avançados são mais fáceis de detectar, e controles sadios são mais fáceis de descartar do que pacientes com doenças parecidas.\n\nEstudos iniciais usam amostras convenientes (casos claros versus sadios), e esses números viram 'a' sensibilidade do teste.",
+    "explanation": [
+      "Ransohoff e Feinstein (1978) chamaram isso de problema de espectro: sem uma amostra ampla de doentes e não doentes, o teste recebe valores falsamente altos. Também apontaram viés quando o teste e o diagnóstico de referência não são avaliados de forma independente.",
+      "Mudança de prevalência costuma vir acompanhada de mudança de espectro: em rastreamento há mais casos leves, e na atenção especializada há mais casos graves e mais doenças semelhantes.",
+      "O mesmo ocorre com modelos de IA: um classificador validado em um hospital pode perder desempenho em outro, com outra população e outros equipamentos."
+    ],
+    "cases": [
+      {
+        "title": "Antígeno carcinoembrionário e o problema de espectro (Ransohoff e Feinstein, 1978)",
+        "year": "1978",
+        "summary": "No NEJM (299:926–930), os autores analisaram por que testes promissores se mostraram decepcionantes na prática. Citaram o antígeno carcinoembrionário (CEA) e o teste de nitroazul de tetrazólio como exemplos de otimismo inicial seguido de desilusão, atribuível a espectros estreitos de pacientes e a vieses na avaliação.",
+        "refIds": [
+          "ransohoff-feinstein-1978"
+        ]
+      },
+      {
+        "title": "Variação com a prevalência em 23 meta-análises (Leeflang et al., 2013)",
+        "year": "2013",
+        "summary": "Leeflang e colegas examinaram 23 meta-análises (416 estudos, prevalência mediana entre 1% e 77% por revisão) no CMAJ (185(11):E537–E544) e encontraram que a especificidade tendia a ser menor em estudos com maior prevalência; a sensibilidade também variou, sem padrão uniforme.",
+        "refIds": [
+          "leeflang-2013"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Em que população a sensibilidade e a especificidade foram medidas? Casos graves contra sadios?",
+      "Essa população se parece com a minha (sintomas, gravidade, doenças semelhantes)?",
+      "O teste de referência foi aplicado a todos e interpretado de forma independente?",
+      "Há validação externa em outro local ou período?"
+    ],
+    "conceptIds": [
+      "vies-espectro",
+      "sensibilidade",
+      "especificidade",
+      "gold-standard",
+      "mudanca-distribuicao"
+    ],
+    "refIds": [
+      "ransohoff-feinstein-1978",
+      "leeflang-2013",
+      "whiting-2011",
+      "stard-2015"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "auc-alta-modelo-util",
+    "myth": "O modelo tem AUC de 0,90, então suas probabilidades são confiáveis e ele vai ajudar nas decisões.",
+    "reality": "AUC mede apenas a capacidade de ordenar casos; um modelo pode ordenar bem e ainda dar probabilidades erradas (mal calibradas) e não trazer benefício líquido no limiar de decisão relevante.",
+    "category": "ia-dados",
+    "whyItHappens": "AUC e F1 são números únicos, fáceis de comparar em tabelas e rankings. Mas a AUC é invariante a qualquer transformação monotônica dos escores: multiplicar todas as probabilidades por 0,5 não muda a AUC, embora mude qualquer decisão baseada em limiar.\n\nDecisões reais envolvem custos diferentes para falsos positivos e falsos negativos e uma prevalência concreta, coisas que essas métricas resumem ou ignoram.",
+    "explanation": [
+      "Calibração pergunta: entre os pacientes a quem o modelo atribui 20% de risco, cerca de 20% têm o evento? Van Calster e colegas chamam a calibração de 'calcanhar de Aquiles' dos modelos preditivos, porque modelos mal calibrados podem levar a tratamento excessivo ou insuficiente.",
+      "A análise de curva de decisão (Vickers e Elkin) calcula o benefício líquido em cada limiar: verdadeiros positivos ganhos menos falsos positivos ponderados pela razão de custo implícita no limiar. Um modelo só é útil se supera as estratégias 'tratar todos' e 'tratar ninguém'.",
+      "F1 ignora verdadeiros negativos e fixa um peso implícito entre precisão e recall que raramente corresponde ao custo real."
+    ],
+    "worked": [
+      {
+        "text": "Ilustração: 1.000 pacientes, prevalência 10%, limiar de risco pt = 20% (peso dos FP = pt/(1−pt) = 0,25). O modelo gera 80 VP e 200 FP",
+        "math": "BL = 80/1000 − (200/1000) × 0,25 = 0,03"
+      },
+      {
+        "text": "Estratégia 'tratar todos' no mesmo limiar",
+        "math": "BL = 0,10 − 0,90 × 0,25 = −0,125"
+      },
+      {
+        "text": "'Tratar ninguém'",
+        "math": "BL = 0"
+      },
+      {
+        "text": "Interpretação",
+        "math": "0,03 → equivale a 3 verdadeiros positivos líquidos por 100 pacientes, sem falsos positivos"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Calibração, o calcanhar de Aquiles (Van Calster et al., 2019)",
+        "year": "2019",
+        "summary": "Em artigo na BMC Medicine, Van Calster, McLernon, van Smeden, Wynants e Steyerberg argumentam que a calibração é frequentemente negligenciada na validação de modelos clínicos, que relatam sobretudo discriminação (AUC/estatística C), e que previsões mal calibradas podem ser enganosas para decisões clínicas.",
+        "refIds": [
+          "van-calster-2019"
+        ]
+      },
+      {
+        "title": "Análise de curva de decisão (Vickers e Elkin, 2006)",
+        "year": "2006",
+        "summary": "Vickers e Elkin propuseram, na Medical Decision Making, avaliar modelos pelo benefício líquido ao longo de limiares de probabilidade, comparando-os com tratar todos ou ninguém, em vez de apenas por métricas de acurácia.",
+        "refIds": [
+          "vickers-elkin-2006"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Há curva ou gráfico de calibração, além da AUC?",
+      "Qual limiar de decisão será usado, e qual o custo relativo de FP e FN?",
+      "O modelo supera 'tratar todos' e 'tratar ninguém' em benefício líquido na faixa de limiares relevante?",
+      "A validação foi feita em dados externos, com a prevalência do uso real?"
+    ],
+    "conceptIds": [
+      "auc",
+      "calibracao",
+      "net-benefit",
+      "limiar-custo",
+      "f-measure",
+      "escolha-metrica"
+    ],
+    "refIds": [
+      "van-calster-2019",
+      "vickers-elkin-2006",
+      "hand-2009",
+      "steyerberg-2019"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "detector-texto-ia-confiavel",
+    "myth": "Se o detector de texto de IA acusou, a redação foi escrita por IA.",
+    "reality": "Detectores erram muito e de forma desigual: textos humanos simples, típicos de quem escreve em segunda língua, são marcados como IA com frequência.",
+    "category": "ia-dados",
+    "whyItHappens": "O número de propaganda (\"99% de acurácia\") costuma ser medido em textos de um tipo específico e mistura acertos em textos humanos e de IA. Quem usa a ferramenta precisa de outra coisa: a chance de a redação acusada ser mesmo de IA. Essa chance depende de quantas redações da turma realmente usaram IA e da taxa de falsos positivos no tipo de texto daquela turma.\n\nAlém disso, muitos detectores se baseiam em quão previsível o texto é. Vocabulário limitado e frases simples parecem previsíveis, o que penaliza justamente estudantes não nativos.",
+    "explanation": [
+      "Em estudo publicado na Patterns, sete detectores foram aplicados a 91 redações do TOEFL escritas por humanos e a 88 redações de alunos norte-americanos do 8º ano. As dos nativos foram classificadas quase sem erro; nas redações TOEFL, a taxa média de falso positivo foi de 61,3%.",
+      "A própria OpenAI lançou um classificador em janeiro de 2023 informando que ele identificava só 26% dos textos de IA e marcava como IA 9% dos textos humanos. Em 20 de julho de 2023 retirou a ferramenta por baixa acurácia.",
+      "O resultado de um detector é, no máximo, um indício fraco. Não serve como prova individual, e o erro não se distribui igualmente entre grupos de estudantes."
+    ],
+    "numbers": {
+      "population": 100,
+      "prevalence": 0.1,
+      "sensitivity": 0.26,
+      "specificity": 0.91,
+      "caption": "Turma de 100 redações, 10 feitas com IA, detector com os números divulgados pela OpenAI: acusa cerca de 2,6 redações de IA e 8,1 humanas. Só cerca de 1 em cada 4 acusações está certa.",
+      "unit": "redações",
+      "yes": "feitas com IA",
+      "no": "escritas por humanos",
+      "positive": "são acusadas"
+    },
+    "worked": [
+      {
+        "text": "Verdadeiros positivos: 26% das 10 redações de IA.",
+        "math": "10 × 0,26 = 2,6"
+      },
+      {
+        "text": "Falsos positivos: 9% das 90 redações humanas.",
+        "math": "90 × 0,09 = 8,1"
+      },
+      {
+        "text": "Chance de uma acusação estar certa (precisão).",
+        "math": "2,6 / (2,6 + 8,1) ≈ 24,3%"
+      },
+      {
+        "text": "Liang et al.: taxa média de falso positivo de 61,3% em 91 redações TOEFL humanas.",
+        "math": "91 × 0,613 ≈ 55,8 redações acusadas injustamente, em média por detector"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Detectores de GPT e escritores não nativos (Liang et al.)",
+        "year": "2023",
+        "summary": "Sete detectores marcaram como IA, em média, 61,3% de 91 redações TOEFL humanas, contra desempenho quase perfeito em 88 redações de nativos. 19,8% das redações TOEFL foram marcadas pelos sete detectores e 97,8% por pelo menos um.",
+        "refIds": [
+          "liang-2023"
+        ]
+      },
+      {
+        "title": "OpenAI retira seu classificador de texto de IA",
+        "year": "2023",
+        "summary": "Lançado em 31 de janeiro de 2023 com 26% de verdadeiros positivos e 9% de falsos positivos declarados, o classificador foi desativado em 20 de julho de 2023 por causa da \"baixa taxa de acurácia\".",
+        "refIds": [
+          "openai-2023-classifier"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Qual é a taxa de falso positivo em textos humanos parecidos com os da turma (idioma, nível, gênero textual)?",
+      "Quantas redações provavelmente usaram IA? Com poucos casos reais, a maioria das acusações pode ser falsa.",
+      "O erro foi medido separadamente para não nativos e outros grupos?",
+      "Há outra evidência além do detector (rascunhos, histórico de versões, conversa com o aluno)?"
+    ],
+    "conceptIds": [
+      "precisao",
+      "fpr",
+      "prevalencia-bayes",
+      "frequencias-naturais"
+    ],
+    "refIds": [
+      "liang-2023",
+      "openai-2023-classifier"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "acuracia-teste-mundo-real",
+    "myth": "Se o modelo foi validado pelo fabricante, vai funcionar igual no meu hospital.",
+    "reality": "O desempenho medido nos dados de quem desenvolveu costuma cair na validação externa, às vezes drasticamente.",
+    "category": "ia-dados",
+    "whyItHappens": "A métrica divulgada vem de dados parecidos com os de treino: mesma população, mesmos sistemas de registro, mesma definição de desfecho. Quem compra enxerga só o número, não as condições em que ele foi medido. Modelos proprietários agravam o problema porque terceiros não conseguem auditá-los antes da implantação.",
+    "explanation": [
+      "Validação interna responde \"o modelo funciona em dados parecidos com os que eu já tinha?\". Validação externa responde \"funciona em outro lugar, em outro período, com outra definição de caso?\". Só a segunda informa a decisão de adotar.",
+      "O Epic Sepsis Model já estava em centenas de hospitais dos EUA quando a Universidade de Michigan o avaliou em 38.455 internações: AUC de 0,63, 67% dos casos de sepse não detectados e alertas em 18% das internações.",
+      "Além da discriminação (AUC), é preciso olhar calibração e carga de alertas: um modelo que alerta demais gera fadiga e passa a ser ignorado."
+    ],
+    "numbers": {
+      "population": 38455,
+      "prevalence": 0.0664,
+      "caption": "Das 38.455 internações, 2.552 tiveram sepse. O modelo alertou em 6.971 internações e deixou passar 1.709 casos de sepse.",
+      "sensitivity": 0.3303,
+      "specificity": 0.8293,
+      "unit": "internações",
+      "yes": "com sepse",
+      "no": "sem sepse",
+      "positive": "geram alerta"
+    },
+    "worked": [
+      {
+        "text": "Prevalência de sepse na coorte.",
+        "math": "2.552 / 38.455 ≈ 6,6%"
+      },
+      {
+        "text": "Casos de sepse não detectados.",
+        "math": "1.709 / 2.552 ≈ 67%"
+      },
+      {
+        "text": "Casos detectados.",
+        "math": "2.552 − 1.709 = 843"
+      },
+      {
+        "text": "Internações com alerta.",
+        "math": "6.971 / 38.455 ≈ 18,1%"
+      },
+      {
+        "text": "Aproximação (supondo que os 843 detectados estão entre os 6.971 alertados): fração de alertas que eram sepse.",
+        "math": "843 / 6.971 ≈ 12,1%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Epic Sepsis Model em Michigan Medicine (Wong et al.)",
+        "year": "2021",
+        "summary": "Em 27.697 pacientes e 38.455 internações, o modelo teve AUC de 0,63 (IC 95% 0,62–0,64). Não identificou 1.709 dos 2.552 pacientes com sepse (67%), embora tenha alertado em 6.971 internações (18%), e antecipou apenas 183 casos (7%) que não receberam antibiótico a tempo.",
+        "refIds": [
+          "wong-2021"
+        ]
+      },
+      {
+        "title": "Pneumonia em raio-X entre hospitais (Zech et al.)",
+        "year": "2018",
+        "summary": "Um modelo treinado com dados combinados do NIH e do Mount Sinai teve AUC interna de 0,931, mas 0,815 em radiografias da rede da Universidade de Indiana.",
+        "refIds": [
+          "zech-2018"
+        ]
+      }
+    ],
+    "howToRead": [
+      "O número vem de validação interna ou externa? Em quais instituições e anos?",
+      "A definição de desfecho é a mesma usada no meu serviço?",
+      "Há dados de calibração e de quantos alertas o modelo gera por dia?",
+      "Alguém independente do fabricante avaliou o modelo?"
+    ],
+    "conceptIds": [
+      "auc",
+      "calibracao",
+      "sensibilidade",
+      "mudanca-distribuicao",
+      "overfitting-generalizacao"
+    ],
+    "refIds": [
+      "wong-2021",
+      "zech-2018",
+      "van-calster-2019"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "vazamento-dados-resultado-otimo",
+    "myth": "Um resultado excelente na validação prova que o modelo aprendeu algo real.",
+    "reality": "Vazamento de dados, quando informação do teste chega ao treino, produz resultados ótimos e falsos, e é comum em ciência publicada.",
+    "category": "ia-dados",
+    "whyItHappens": "O vazamento raramente aparece no resultado final. Ele surge ao normalizar ou selecionar variáveis antes de separar treino e teste, ao deixar registros do mesmo paciente nos dois lados, ao usar variáveis que só existem depois do desfecho, ou ao embaralhar dados que têm ordem no tempo. Resultados bons não despertam desconfiança, e revisores quase nunca reexecutam o pipeline.",
+    "explanation": [
+      "Kapoor e Narayanan encontraram vazamento documentado em 17 áreas científicas, afetando 294 artigos, e propuseram uma taxonomia de oito tipos, de erros de manual a problemas ainda abertos.",
+      "No estudo de caso sobre previsão de guerra civil, modelos complexos pareciam muito superiores à regressão logística; corrigidos os erros, não eram substancialmente melhores.",
+      "A defesa é de procedimento: separar o teste antes de qualquer pré-processamento, respeitar agrupamentos (paciente, escola, período) e perguntar se cada variável estaria disponível no momento real da previsão."
+    ],
+    "worked": [
+      {
+        "text": "Média de artigos afetados por área no levantamento.",
+        "math": "294 / 17 ≈ 17,3 artigos por área"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Vazamento e a crise de reprodutibilidade (Kapoor e Narayanan)",
+        "year": "2023",
+        "summary": "O levantamento encontrou vazamento em 17 áreas, afetando 294 artigos, em alguns casos com conclusões muito otimistas. Na previsão de guerra civil, após a correção, modelos complexos de ML não superaram substancialmente a regressão logística.",
+        "refIds": [
+          "kapoor-narayanan-2023"
+        ]
+      }
+    ],
+    "howToRead": [
+      "A divisão treino/teste foi feita antes de normalização, seleção de variáveis ou balanceamento?",
+      "O mesmo indivíduo, imagem ou período aparece em treino e teste?",
+      "Todas as variáveis estariam disponíveis no momento em que a previsão seria usada?",
+      "O resultado se mantém em dados coletados depois ou em outro lugar?",
+      "O ganho sobre um modelo simples é plausível ou bom demais para ser verdade?"
+    ],
+    "conceptIds": [
+      "validacao-cruzada",
+      "vazamento-dados",
+      "overfitting-generalizacao"
+    ],
+    "refIds": [
+      "kapoor-narayanan-2023"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "atalhos-modelo-acerta-pelo-motivo-certo",
+    "myth": "Se o modelo acerta o diagnóstico, é porque aprendeu a enxergar a doença.",
+    "reality": "Modelos frequentemente acertam por atalhos, como marcas do hospital ou do equipamento, que funcionam no teste e falham fora dele.",
+    "category": "ia-dados",
+    "whyItHappens": "O treino premia qualquer padrão que separe as classes, não o padrão que um especialista usaria. Se os casos positivos vêm mais de um hospital, de um aparelho portátil ou de uma base pública específica, o modelo pode aprender essa origem. Como o conjunto de teste costuma ter a mesma origem do treino, o atalho continua funcionando e a acurácia parece ótima.",
+    "explanation": [
+      "Geirhos e colegas chamaram isso de aprendizado de atalhos: regras de decisão que funcionam nos testes habituais, mas não se transferem para condições um pouco diferentes.",
+      "Na radiografia de tórax, Zech et al. mostraram que redes reconheciam o hospital de origem com mais de 99,9% de acerto. Como a prevalência de pneumonia era 34,2% no Mount Sinai e 1,2% no NIH, só separar por hospital já dava AUC de 0,861.",
+      "DeGrave et al. mostraram com técnicas de explicabilidade que detectores de COVID-19 em raio-X usavam fatores de confusão em vez de sinais da doença e pioravam em hospitais novos.",
+      "Um bom resultado só ganha credibilidade quando o modelo é testado em dados de outra origem e quando se verifica em que partes da entrada ele se apoia."
+    ],
+    "worked": [
+      {
+        "text": "Acerto da rede ao identificar o hospital de origem (NIH).",
+        "math": "22.050 / 22.062 ≈ 99,95%"
+      },
+      {
+        "text": "Acerto ao identificar o Mount Sinai.",
+        "math": "8.386 / 8.388 ≈ 99,98%"
+      },
+      {
+        "text": "Razão entre as prevalências de pneumonia dos dois hospitais.",
+        "math": "34,2% / 1,2% ≈ 28,5 vezes"
+      }
+    ],
+    "cases": [
+      {
+        "title": "CNNs de pneumonia reconhecem o hospital (Zech et al.)",
+        "year": "2018",
+        "summary": "Com 158.323 radiografias de três instituições, as redes identificaram o hospital de origem em 99,95% (NIH) e 99,98% (Mount Sinai) das imagens. Ordenar apenas pelo hospital já produzia AUC de 0,861 no conjunto combinado, e o desempenho externo foi pior que o interno em 3 de 5 comparações.",
+        "refIds": [
+          "zech-2018"
+        ]
+      },
+      {
+        "title": "IA para COVID-19 em raio-X escolhe atalhos (DeGrave et al.)",
+        "year": "2021",
+        "summary": "Sistemas de aprendizado profundo para detectar COVID-19 em radiografias se apoiavam em fatores de confusão em vez de patologia médica: pareciam precisos, mas falhavam quando testados em novos hospitais.",
+        "refIds": [
+          "degrave-2021"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Os casos positivos e negativos vieram das mesmas fontes, aparelhos e períodos?",
+      "O modelo foi testado em uma instituição que não participou do treino?",
+      "Alguém verificou em que regiões ou atributos o modelo se apoia?",
+      "Um atributo trivial (origem, data, formato do arquivo) já separaria as classes sozinho?"
+    ],
+    "conceptIds": [
+      "overfitting-generalizacao",
+      "mudanca-distribuicao",
+      "auc"
+    ],
+    "refIds": [
+      "geirhos-2020",
+      "zech-2018",
+      "degrave-2021"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "benchmark-mede-capacidade",
+    "myth": "Se o modelo bate recorde no benchmark, ele domina a tarefa.",
+    "reality": "Benchmarks reutilizados, e às vezes vistos no treino, superestimam capacidade; em um teste novo e equivalente, o desempenho costuma cair.",
+    "category": "ia-dados",
+    "whyItHappens": "Um benchmark é uma amostra fixa e pública. Anos de pesquisas ajustadas a ele, e modelos de linguagem treinados com textos da internet que podem incluir as próprias questões e respostas, fazem a nota refletir em parte familiaridade com aquela amostra. O placar também resume tudo em um número e esconde em que tipo de item o modelo erra.",
+    "explanation": [
+      "Recht et al. recriaram conjuntos de teste do CIFAR-10 e do ImageNet seguindo o processo original. A acurácia dos modelos caiu 3 a 15 pontos no CIFAR-10 e 11 a 14 pontos no ImageNet. Curiosamente, a ordem dos modelos se manteve, e os autores atribuíram a queda mais a imagens um pouco mais difíceis do que a sobreajuste adaptativo.",
+      "Com LLMs, a contaminação é mais direta: dados de teste podem estar no pré-treino. Sainz et al. defenderam medir a contaminação para cada benchmark. Zhang et al. criaram o GSM1k, espelho do GSM8k de aritmética escolar, e observaram quedas de até 8 pontos, com sinais de sobreajuste sistemático em várias famílias de modelos, embora modelos de fronteira mostrassem poucos sinais.",
+      "A lição não é descartar benchmarks, mas tratá-los como estimativas com viés possível, a confirmar com conjuntos novos, privados ou dinâmicos."
+    ],
+    "cases": [
+      {
+        "title": "ImageNet e CIFAR-10 refeitos (Recht et al.)",
+        "year": "2019",
+        "summary": "Com novos conjuntos de teste construídos como os originais, a acurácia caiu 3 a 15 pontos no CIFAR-10 e 11 a 14 pontos no ImageNet, embora ganhos no teste original se traduzissem em ganhos no novo.",
+        "refIds": [
+          "recht-2019"
+        ]
+      },
+      {
+        "title": "GSM1k: aritmética escolar com questões inéditas (Zhang et al.)",
+        "year": "2024",
+        "summary": "Ao avaliar LLMs em 1.000 problemas novos no estilo do GSM8k, os autores viram quedas de até 8 pontos de acurácia e evidência de sobreajuste em várias famílias de modelos.",
+        "refIds": [
+          "zhang-2024-gsm1k"
+        ]
+      }
+    ],
+    "howToRead": [
+      "O conjunto de teste é público há quanto tempo? Pode ter entrado nos dados de treino?",
+      "Os autores mediram ou discutiram contaminação?",
+      "Há resultado em um conjunto novo, privado ou criado depois do treino do modelo?",
+      "A diferença entre modelos é maior que a variação esperada entre versões do teste?"
+    ],
+    "conceptIds": [
+      "benchmarks",
+      "overfitting-generalizacao",
+      "vazamento-dados"
+    ],
+    "refIds": [
+      "recht-2019",
+      "sainz-2023",
+      "zhang-2024-gsm1k",
+      "kiela-2021"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "justica-uma-metrica-basta",
+    "myth": "Um algoritmo é justo se for igualmente preciso para todos os grupos.",
+    "reality": "Há vários critérios de justiça razoáveis e, quando as taxas-base diferem entre grupos, eles não podem ser satisfeitos todos ao mesmo tempo.",
+    "category": "ia-dados",
+    "whyItHappens": "\"Justo\" parece uma propriedade única, mas pode significar coisas diferentes: que um escore de risco signifique o mesmo em todos os grupos (calibração), que inocentes de todos os grupos tenham a mesma chance de ser marcados (taxa de falso positivo igual) ou que culpados sejam detectados igualmente. Cada lado de um debate escolhe o critério que o favorece e declara o outro irrelevante.",
+    "explanation": [
+      "Em 2016 a ProPublica analisou o COMPAS em Broward County (Flórida): entre réus que não reincidiram, 45% dos negros e 23% dos brancos foram classificados como risco mais alto. A fabricante respondeu que o escore era igualmente preditivo para os dois grupos.",
+      "Chouldechova e Kleinberg, Mullainathan e Raghavan mostraram que os dois lados podiam estar certos ao mesmo tempo: se a prevalência de reincidência difere entre grupos, um escore com o mesmo valor preditivo positivo e a mesma sensibilidade nos dois grupos obrigatoriamente terá taxas de falso positivo diferentes.",
+      "Escolher um critério é uma decisão de valor, não uma questão técnica a ser resolvida por uma única métrica. O mínimo é relatar vários critérios por grupo e explicitar qual se priorizou."
+    ],
+    "numbers": {
+      "population": 200,
+      "caption": "Dois grupos de 100 pessoas. Grupo A: 50 reincidem. Grupo B: 30 reincidem. O escore tem, nos dois grupos, sensibilidade de 70% e valor preditivo positivo de 60%. Ainda assim, os inocentes do grupo A são marcados com risco alto em cerca de 47% dos casos, contra 20% no grupo B."
+    },
+    "worked": [
+      {
+        "text": "Relação de Chouldechova: FPR = sensibilidade × p/(1−p) × (1−VPP)/VPP.",
+        "math": "FPR = TPR · p/(1−p) · (1−PPV)/PPV"
+      },
+      {
+        "text": "Grupo A, prevalência 50%.",
+        "math": "0,7 × (0,5/0,5) × (0,4/0,6) ≈ 0,467"
+      },
+      {
+        "text": "Grupo B, prevalência 30%.",
+        "math": "0,7 × (0,3/0,7) × (0,4/0,6) = 0,200"
+      },
+      {
+        "text": "Verificação no grupo B: 30 × 0,7 = 21 verdadeiros positivos; com VPP 60%, 21/0,6 = 35 marcados, logo 14 falsos positivos entre 70 inocentes.",
+        "math": "14 / 70 = 20%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "COMPAS: ProPublica e o debate sobre critérios",
+        "year": "2016",
+        "summary": "Em réus de Broward County, 45% dos negros e 23% dos brancos que não reincidiram foram rotulados como risco mais alto; 48% dos brancos e 28% dos negros que reincidiram foram rotulados como baixo risco. A defesa do instrumento se apoiou em igual poder preditivo entre grupos.",
+        "refIds": [
+          "angwin-2016"
+        ]
+      },
+      {
+        "title": "Teoremas de impossibilidade (Chouldechova; Kleinberg et al.)",
+        "year": "2016–2017",
+        "summary": "Chouldechova mostrou que os critérios aplicados ao COMPAS não podem ser satisfeitos simultaneamente quando a prevalência de reincidência difere entre grupos. Kleinberg, Mullainathan e Raghavan provaram que três condições naturais de justiça só coexistem em casos degenerados (previsão perfeita ou taxas-base iguais).",
+        "refIds": [
+          "chouldechova-2017",
+          "kleinberg-2016"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Qual critério de justiça está sendo usado: calibração, taxas de erro iguais ou outro?",
+      "As taxas-base diferem entre os grupos? Se sim, algum critério será violado.",
+      "Foram relatadas taxas de falso positivo e falso negativo separadas por grupo?",
+      "Quem arca com cada tipo de erro, e quem decidiu qual erro é mais tolerável?"
+    ],
+    "conceptIds": [
+      "justica-impossibilidade",
+      "fpr",
+      "precisao",
+      "calibracao",
+      "prevalencia-bayes"
+    ],
+    "refIds": [
+      "angwin-2016",
+      "chouldechova-2017",
+      "kleinberg-2016"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "erro-medio-esconde-grupos",
+    "myth": "Se a taxa de erro geral é baixa, o sistema funciona bem para todo mundo.",
+    "reality": "Uma média baixa pode esconder erros dezenas de vezes maiores em subgrupos pouco representados.",
+    "category": "ia-dados",
+    "whyItHappens": "A taxa de erro geral é uma média ponderada pelo tamanho de cada grupo no conjunto de teste. Se um grupo é pequeno na amostra, seu erro alto pesa pouco no total. Conjuntos de avaliação costumam repetir o desequilíbrio dos dados de treino, e raramente se reportam resultados cruzando mais de uma característica (por exemplo, sexo e tom de pele).",
+    "explanation": [
+      "No Gender Shades, Buolamwini e Gebru avaliaram classificadores comerciais de gênero com um conjunto equilibrado por sexo e tom de pele. O erro chegou a 34,7% em mulheres de pele escura e ficou em no máximo 0,8% em homens de pele clara.",
+      "O NIST testou 189 algoritmos de reconhecimento facial de 99 desenvolvedores com 18,27 milhões de imagens de 8,49 milhões de pessoas. Com fotos de alta qualidade, a taxa de falsos positivos variou por um fator de até 100 entre países de origem; alguns algoritmos desenvolvidos na China inverteram o padrão para rostos do Leste Asiático.",
+      "Um sistema pode ter número agregado excelente e ainda assim ser inadequado para uma parte da população. A avaliação precisa ser desagregada, e os grupos pequenos precisam de amostra suficiente para que a estimativa seja confiável."
+    ],
+    "worked": [
+      {
+        "text": "Razão entre o pior e o melhor erro máximo no Gender Shades.",
+        "math": "34,7% / 0,8% ≈ 43 vezes"
+      },
+      {
+        "text": "Exemplo ilustrativo (hipotético): 900 pessoas do grupo majoritário com 1% de erro e 100 do grupo minoritário com 20%.",
+        "math": "(900 × 0,01 + 100 × 0,20) / 1.000 = 29 / 1.000 = 2,9%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Gender Shades (Buolamwini e Gebru)",
+        "year": "2018",
+        "summary": "Classificadores comerciais de gênero erraram até 34,7% em mulheres de pele escura e no máximo 0,8% em homens de pele clara. Os autores notaram que bases usadas como referência, como Adience e IJB-A, eram majoritariamente de pessoas de pele clara.",
+        "refIds": [
+          "buolamwini-2018"
+        ]
+      },
+      {
+        "title": "NIST FRVT Parte 3: efeitos demográficos",
+        "year": "2019",
+        "summary": "O NIST avaliou 189 algoritmos de 99 desenvolvedores. Em fotos de pedidos de visto, os falsos positivos foram mais altos para pessoas da África Ocidental e Oriental e do Leste Asiático e mais baixos para europeus do Leste, com diferença de até um fator de 100 entre países; o padrão variou conforme o algoritmo.",
+        "refIds": [
+          "grother-2019"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Os resultados foram apresentados por grupo, e por combinações de grupos?",
+      "Quantos exemplos de cada grupo havia no teste? O intervalo de confiança do grupo pequeno é largo?",
+      "Qual tipo de erro varia entre grupos (falso positivo ou falso negativo) e qual consequência ele tem?",
+      "O conjunto de teste representa a população onde o sistema será usado?"
+    ],
+    "conceptIds": [
+      "fpr",
+      "macro-micro",
+      "acuracia",
+      "simpson"
+    ],
+    "refIds": [
+      "buolamwini-2018",
+      "grother-2019"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "big-data-dispensa-validacao",
+    "myth": "Com dados suficientes, não é preciso se preocupar com amostragem nem com validação contínua.",
+    "reality": "Grandes volumes de dados não corrigem vieses de coleta nem mudanças no processo gerador; o Google Flu Trends errou para cima por anos.",
+    "category": "ia-dados",
+    "whyItHappens": "Volume passa impressão de completude: se há milhões de buscas, parece que o sinal está garantido. Mas o erro de viés não diminui com o tamanho da amostra, e dados que não foram coletados para medir o fenômeno mudam quando a plataforma muda. Além disso, com muitas variáveis candidatas, é fácil encontrar correlações que se ajustam ao passado por acaso.",
+    "explanation": [
+      "O Google Flu Trends estimava visitas médicas por síndrome gripal a partir de buscas. Em fevereiro de 2013, previa mais que o dobro da proporção registrada pelo CDC. Lazer et al. mostraram que ele superestimou a gripe em 100 de 108 semanas a partir de agosto de 2011.",
+      "Os autores apontaram dois problemas: \"arrogância do big data\", a ideia de que dados massivos substituem a coleta e a análise tradicionais, e dinâmica do algoritmo, já que o próprio buscador mudava ao longo do tempo.",
+      "Um modelo simples com dados do CDC defasados em semanas teve erro menor que o GFT, e combinar as duas fontes foi melhor ainda. Big data funciona melhor como complemento que precisa ser recalibrado do que como substituto."
+    ],
+    "worked": [
+      {
+        "text": "Fração de semanas com superestimativa.",
+        "math": "100 / 108 ≈ 92,6%"
+      },
+      {
+        "text": "Erro absoluto médio fora da amostra: GFT 0,486; CDC defasado 0,311; combinação 0,232. Quantas vezes o erro do GFT é maior que o da combinação.",
+        "math": "0,486 / 0,232 ≈ 2,09"
+      }
+    ],
+    "cases": [
+      {
+        "title": "A parábola do Google Flu (Lazer et al.)",
+        "year": "2014",
+        "summary": "O GFT previu mais que o dobro das visitas por síndrome gripal registradas pelo CDC em fevereiro de 2013 e ficou acima do real em 100 de 108 semanas entre agosto de 2011 e setembro de 2013. Um modelo com dados do CDC defasados teve erro absoluto médio de 0,311 contra 0,486 do GFT.",
+        "refIds": [
+          "lazer-2014"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Os dados foram coletados para medir este fenômeno ou são subproduto de outra atividade?",
+      "Quem está ausente dos dados, e isso muda com o tempo?",
+      "O modelo foi comparado com uma referência simples (média histórica, dado defasado)?",
+      "Há monitoramento e recalibração depois da implantação?"
+    ],
+    "conceptIds": [
+      "mudanca-distribuicao",
+      "overfitting-generalizacao",
+      "gold-standard"
+    ],
+    "refIds": [
+      "lazer-2014"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "modelo-validado-vale-para-sempre",
+    "myth": "Um modelo validado continua válido enquanto não for alterado.",
+    "reality": "O mundo muda em volta do modelo: população, equipamentos, prática clínica e códigos de registro mudam, e o desempenho cai sem que o código mude.",
+    "category": "ia-dados",
+    "whyItHappens": "A validação é uma fotografia de um período e de um lugar. Como o software não muda, supõe-se que o desempenho também não. Mas a relação entre entradas e desfecho pode mudar (novas doenças, novos protocolos, novo scanner, nova forma de registrar), e sem monitoramento ninguém percebe a degradação até que haja dano.",
+    "explanation": [
+      "Finlayson et al., na NEJM, descreveram para clínicos a mudança de distribuição (dataset shift): diferenças entre os dados de treino e os dados encontrados na prática, causadas por mudanças em tecnologia, população ou comportamento.",
+      "O caso de Zech et al. mostra a versão espacial do problema: o mesmo modelo de pneumonia caiu de AUC 0,931 para 0,815 ao mudar de rede hospitalar. O Google Flu Trends mostra a versão temporal: mudanças no buscador e no comportamento dos usuários degradaram as estimativas.",
+      "A resposta é tratar o modelo implantado como algo que exige vigilância: monitorar calibração e taxas de erro ao longo do tempo, definir gatilhos para revalidar e ter um plano para desligá-lo."
+    ],
+    "worked": [
+      {
+        "text": "Queda de AUC ao passar da validação interna para a externa (Zech et al.).",
+        "math": "0,931 − 0,815 = 0,116"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Modelo de pneumonia em outra rede hospitalar (Zech et al.)",
+        "year": "2018",
+        "summary": "Treinado e testado com dados combinados de NIH e Mount Sinai, o modelo teve AUC 0,931; na Universidade de Indiana, 0,815 (IC 95% 0,745–0,885).",
+        "refIds": [
+          "zech-2018"
+        ]
+      },
+      {
+        "title": "Google Flu Trends ao longo do tempo",
+        "year": "2011–2013",
+        "summary": "A partir de agosto de 2011, o GFT passou a superestimar a gripe em 100 de 108 semanas; Lazer et al. apontam mudanças no próprio algoritmo de busca como parte da causa.",
+        "refIds": [
+          "lazer-2014"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Quando e onde foram coletados os dados de validação? O que mudou desde então?",
+      "Há monitoramento contínuo de desempenho e calibração depois da implantação?",
+      "Houve troca de equipamento, protocolo, sistema de registro ou perfil de pacientes?",
+      "Existe um critério definido para revalidar ou desligar o modelo?"
+    ],
+    "conceptIds": [
+      "mudanca-distribuicao",
+      "calibracao",
+      "auc"
+    ],
+    "refIds": [
+      "finlayson-2021",
+      "zech-2018",
+      "lazer-2014"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "otimizar-metrica-otimiza-objetivo",
+    "myth": "Se a métrica melhorou, o sistema ficou melhor naquilo que queremos.",
+    "reality": "Quando uma métrica vira alvo de otimização, sistemas e pessoas encontram formas de melhorá-la sem melhorar o objetivo (lei de Goodhart).",
+    "category": "ia-dados",
+    "whyItHappens": "Toda métrica é uma aproximação do objetivo real, e a aproximação só é boa enquanto ninguém a pressiona. Um otimizador poderoso, seja um algoritmo de aprendizado por reforço, seja uma comunidade competindo em um placar, explora exatamente as diferenças entre a métrica e o objetivo, porque ali o ganho é mais barato.",
+    "explanation": [
+      "A formulação popular, \"quando uma medida se torna uma meta, deixa de ser uma boa medida\", foi dada pela antropóloga Marilyn Strathern em 1997, ao discutir auditorias em universidades britânicas, generalizando uma observação do economista Charles Goodhart.",
+      "Em IA, o fenômeno se chama specification gaming. A DeepMind reuniu dezenas de exemplos: no jogo de corrida de barcos CoastRunners, um agente recompensado por pontos aprendeu a andar em círculos coletando os mesmos alvos em vez de terminar a corrida.",
+      "Na avaliação de modelos, o equivalente é ajustar sistemas a um benchmark até que a nota reflita mais o benchmark do que a capacidade. Por isso vale acompanhar várias métricas, examinar exemplos concretos e trocar ou renovar o conjunto de avaliação."
+    ],
+    "cases": [
+      {
+        "title": "Specification gaming: o barco de CoastRunners e outros exemplos",
+        "year": "2020",
+        "summary": "Krakovna et al. definem specification gaming como comportamento que satisfaz a especificação literal de um objetivo sem atingir o resultado pretendido. No exemplo do CoastRunners, o agente circulava coletando os mesmos blocos de pontos em vez de completar a corrida.",
+        "refIds": [
+          "krakovna-2020"
+        ]
+      },
+      {
+        "title": "Strathern e a auditoria de universidades",
+        "year": "1997",
+        "summary": "Ao analisar o sistema de avaliação de universidades britânicas, Strathern formulou a versão que ficou conhecida da lei de Goodhart: quando uma medida vira meta, deixa de ser uma boa medida.",
+        "refIds": [
+          "strathern-1997"
+        ]
+      }
+    ],
+    "howToRead": [
+      "O que exatamente a métrica mede, e o que ela deixa de fora do objetivo real?",
+      "O sistema, ou a equipe, foi otimizado diretamente para essa métrica?",
+      "Outras métricas e exemplos concretos confirmam a melhora?",
+      "A melhora aparece em um conjunto de avaliação novo, não usado durante o desenvolvimento?"
+    ],
+    "conceptIds": [
+      "goodhart",
+      "benchmarks",
+      "escolha-metrica"
+    ],
+    "refIds": [
+      "strathern-1997",
+      "krakovna-2020"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "confianca-modelo-probabilidade",
+    "myth": "Quando o modelo diz 90% de confiança, ele acerta 90% das vezes.",
+    "reality": "A confiança de um modelo só é uma probabilidade confiável se ele estiver calibrado, e muitos modelos modernos não estão.",
+    "category": "ia-dados",
+    "whyItHappens": "Números entre 0 e 1 que somam 1 parecem probabilidades, e interfaces os exibem como porcentagens. Mas a saída de uma rede é otimizada para acertar a classe, não para refletir frequências. Treinos que aumentam a acurácia, e ajustes posteriores para agradar usuários, podem deixar o modelo mais confiante do que deveria.",
+    "explanation": [
+      "Guo et al. mostraram em 2017 que redes neurais modernas, mais profundas e com mais regularização, eram mais mal calibradas que redes antigas, em geral excessivamente confiantes, e que um ajuste simples (temperature scaling) corrigia boa parte do problema.",
+      "Com LLMs a história tem nuances. Kadavath et al. encontraram que modelos grandes são bem calibrados em questões de múltipla escolha e verdadeiro/falso quando apresentadas no formato adequado, mas a capacidade de prever se \"sabem\" a resposta generalizou mal para tarefas novas. O relatório técnico do GPT-4 mostrou que o modelo pré-treinado era bem calibrado no MMLU e que o pós-treino piorou significativamente a calibração.",
+      "Calibração se verifica, não se presume: agrupam-se previsões por nível de confiança e compara-se com a taxa de acerto observada, no domínio e no formato em que o modelo será usado."
+    ],
+    "numbers": {
+      "population": 100,
+      "caption": "Exemplo ilustrativo: 100 respostas dadas com 90% de confiança por um modelo que, nesse nível, acerta 70%. Esperavam-se 90 acertos; houve 70. São 20 erros a mais do que a confiança sugeria."
+    },
+    "worked": [
+      {
+        "text": "Acertos esperados se a confiança fosse calibrada.",
+        "math": "100 × 0,90 = 90"
+      },
+      {
+        "text": "Acertos observados (hipotéticos).",
+        "math": "100 × 0,70 = 70"
+      },
+      {
+        "text": "Diferença, que é o excesso de confiança nesse grupo.",
+        "math": "90 − 70 = 20 erros a mais"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Calibração de redes neurais modernas (Guo et al.)",
+        "year": "2017",
+        "summary": "Redes modernas de visão computacional tinham acurácia maior, mas confiança sistematicamente acima da taxa de acerto; um único parâmetro de temperatura ajustado em dados de validação reduziu muito o erro de calibração.",
+        "refIds": [
+          "guo-2017"
+        ]
+      },
+      {
+        "title": "LLMs: calibrados no pré-treino, menos depois (Kadavath et al.; GPT-4)",
+        "year": "2022–2023",
+        "summary": "Kadavath et al. relataram boa calibração de modelos grandes em múltipla escolha no formato certo, com generalização limitada entre tarefas. No relatório do GPT-4, o modelo pré-treinado era bem calibrado em um subconjunto do MMLU, e o pós-treino \"prejudicou significativamente\" a calibração.",
+        "refIds": [
+          "kadavath-2022",
+          "openai-2023-gpt4"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Existe gráfico ou medida de calibração, e em quais dados?",
+      "O formato de uso (pergunta aberta, conversa) é o mesmo em que a calibração foi medida?",
+      "O modelo passou por ajustes depois do pré-treino que possam ter alterado a calibração?",
+      "A decisão depende do valor exato da probabilidade ou só da ordem entre casos?"
+    ],
+    "conceptIds": [
+      "calibracao",
+      "scoring-rules",
+      "limiar-custo"
+    ],
+    "refIds": [
+      "guo-2017",
+      "kadavath-2022",
+      "openai-2023-gpt4"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "ia-supera-medicos-manchete",
+    "myth": "Estudos já mostraram que a IA diagnostica melhor que médicos.",
+    "reality": "A maioria dos estudos que comparam IA e médicos é retrospectiva, com alto risco de viés e poucos médicos comparados; ensaios randomizados são raros.",
+    "category": "comunicacao",
+    "whyItHappens": "A manchete compara duas acurácias em um mesmo conjunto de imagens, o que parece um confronto justo. Mas a tarefa costuma ser artificial (sem histórico do paciente, sem exames anteriores), os médicos comparados são poucos, os dados vêm de uma única fonte e não se mede o que importa: se o uso da IA melhora o desfecho dos pacientes. Resumos e comunicados à imprensa tendem a enfatizar \"comparável ou superior\".",
+    "explanation": [
+      "Nagendran et al. revisaram no BMJ estudos de 2010 a junho de 2019 que compararam algoritmos de aprendizado profundo em imagem médica com especialistas. Encontraram apenas 10 registros de ensaios randomizados, dois publicados e oito em andamento.",
+      "Dos 81 estudos não randomizados, só 9 eram prospectivos e 6 foram testados em ambiente clínico real. A mediana de especialistas no grupo de comparação era 4. O risco de viés era alto em 58, e 61 afirmavam no resumo que a IA era ao menos comparável aos clínicos.",
+      "Um bom desempenho em imagens retrospectivas é um primeiro passo. Para dizer que a IA é melhor na prática, é preciso estudo prospectivo, em ambiente real, com desfechos clínicos e, idealmente, randomização."
+    ],
+    "worked": [
+      {
+        "text": "Estudos que alegaram IA comparável ou superior.",
+        "math": "61 / 81 ≈ 75,3%"
+      },
+      {
+        "text": "Estudos com alto risco de viés.",
+        "math": "58 / 81 ≈ 71,6%"
+      },
+      {
+        "text": "Estudos prospectivos.",
+        "math": "9 / 81 ≈ 11,1%"
+      },
+      {
+        "text": "Estudos testados em ambiente clínico real.",
+        "math": "6 / 81 ≈ 7,4%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "IA versus clínicos: revisão sistemática (Nagendran et al.)",
+        "year": "2020",
+        "summary": "De 81 estudos não randomizados, 9 eram prospectivos, 6 testados em ambiente clínico real e 58 tinham alto risco de viés; 61 alegaram desempenho comparável ou superior ao de clínicos, e só 31 (38%) disseram que eram necessários estudos prospectivos ou ensaios. Dados e código estavam indisponíveis em 95% e 93% dos estudos.",
+        "refIds": [
+          "nagendran-2020"
+        ]
+      }
+    ],
+    "howToRead": [
+      "O estudo é retrospectivo ou prospectivo? Houve randomização?",
+      "Quantos médicos foram comparados, e em que condições (com ou sem informação clínica)?",
+      "A avaliação foi feita em dados externos ao desenvolvimento?",
+      "Mediu-se desfecho para o paciente ou só acurácia diagnóstica?",
+      "A manchete corresponde ao que o artigo conclui, inclusive às limitações?"
+    ],
+    "conceptIds": [
+      "comparacao-estatistica",
+      "benchmarks",
+      "vies-espectro"
+    ],
+    "refIds": [
+      "nagendran-2020"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "amostra-grande-compensa-vies",
+    "myth": "Com milhões de respostas, a amostra é tão grande que o viés deixa de importar.",
+    "reality": "O tamanho reduz o erro aleatório, mas não corrige o viés de seleção; uma amostra enorme e enviesada erra com enorme confiança.",
+    "category": "inferencia",
+    "whyItHappens": "A intuição da lei dos grandes números é aplicada fora do seu pressuposto: ela garante convergência para a média da população efetivamente amostrada, não da população de interesse. Quando quem responde difere sistematicamente de quem não responde, mais dados só estreitam o intervalo em torno do valor errado.\n\nDashboards de big data reforçam o erro, porque mostram volume (milhões de linhas) e margens de erro minúsculas calculadas como se a coleta fosse aleatória.",
+    "explanation": [
+      "O erro total de uma estimativa tem duas partes: variância (cai com n) e viés (não depende de n). Com n grande a variância some e sobra apenas o viés, agora escondido atrás de um intervalo de confiança estreitíssimo.",
+      "Meng (2018) formalizou isso com a correlação de defeito dos dados: a correlação entre 'entrar na amostra' e o valor medido. Mesmo uma correlação pequena, combinada com uma população grande, destrói a vantagem do volume.",
+      "A pergunta certa não é 'quantos responderam?', e sim 'como foram escolhidos e quem ficou de fora?'. Uma amostra aleatória pequena com boa cobertura costuma vencer um quase-censo autosselecionado."
+    ],
+    "worked": [
+      {
+        "text": "Meng (2018): com correlação de defeito de cerca de −0,005 e 1% dos eleitores (cerca de 2,3 milhões) na amostra, o tamanho efetivo equivalente a uma amostra aleatória simples é aproximadamente:",
+        "math": "n_ef ≈ (f/(1−f)) · 1/ρ² = (0,01/0,99) · 1/0,005² ≈ 404"
+      },
+      {
+        "text": "Ou seja, milhões de respostas valem, em erro quadrático médio, cerca de 400 entrevistas sorteadas.",
+        "math": "2.310.000 → ≈ 400"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Literary Digest e a eleição americana de 1936",
+        "year": "1936",
+        "summary": "A revista enviou cédulas para cerca de 10 milhões de nomes tirados sobretudo de listas de telefone e de donos de automóveis e recebeu cerca de 2,4 milhões de volta, prevendo Landon com 57%. Roosevelt venceu com folga, com cerca de 61% do voto popular e 523 votos no colégio eleitoral contra 8. Gallup, com amostra de cerca de 50 mil pessoas, apontou a vitória de Roosevelt.",
+        "refIds": [
+          "squire-1988"
+        ]
+      },
+      {
+        "title": "Pesquisas eleitorais de 2016 nos EUA e o 'paradoxo do big data'",
+        "year": "2016 / 2018",
+        "summary": "Com dados do Cooperative Congressional Election Study, Meng estimou correlação de defeito de cerca de −0,005 para a intenção declarada de votar em Trump. Com isso, uma amostra de cerca de 2,3 milhões de pessoas (1% dos eleitores) teria o mesmo erro quadrático médio de uma amostra aleatória simples de cerca de 400.",
+        "refIds": [
+          "meng-2018"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Como os participantes entraram na amostra: houve sorteio ou autosseleção?",
+      "Quem tem menos chance de aparecer nos dados (sem telefone, sem app, sem conta)?",
+      "A margem de erro divulgada considera só variação aleatória?",
+      "Há comparação com uma fonte independente e representativa?"
+    ],
+    "conceptIds": [
+      "vies-selecao",
+      "lei-grandes-numeros",
+      "distribuicao-amostral",
+      "vies-variancia-estimador",
+      "intervalo-confianca"
+    ],
+    "refIds": [
+      "squire-1988",
+      "meng-2018"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "correlacao-implica-causalidade",
+    "myth": "Se duas coisas andam juntas nos dados, uma causa a outra.",
+    "reality": "Correlação pode vir de confundimento, causalidade reversa, seleção ou acaso; só um desenho que isole a causa permite concluir efeito.",
+    "category": "inferencia",
+    "whyItHappens": "O cérebro busca histórias causais, e uma associação com explicação plausível parece prova. Estudos observacionais grandes, bem feitos e repetidos reforçam a sensação, embora possam repetir o mesmo confundidor.\n\nNa mídia, 'associado a' vira 'causa' no título.",
+    "explanation": [
+      "Em estudos observacionais as pessoas escolhem (ou recebem por motivos não aleatórios) a exposição. Quem usa um tratamento pode ser mais rico, mais saudável ou mais atento à saúde, e esses fatores afetam o desfecho por conta própria.",
+      "O ensaio randomizado quebra essa ligação: o sorteio torna os grupos comparáveis, em média, em fatores medidos e não medidos.",
+      "Quando não dá para randomizar, é preciso explicitar a estrutura causal (por exemplo, com DAGs), ajustar pelos confundidores certos e discutir o que pode ter ficado de fora."
+    ],
+    "cases": [
+      {
+        "title": "Terapia hormonal na menopausa: observação versus o ensaio WHI",
+        "year": "2002",
+        "summary": "Décadas de estudos observacionais sugeriam benefício cardiovascular da terapia hormonal, e o próprio artigo do WHI registra que o balanço de riscos e benefícios seguia incerto. O ensaio randomizado Women's Health Initiative, com 16.608 mulheres de 50 a 79 anos, foi interrompido após média de 5,2 anos: estrogênio mais progestina teve razão de risco de 1,29 para doença coronariana, 1,41 para AVC, 2,13 para embolia pulmonar e 1,26 para câncer de mama invasivo.",
+        "refIds": [
+          "rossouw-2002"
+        ]
+      },
+      {
+        "title": "Chocolate e prêmios Nobel",
+        "year": "2012",
+        "summary": "Em nota no New England Journal of Medicine, Messerli mostrou forte correlação entre consumo de chocolate per capita e número de laureados com Nobel por país. O texto virou exemplo didático de correlação entre agregados sem base para conclusão causal: riqueza e investimento em pesquisa, entre outros fatores, variam junto.",
+        "refIds": [
+          "messerli-2012"
+        ]
+      }
+    ],
+    "howToRead": [
+      "A exposição foi sorteada ou escolhida?",
+      "Que fatores poderiam causar tanto a exposição quanto o desfecho?",
+      "A direção poderia ser inversa?",
+      "Há ensaio randomizado ou experimento natural sobre a mesma pergunta?"
+    ],
+    "conceptIds": [
+      "correlacao-causalidade",
+      "confundimento",
+      "ensaio-randomizado",
+      "dags-causais"
+    ],
+    "refIds": [
+      "rossouw-2002",
+      "messerli-2012"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "olhar-so-sobreviventes",
+    "myth": "Para saber o que funciona, basta estudar quem deu certo.",
+    "reality": "Quem sobreviveu ao filtro não representa quem passou por ele; os casos que sumiram carregam justamente a informação que falta.",
+    "category": "inferencia",
+    "whyItHappens": "Os fracassos desaparecem dos registros: aviões abatidos não voltam, fundos ruins são fechados, empresas falidas não dão entrevista. O que resta é visível e parece a população inteira.\n\nO filtro costuma estar ligado ao próprio desfecho, o que torna o viés sistemático e não aleatório.",
+    "explanation": [
+      "Viés de sobrevivência é um caso de viés de seleção em que a seleção depende do resultado. Médias calculadas só nos sobreviventes superestimam o desempenho.",
+      "A correção exige reconstruir o grupo inicial, incluindo os que saíram, e analisar desde o ponto de partida.",
+      "Em ML, o mesmo ocorre ao treinar só com clientes que permaneceram, pacientes que completaram o acompanhamento ou casos que passaram por uma triagem anterior."
+    ],
+    "cases": [
+      {
+        "title": "Abraham Wald e a proteção de aviões",
+        "year": "1943 / 1984",
+        "summary": "No Statistical Research Group da Universidade Columbia, durante a Segunda Guerra, Wald analisou a vulnerabilidade de aviões a partir dos danos nos que retornavam de missões. Mangel e Samaniego (1984) reconstituíram o trabalho: áreas com poucos impactos nos aviões que voltaram sugerem onde um impacto tende a derrubar o avião, e portanto onde a proteção mais importa.",
+        "refIds": [
+          "mangel-samaniego-1984"
+        ]
+      },
+      {
+        "title": "Fundos de investimento que desaparecem",
+        "year": "1996",
+        "summary": "Elton, Gruber e Blake acompanharam todos os fundos existentes no fim de 1976, calculando retornos mesmo quando um fundo era incorporado a outro. Mostraram que fundos tendem a desaparecer por mau desempenho, de modo que bases só com sobreviventes superestimam o desempenho médio.",
+        "refIds": [
+          "elton-gruber-blake-1996"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Quem estava no grupo no início e quem saiu até o momento da análise?",
+      "A saída tem relação com o resultado medido?",
+      "A base inclui casos encerrados, falidos, excluídos ou perdidos no acompanhamento?"
+    ],
+    "conceptIds": [
+      "vies-sobrevivencia",
+      "vies-selecao"
+    ],
+    "refIds": [
+      "mangel-samaniego-1984",
+      "elton-gruber-blake-1996"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "berkson-dados-hospitalares",
+    "myth": "Se duas doenças aparecem associadas nos pacientes do hospital, elas estão associadas na população.",
+    "reality": "Selecionar pessoas por um critério que depende das duas condições (como ser internado) pode criar associações que não existem fora do hospital.",
+    "category": "inferencia",
+    "whyItHappens": "Dados hospitalares são baratos e abundantes, e parecem uma amostra de 'pessoas doentes'. Mas quem tem duas condições tem mais chance de ser internado, então o próprio filtro de entrada fabrica a associação.\n\nO mesmo mecanismo (condicionar num efeito comum, o 'colisor') aparece em bases de candidatos aprovados, usuários ativos ou casos encaminhados a especialistas.",
+    "explanation": [
+      "Berkson (1946) mostrou que, com taxas de admissão diferentes para cada condição, tabelas 2×2 montadas com dados de hospital podem exibir associação espúria.",
+      "Em termos de grafos causais, a internação é um colisor: ambas as doenças levam a ela. Condicionar num colisor abre um caminho não causal entre as causas.",
+      "A saída é amostrar da população de origem ou, ao menos, modelar explicitamente a probabilidade de seleção."
+    ],
+    "cases": [
+      {
+        "title": "Doença respiratória e doença locomotora (Roberts, Spitzer, Delmore e Sackett)",
+        "year": "1978 / 1979",
+        "summary": "Em entrevistas com amostras da população geral, as duas doenças praticamente não estavam associadas (razão de chances de cerca de 1,06). Entre os entrevistados internados nos seis meses anteriores, a razão de chances foi de cerca de 4,06. Sackett (1979) usou o exemplo em seu catálogo de vieses.",
+        "refIds": [
+          "roberts-1978",
+          "sackett-1979",
+          "berkson-1946"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Como as pessoas entraram na base (internação, encaminhamento, aprovação)?",
+      "As duas variáveis estudadas afetam a chance de entrar?",
+      "O resultado se mantém numa amostra da população geral?"
+    ],
+    "conceptIds": [
+      "vies-selecao",
+      "dags-causais",
+      "correlacao-causalidade"
+    ],
+    "refIds": [
+      "berkson-1946",
+      "roberts-1978",
+      "sackett-1979"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "falacia-ecologica",
+    "myth": "O que vale para regiões ou grupos vale para os indivíduos que os compõem.",
+    "reality": "Correlações entre médias de grupos podem ter tamanho e até sinal diferentes da correlação entre indivíduos.",
+    "category": "inferencia",
+    "whyItHappens": "Dados agregados (por estado, país, escola) são os mais disponíveis, e é natural ler um mapa ou um gráfico de dispersão de regiões como se cada ponto fosse uma pessoa.\n\nFatores que variam entre regiões, como para onde as pessoas migram, entram na correlação agregada sem aparecer no nível individual.",
+    "explanation": [
+      "A correlação ecológica mede como médias de grupos variam juntas. Ela mistura a relação dentro dos grupos com diferenças de composição e de contexto entre os grupos.",
+      "Por isso uma relação positiva entre indivíduos pode virar negativa entre regiões, e vice-versa. É parente do paradoxo de Simpson.",
+      "Para afirmar algo sobre pessoas, use dados individuais ou modelos multinível que separem efeitos dentro e entre grupos."
+    ],
+    "cases": [
+      {
+        "title": "Imigração e analfabetismo no censo americano de 1930 (Robinson)",
+        "year": "1950",
+        "summary": "Com dados do censo de 1930, Robinson mostrou que a correlação individual entre ter nascido no exterior e ser analfabeto era positiva (0,118), enquanto a correlação entre estados das proporções correspondentes era negativa (−0,526). Imigrantes tendiam a viver em estados com maior alfabetização geral.",
+        "refIds": [
+          "robinson-1950",
+          "subramanian-2009"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Os dados são de pessoas ou de médias de grupos?",
+      "A conclusão é sobre pessoas ou sobre regiões?",
+      "Onde as pessoas vivem pode estar ligado às duas variáveis?"
+    ],
+    "conceptIds": [
+      "simpson",
+      "confundimento",
+      "correlacao-causalidade"
+    ],
+    "refIds": [
+      "robinson-1950",
+      "subramanian-2009"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "media-representa-tipico",
+    "myth": "A renda média mostra quanto ganha uma família típica.",
+    "reality": "Em distribuições assimétricas, poucos valores muito altos puxam a média para cima; a mediana descreve melhor o caso típico.",
+    "category": "comunicacao",
+    "whyItHappens": "'Média' é usada na fala comum como sinônimo de 'normal' ou 'típico'. Em distribuições simétricas, como alturas, a diferença é pequena, e a intuição é levada para renda, preço de imóveis, tempo de espera ou custo de sinistros, que têm cauda longa.",
+    "explanation": [
+      "A média é sensível a valores extremos; a mediana é o valor que divide a população ao meio.",
+      "Quando a média fica bem acima da mediana, a maioria das unidades está abaixo da média.",
+      "Relatar média, mediana e percentis comunica tamanho e forma da distribuição. Em ML vale o mesmo para latência, erro absoluto e custo: a média esconde a cauda, e a mediana esconde o total."
+    ],
+    "worked": [
+      {
+        "text": "EUA, 2023 (Census Bureau): renda domiciliar mediana de US$ 80.610 e média de US$ 114.500.",
+        "math": "114.500 / 80.610 ≈ 1,42; diferença ≈ US$ 33.890"
+      },
+      {
+        "text": "No mesmo relatório, o limite do 60º percentil é US$ 101.000 e o do 70º é US$ 127.300; logo, mais de 60% dos domicílios ganham menos que a média.",
+        "math": "P60 = 101.000 < 114.500 < 127.300 = P70"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Renda domiciliar nos Estados Unidos em 2023",
+        "year": "2024",
+        "summary": "O relatório oficial Income in the United States: 2023 (P60-282) traz renda domiciliar mediana de US$ 80.610 e média de US$ 114.500, com índice de Gini de 0,485. A média fica entre os percentis 60 e 70 da distribuição.",
+        "refIds": [
+          "census-p60-282"
+        ]
+      }
+    ],
+    "howToRead": [
+      "O número é média ou mediana?",
+      "A distribuição tem cauda longa (renda, preço, tempo, custo)?",
+      "Há percentis ou histograma disponíveis?",
+      "A média é puxada por poucos casos extremos?"
+    ],
+    "conceptIds": [
+      "esperanca-variancia"
+    ],
+    "refIds": [
+      "census-p60-282"
+    ],
+    "severity": "media"
+  },
+  {
+    "id": "extremos-amostras-pequenas",
+    "myth": "As escolas (cidades, hospitais) com os melhores resultados revelam o que funciona.",
+    "reality": "Unidades pequenas têm médias mais instáveis e por isso aparecem com mais frequência tanto no topo quanto na base dos rankings.",
+    "category": "probabilidade",
+    "whyItHappens": "Rankings mostram só o valor, não o tamanho da amostra. Olhamos o topo, buscamos uma característica comum (ser pequeno, ser rural) e construímos uma explicação, sem verificar se a mesma característica domina também o fim da lista.\n\nTversky e Kahneman chamaram a confiança excessiva em amostras pequenas de 'lei dos pequenos números'.",
+    "explanation": [
+      "O erro-padrão da média é σ/√n: com 25 alunos a média oscila quatro vezes mais que com 400.",
+      "Mesmo que todas as unidades tivessem a mesma qualidade real, as menores dominariam os extremos, só por variação amostral.",
+      "Correções: mostrar intervalos, usar gráficos de funil (valor versus tamanho) ou estimadores com encolhimento que puxam unidades pequenas para a média geral."
+    ],
+    "worked": [
+      {
+        "text": "Com desvio-padrão individual de 100 pontos, o erro-padrão da média para uma escola com 25 alunos e para uma com 400 alunos é:",
+        "math": "100/√25 = 20; 100/√400 = 5; razão 4"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Iniciativa das escolas pequenas (Gates Foundation e outras)",
+        "year": "anos 1990–2000 / 2007",
+        "summary": "Fundações e governos investiram grandes somas na divisão de escolas grandes, motivados pela presença de escolas pequenas entre as de melhor desempenho. Wainer mostrou, com notas de matemática de 1.662 escolas da Pensilvânia, que 12% das 50 melhores estavam entre as 3% menores, mas que as escolas pequenas também eram super-representadas entre as piores.",
+        "refIds": [
+          "wainer-2007"
+        ]
+      },
+      {
+        "title": "Mapas de câncer de rim por condado",
+        "year": "1999",
+        "summary": "Gelman e Price mostraram que, em mapas de taxas por condado nos EUA, tanto as maiores quanto as menores taxas observadas de câncer de rim tendem a aparecer em condados pouco populosos, efeito da variação amostral e não de causas locais.",
+        "refIds": [
+          "gelman-price-1999"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Qual o tamanho da amostra de cada unidade no ranking?",
+      "As unidades pequenas também aparecem no fim da lista?",
+      "Há intervalo de confiança ou gráfico de funil?"
+    ],
+    "conceptIds": [
+      "distribuicao-amostral",
+      "lei-grandes-numeros",
+      "regressao-media",
+      "esperanca-variancia"
+    ],
+    "refIds": [
+      "wainer-2007",
+      "gelman-price-1999",
+      "tversky-kahneman-1974"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "estudo-significativo-confirmado",
+    "myth": "Um estudo publicado com resultado significativo é uma descoberta confirmada.",
+    "reality": "Um único resultado significativo pode ser falso positivo ou ter efeito inflado; replicações independentes frequentemente encontram efeitos menores ou nulos.",
+    "category": "inferencia",
+    "whyItHappens": "Publicação funciona como selo de verdade, e p < 0,05 é lido como prova. Mas periódicos e autores favorecem resultados positivos e surpreendentes, estudos originais costumam ter pouco poder, e há flexibilidade na análise.\n\nFiltrar por significância com baixo poder infla sistematicamente o tamanho de efeito publicado.",
+    "explanation": [
+      "A probabilidade de um achado significativo ser verdadeiro depende do poder, do nível de significância e de quão plausível era a hipótese antes do estudo.",
+      "Quando só resultados que cruzaram o limiar são publicados, os efeitos que sobrevivem ao filtro tendem a estar superestimados (maldição do vencedor).",
+      "Confiança vem de replicação independente, pré-registro, tamanho de efeito com intervalo e meta-análises que considerem viés de publicação."
+    ],
+    "worked": [
+      {
+        "text": "Open Science Collaboration (2015): 97% dos estudos originais eram significativos; 36% das replicações foram.",
+        "math": "97% → 36%"
+      },
+      {
+        "text": "Camerer et al. (2018): 13 de 21 experimentos de Nature e Science replicaram com efeito significativo na mesma direção.",
+        "math": "13/21 ≈ 62%"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Reprodutibilidade da psicologia (Open Science Collaboration)",
+        "year": "2015",
+        "summary": "Replicações de 100 estudos de três periódicos de psicologia, com desenhos de alto poder e materiais originais quando disponíveis. 97% dos originais tinham resultado significativo, contra 36% das replicações; os efeitos das replicações tiveram cerca de metade da magnitude original.",
+        "refIds": [
+          "osc-2015"
+        ]
+      },
+      {
+        "title": "Experimentos de ciências sociais em Nature e Science",
+        "year": "2018",
+        "summary": "Camerer e colegas replicaram 21 experimentos publicados entre 2010 e 2015, com amostras em média cerca de cinco vezes maiores. 13 (62%) tiveram efeito significativo na mesma direção, e o tamanho de efeito das replicações foi, em média, cerca de 50% do original.",
+        "refIds": [
+          "camerer-2018"
+        ]
+      }
+    ],
+    "howToRead": [
+      "O resultado já foi replicado por outro grupo?",
+      "O estudo foi pré-registrado?",
+      "Qual o tamanho da amostra e o poder estatístico?",
+      "O tamanho do efeito é plausível ou grande demais para o tema?"
+    ],
+    "conceptIds": [
+      "p-valor",
+      "poder-amostra",
+      "multiplas-comparacoes",
+      "tamanho-efeito"
+    ],
+    "refIds": [
+      "osc-2015",
+      "camerer-2018",
+      "ioannidis-2005"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "metrica-teste-pequeno-exata",
+    "myth": "O modelo teve 80% de acurácia no conjunto de teste, então sua acurácia é 80%.",
+    "reality": "A métrica num conjunto de teste é uma estimativa com erro amostral; com 100 exemplos, o intervalo de 95% vai de cerca de 71% a 87%.",
+    "category": "ia-dados",
+    "whyItHappens": "Métricas saem do código como um número com várias casas decimais, o que passa impressão de precisão. Em áreas com dados caros (imagem médica, neuroimagem), conjuntos de teste pequenos são comuns, e o erro-padrão entre folds da validação cruzada ainda subestima a incerteza real.",
+    "explanation": [
+      "Acurácia é uma proporção: cada exemplo é acerto ou erro, e o número de acertos segue aproximadamente uma binomial. A largura do intervalo cai com √n.",
+      "Com n = 100, diferenças de poucos pontos percentuais entre modelos ficam dentro do ruído. Com n = 10.000, o intervalo encolhe para menos de ±1 ponto.",
+      "Relate um intervalo (Wilson, bootstrap) junto com a métrica e, ao comparar modelos no mesmo teste, use testes pareados como o de McNemar."
+    ],
+    "worked": [
+      {
+        "text": "Intervalo de Wilson de 95% para 80% de acurácia com n = 100:",
+        "math": "≈ [0,711; 0,867]"
+      },
+      {
+        "text": "Aproximação normal, meia-largura 1,96·√(0,8·0,2/n):",
+        "math": "n = 100: ±0,078; n = 1.000: ±0,025; n = 10.000: ±0,008"
+      },
+      {
+        "text": "Intervalo de Wilson com n = 10.000:",
+        "math": "≈ [0,792; 0,808]"
+      }
+    ],
+    "cases": [
+      {
+        "title": "Barras de erro da validação cruzada em neuroimagem (Varoquaux)",
+        "year": "2018",
+        "summary": "Varoquaux mostrou com experimentos simples que os tamanhos amostrais de muitos estudos de neuroimagem levam a barras de erro grandes na acurácia de predição, por exemplo de cerca de ±10% com 100 amostras, e que o erro-padrão entre folds subestima fortemente essa incerteza.",
+        "refIds": [
+          "varoquaux-2018"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Quantos exemplos há no conjunto de teste (e na classe minoritária)?",
+      "A métrica vem com intervalo de confiança?",
+      "A diferença entre modelos é maior que a largura do intervalo?",
+      "A comparação usou um teste pareado?"
+    ],
+    "conceptIds": [
+      "intervalo-confianca",
+      "binomial",
+      "distribuicao-amostral",
+      "bootstrap",
+      "mcnemar-qui-quadrado",
+      "acuracia",
+      "validacao-cruzada"
+    ],
+    "refIds": [
+      "varoquaux-2018",
+      "wilson-1927",
+      "dietterich-1998"
+    ],
+    "severity": "alta"
+  },
+  {
+    "id": "curvas-diferentes-modelos-diferentes",
+    "myth": "Se a curva ou a métrica do meu método ficou acima da do baseline, meu método é melhor.",
+    "reality": "Só a semente aleatória, a partição dos dados ou os hiperparâmetros já mudam o resultado; sem várias execuções, a diferença pode ser ruído.",
+    "category": "ia-dados",
+    "whyItHappens": "Treinar é caro, então cada configuração roda uma vez. A variação entre execuções fica invisível, e a comparação de duas execuções isoladas parece um experimento controlado.\n\nHá também seleção: tenta-se até o método novo 'ganhar', enquanto o baseline recebe menos ajuste.",
+    "explanation": [
+      "Fontes de variância incluem inicialização dos pesos, ordem dos dados, aumento de dados, partição treino/teste, escolha de hiperparâmetros e não determinismo do ambiente e do hardware.",
+      "A comparação correta trata o desempenho como variável aleatória: várias sementes e partições, média com intervalo, e um teste ou estimativa da probabilidade de um método superar o outro.",
+      "Dar aos dois métodos o mesmo orçamento de busca de hiperparâmetros é parte de uma comparação justa."
+    ],
+    "cases": [
+      {
+        "title": "Deep Reinforcement Learning That Matters (Henderson et al.)",
+        "year": "2018",
+        "summary": "Henderson e colegas mostraram que o não determinismo dos ambientes de benchmark e a variância intrínseca dos métodos tornam resultados de RL profundo difíceis de interpretar; por exemplo, conjuntos diferentes de sementes aleatórias do mesmo algoritmo podem gerar curvas médias que parecem de algoritmos distintos. Propuseram diretrizes de relato e testes de significância.",
+        "refIds": [
+          "henderson-2018"
+        ]
+      },
+      {
+        "title": "Variância em benchmarks de ML (Bouthillier et al.)",
+        "year": "2021",
+        "summary": "Modelando todo o processo de benchmark, os autores mostraram que variância de amostragem dos dados, inicialização e escolha de hiperparâmetros afeta de forma marcante os resultados, e que randomizar mais fontes de variação aproxima melhor o estimador ideal com custo computacional 51 vezes menor. Estudaram a taxa de erro na detecção de melhorias em cinco tarefas de deep learning.",
+        "refIds": [
+          "bouthillier-2021"
+        ]
+      }
+    ],
+    "howToRead": [
+      "Quantas sementes e partições foram usadas?",
+      "Há média com intervalo ou só um número?",
+      "O baseline teve o mesmo orçamento de ajuste?",
+      "A diferença supera a variação entre execuções do mesmo método?"
+    ],
+    "conceptIds": [
+      "comparacao-estatistica",
+      "variavel-aleatoria",
+      "teste-permutacao",
+      "bootstrap",
+      "benchmarks"
+    ],
+    "refIds": [
+      "henderson-2018",
+      "bouthillier-2021",
+      "dietterich-1998",
+      "demsar-2006"
+    ],
+    "severity": "alta"
+  }
+]

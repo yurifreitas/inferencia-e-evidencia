@@ -1,0 +1,19 @@
+.panel { display: grid; gap: var(--space-6); }
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); font-size: var(--text-xs); color: var(--text-muted); }
+.legendMain { width: 16px; height: 6px; border-radius: 3px; background: var(--brand); }
+.legendCompare { width: 2px; height: 14px; background: var(--text); margin-left: var(--space-4); }
+.group { display: grid; gap: var(--space-2); }
+.groupTitle { font: 500 var(--text-xs) var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); }
+.table { width: 100%; border-collapse: collapse; }
+.table tr { border-top: 1px solid var(--border); }
+.name { text-align: left; font-weight: 400; padding: var(--space-2) var(--space-3) var(--space-2) 0; display: grid; gap: 0; }
+.name a { font-size: var(--text-sm); font-weight: 500; text-decoration: none; }
+.name a:hover { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
+.name code { font: 400 11px var(--font-mono); color: var(--text-muted); }
+.barCell { width: 38%; padding-inline: var(--space-2); }
+.track { position: relative; height: 8px; border-radius: 4px; background: var(--surface-2); }
+.signed::after { content: ""; position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1px; background: var(--border-strong); }
+.bar { position: absolute; top: 0; bottom: 0; border-radius: 4px; background: var(--brand); transition: left 120ms var(--ease), width 120ms var(--ease); }
+.marker { position: absolute; top: -4px; bottom: -4px; width: 2px; margin-left: -1px; background: var(--text); border-radius: 1px; }
+.value { text-align: right; font: 600 var(--text-sm) var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; padding-left: var(--space-2); }
+.compareValue { display: block; font-weight: 400; font-size: var(--text-xs); color: var(--text-muted); }

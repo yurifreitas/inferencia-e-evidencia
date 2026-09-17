@@ -1,0 +1,2088 @@
+[
+  {
+    "id": "osso-ishango",
+    "year": -20000,
+    "yearLabel": "c. 20.000 a.C. (datação debatida)",
+    "region": "africa",
+    "place": "Ishango, Semliki (atual RD Congo)",
+    "title": "Osso de Ishango: marcas agrupadas",
+    "summary": "Fíbula de babuíno com entalhes agrupados em três colunas, escavada em 1950 por Jean de Heinzelin e guardada no Instituto Real Belga de Ciências Naturais (Bruxelas). Alguns grupos parecem obedecer a padrões (dobros, números próximos a primos), o que levou a leituras aritméticas ou calendáricas.",
+    "connection": "Serve apenas como ancestral remoto da ideia de registrar contagens de forma sistemática, pré-requisito de qualquer tabulação de acertos e erros. Não há evidência de avaliação ou classificação.",
+    "conceptIds": [
+      "matriz-confusao"
+    ],
+    "certainty": "especulativo",
+    "caution": "A função das marcas é desconhecida; leituras matemáticas, lunares ou de base 12 são hipóteses contestadas, e a própria datação variou entre ~20 e ~25 mil anos.",
+    "refIds": [
+      "rbins-ishango",
+      "zaslavsky-1973"
+    ]
+  },
+  {
+    "id": "extispicina-paleobabilonica",
+    "year": -1800,
+    "yearLabel": "c. 1900–1600 a.C.",
+    "region": "oriente-proximo",
+    "place": "Mesopotâmia (período paleobabilônico)",
+    "title": "Presságios de extispicina em forma condicional",
+    "summary": "Adivinhos (bārû) examinavam o fígado de ovelhas sacrificadas; coleções paleobabilônicas registram presságios no formato 'se (šumma) o fígado tem o sinal P, então ocorrerá Q', e modelos de fígado em argila serviam ao ensino. Os sinais eram codificados por posição, forma e lado, com o lado direito em geral associado ao consulente (favorável) e o esquerdo ao inimigo.",
+    "connection": "A estrutura 'se P então Q' com sinais discretos é um classificador baseado em regras, com rótulos favorável/desfavorável; prefigura regras de decisão, não sua avaliação estatística.",
+    "conceptIds": [
+      "limiar-custo",
+      "matriz-confusao"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "rochberg-2004",
+      "koch-westenholz-1995"
+    ]
+  },
+  {
+    "id": "ordalio-hamurabi",
+    "year": -1754,
+    "yearLabel": "c. 1754 a.C.",
+    "region": "oriente-proximo",
+    "place": "Babilônia",
+    "title": "Código de Hamurabi: o rio como juiz",
+    "summary": "O §2 do Código determina que o acusado de feitiçaria sem prova mergulhe no rio: se afundar, o acusador fica com sua casa; se sair ileso, o acusador é morto e perde a casa. As leis §§1 e 3–4 punem acusações não provadas e falso testemunho.",
+    "connection": "Mostra uma 'referência' externa invocada quando a evidência humana é insuficiente, e a punição de testemunhas falsas antecipa a preocupação com fontes de rótulo não confiáveis. É analogia, não método estatístico.",
+    "conceptIds": [
+      "gold-standard",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "interpretacao",
+    "refIds": [
+      "avalon-hammurabi"
+    ]
+  },
+  {
+    "id": "papiro-edwin-smith",
+    "year": -1600,
+    "yearLabel": "c. 1600 a.C. (cópia de original mais antigo)",
+    "region": "africa",
+    "place": "Egito (Tebas)",
+    "title": "Papiro Edwin Smith: exame, diagnóstico e veredito",
+    "summary": "Tratado cirúrgico com 48 casos ordenados da cabeça para baixo. Cada caso segue título, exame, diagnóstico e um veredito em três classes: 'uma doença que tratarei', 'uma doença com a qual lutarei' e 'uma doença que não será tratada'. Glosas explicam termos arcaicos, indicando cópia de um original mais antigo.",
+    "connection": "O veredito ternário é uma classificação prognóstica explícita a partir de sinais observados, ligada a uma decisão de ação: ancestral de classificadores com limiar e custo de decisão. Não há registro de desfechos para verificar os vereditos.",
+    "conceptIds": [
+      "limiar-custo",
+      "escolha-metrica"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "breasted-1930",
+      "nunn-1996"
+    ]
+  },
+  {
+    "id": "papiro-ebers",
+    "year": -1550,
+    "yearLabel": "c. 1550 a.C.",
+    "region": "africa",
+    "place": "Egito (Tebas)",
+    "title": "Papiro Ebers: compêndio de sintomas e remédios",
+    "summary": "Rolo de cerca de 20 m com mais de 800 receitas e passagens diagnósticas, hoje na Biblioteca Universitária de Leipzig. Muitas seções usam 'se examinares um homem com... dirás a respeito dele...', ligando sinais a nomes de doença e tratamento.",
+    "connection": "Reforça o padrão condicional sinal → rótulo diagnóstico, base de qualquer sistema de classificação cujo desempenho possa depois ser avaliado.",
+    "conceptIds": [
+      "matriz-confusao"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "ebbell-1937",
+      "nunn-1996"
+    ]
+  },
+  {
+    "id": "teste-gravidez-cevada-trigo",
+    "year": -1275,
+    "yearLabel": "c. 1350–1200 a.C. (Papiro de Berlim 3038)",
+    "region": "africa",
+    "place": "Egito (Saqqara; Império Novo)",
+    "title": "Teste de gravidez com cevada e trigo",
+    "summary": "O Papiro médico de Berlim 3038 (XIX dinastia, achado em Saqqara), com paralelo no Papiro Carlsberg VIII, manda regar cevada e trigo emmer com a urina da mulher: se germinarem, ela dará à luz (cevada = menino, emmer = menina); se nada crescer, não. Em 1963, Ghalioungui, Khalil e Ammar testaram urinas de 40 grávidas e 28 controles (homens e não grávidas): houve germinação em 28 das 40 grávidas (70%) e em nenhum controle. A previsão do sexo acertou no máximo 19 de 40 casos.",
+    "connection": "É uma verdadeira matriz de confusão retrospectiva: nenhum falso positivo nos controles, mas 12 falsos negativos. Os autores concluíram que 'se o grão cresce, a urina é de grávida; o inverso não vale', ou seja, alta especificidade e sensibilidade de ~70%. A avaliação é de 1963, não egípcia.",
+    "conceptIds": [
+      "sensibilidade",
+      "especificidade",
+      "precisao",
+      "gold-standard",
+      "matriz-confusao"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Os números vêm de um experimento pequeno de 1963 (sementes em placa de Petri, não na terra como no papiro); não há registro de que os egípcios medissem a taxa de acerto.",
+    "refIds": [
+      "ghalioungui-1963",
+      "nunn-1996"
+    ]
+  },
+  {
+    "id": "livro-dos-sonhos-chester-beatty",
+    "year": -1275,
+    "yearLabel": "c. 1275 a.C.",
+    "region": "africa",
+    "place": "Egito (Deir el-Medina)",
+    "title": "Livro dos sonhos: presságios bons e maus",
+    "summary": "O Papiro Chester Beatty III (Museu Britânico EA 10683, provavelmente do início do reinado de Ramsés II) lista sonhos no formato 'se um homem se vê em sonho fazendo X', seguido do rótulo 'bom' ou 'mau' e da interpretação; os sonhos bons vêm primeiro, e a palavra 'mau' é escrita em tinta vermelha. Gardiner, que o publicou em 1935, propôs que o texto remonte ao Império Médio.",
+    "connection": "Tabela de classificação binária explícita (favorável/desfavorável) aplicada a observações; prefigura a rotulagem categórica de desfechos, embora sem conferência com o que aconteceu.",
+    "conceptIds": [
+      "matriz-confusao"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "bm-chester-beatty-iii",
+      "nunn-1996"
+    ]
+  },
+  {
+    "id": "sakikku-esagil-kin-apli",
+    "year": -1055,
+    "yearLabel": "c. 1067–1046 a.C.",
+    "region": "oriente-proximo",
+    "place": "Borsipa/Babilônia",
+    "title": "Manual Diagnóstico (Sakikku) de Esagil-kin-apli",
+    "summary": "Sob o rei Adad-apla-iddina, o erudito Esagil-kin-apli organizou a série diagnóstica SA.GIG em 40 tabuletas e seis subséries (cerca de 3.000 entradas segundo o catálogo antigo). A subsérie 2 percorre o corpo da cabeça aos pés; outras tratam dos presságios a caminho do doente, da evolução da doença, de doenças específicas, de mulheres e de crianças. As entradas têm a forma 'se o doente apresenta o sinal P, (diagnóstico/prognóstico) Q', incluindo 'morrerá' ou 'viverá'. Um catálogo com nota editorial atribui a edição a ele.",
+    "connection": "Sistema padronizado e editado de regras diagnósticas e prognósticas com desfechos categóricos (vive/morre): ancestral da ideia de um classificador documentado cujos rótulos poderiam ser confrontados com desfechos.",
+    "conceptIds": [
+      "matriz-confusao",
+      "limiar-custo",
+      "gold-standard"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "heessel-2000",
+      "scurlock-andersen-2005",
+      "geller-2010"
+    ],
+    "caution": "A extensão real da contribuição editorial de Esagil-kin-apli é debatida (Heeßel, Lieberman, Wee); a ordem da cabeça aos pés vale para a subsérie 2, não para a série inteira."
+  },
+  {
+    "id": "enuma-anu-enlil",
+    "year": -1000,
+    "yearLabel": "fim do II milênio – séc. VII a.C.",
+    "region": "oriente-proximo",
+    "place": "Mesopotâmia (Babilônia e Assíria)",
+    "title": "Enūma Anu Enlil: presságios celestes",
+    "summary": "Série canônica de cerca de 70 tabuletas e milhares de presságios sobre Lua, Sol, clima e planetas, no formato 'se ... então ...'. Compilada ao longo do fim do II milênio e bem atestada em cópias neoassírias do século VII a.C. Inclui presságios de fenômenos astronomicamente impossíveis, sugerindo geração esquemática de casos.",
+    "connection": "Um espaço de casos gerado de forma esquemática e mapeado a desfechos, como uma tabela preditiva; não é avaliação, mas é a matéria-prima depois comparada a observações.",
+    "conceptIds": [
+      "matriz-confusao"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A leitura da geração 'teórica/sistemática' de presságios é interpretação de estudiosos (p.ex. Rochberg), não consenso total.",
+    "refIds": [
+      "rochberg-2004",
+      "koch-westenholz-1995"
+    ]
+  },
+  {
+    "id": "consultas-ao-deus-sol",
+    "year": -670,
+    "yearLabel": "c. 680–650 a.C.",
+    "region": "oriente-proximo",
+    "place": "Nínive (Assíria)",
+    "title": "Consultas ao deus-Sol: perguntas de sim ou não",
+    "summary": "Cerca de 350 consultas e relatórios de extispicina de Esarhaddon e Assurbanípal (SAA 4) formulam ao deus Šamaš perguntas de sim/não válidas por um prazo definido (p.ex. se um inimigo atacará ou se um candidato a cargo será leal) e anotam os sinais observados no fígado.",
+    "connection": "Perguntas binárias com horizonte temporal explícito e sinais registrados antecipam a formulação de uma previsão verificável; qualquer leitura como controle de confiabilidade é analogia moderna.",
+    "conceptIds": [
+      "limiar-custo",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Segundo a introdução de Starr (SAA 4, Oracc), algumas consultas registram duas e ocasionalmente três extispicinas; ler isso como verificação de confiabilidade é analogia moderna.",
+    "refIds": [
+      "starr-1990"
+    ]
+  },
+  {
+    "id": "relatorios-astrologos-assirios",
+    "year": -669,
+    "yearLabel": "c. 680–650 a.C.",
+    "region": "oriente-proximo",
+    "place": "Nínive (Assíria)",
+    "title": "Relatórios e cartas dos eruditos assírios",
+    "summary": "Eruditos enviavam a Esarhaddon e Assurbanípal relatórios (SAA 8) que aplicavam presságios de Enūma Anu Enlil a fenômenos observados, e cartas (SAA 10) sobre eclipses esperados. Em uma delas, Bel-ušezib escreve que as nuvens impediram saber se o eclipse ocorreu e sugere pedir observações a Assur, Babilônia, Nippur, Uruk e Borsipa.",
+    "connection": "Aparece a necessidade de verificar uma expectativa contra a observação e de recorrer a múltiplos observadores quando a 'verdade' está oculta: raízes culturais de conferir previsões e de lidar com rótulos ausentes ou ruidosos.",
+    "conceptIds": [
+      "gold-standard",
+      "rotulos-ruidosos",
+      "kappa"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "hunger-1992",
+      "parpola-1993",
+      "archaeology-2020"
+    ]
+  },
+  {
+    "id": "hipocrates-prognostico",
+    "year": -400,
+    "yearLabel": "c. 400 a.C.",
+    "region": "grecia-roma",
+    "place": "Cós, Grécia",
+    "title": "Prognóstico hipocrático",
+    "summary": "O tratado Prognóstico, do Corpus Hippocraticum, ensina o médico a prever a evolução da doença (recuperação ou morte) a partir de sinais observados. O valor do médico é medido por acertar o que depois acontece.",
+    "connection": "Julgar uma previsão pelo desfecho posterior é a forma mais antiga de 'padrão-ouro': o resultado real serve de referência para a predição.",
+    "conceptIds": [
+      "gold-standard",
+      "acuracia"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Autoria e data exatas do tratado são incertas; não há contagem de acertos e erros.",
+    "refIds": [
+      "hipocrates-adams-1849"
+    ]
+  },
+  {
+    "id": "diarios-astronomicos",
+    "year": -360,
+    "yearLabel": "652–61 a.C.",
+    "region": "oriente-proximo",
+    "place": "Babilônia",
+    "title": "Diários astronômicos: seis séculos de registros",
+    "summary": "Escribas da Babilônia registraram noite a noite posições da Lua e dos planetas, clima, nível do Eufrates, preços de mercadorias e eventos políticos, compilados em relatórios mensais e semestrais. As anotações distinguem fenômenos observados de previstos (p.ex. eclipse calculado mas 'não observado' por nuvens).",
+    "connection": "Arquivo de longa duração que permitia confrontar previsões com observações e aprimorar métodos preditivos: ancestral do conjunto de dados de referência e do benchmark histórico.",
+    "conceptIds": [
+      "benchmarks",
+      "gold-standard",
+      "calibracao"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "sachs-hunger-1988",
+      "rochberg-2004"
+    ],
+    "caution": "O diário datado mais antigo é de 652 a.C., mas o diário 'padrão' mais antigo preservado é de 568 a.C. (Haubold, Steele e Stevens 2019); a série é descontínua."
+  },
+  {
+    "id": "aristoteles-categorias",
+    "year": -350,
+    "yearLabel": "c. 350 a.C.",
+    "region": "grecia-roma",
+    "place": "Atenas, Grécia",
+    "title": "Aristóteles: gênero e diferença",
+    "summary": "Nas Categorias, nos Tópicos e em obras biológicas, Aristóteles define espécies por gênero próximo e diferença específica. Também critica a divisão dicotômica rígida na obra Partes dos Animais.",
+    "connection": "Fornece a ideia de classe definida por atributos discriminantes, base conceitual de qualquer esquema de rótulos.",
+    "conceptIds": [
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "refIds": [
+      "aristoteles-categorias"
+    ]
+  },
+  {
+    "id": "mohistas",
+    "year": -300,
+    "yearLabel": "c. séc. III a.C.",
+    "region": "leste-asia",
+    "place": "China",
+    "title": "Cânones moístas: nomes, classes e padrões",
+    "summary": "Os Cânones Moístas discutem como nomes se aplicam a classes (lei 類), a distinção entre \"isto\" e \"não-isto\" e padrões (fa 法) para julgar se algo pertence a uma classe. Os moístas também propõem \"três testes\" para avaliar doutrinas.",
+    "connection": "Usar um padrão explícito para decidir pertencimento a uma classe é o gesto básico da classificação com critério de referência.",
+    "conceptIds": [
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "refIds": [
+      "sep-mohism",
+      "sep-chinese-logic"
+    ]
+  },
+  {
+    "id": "nala-dados",
+    "year": -200,
+    "yearLabel": "c. séc. IV a.C.–séc. IV",
+    "region": "sul-asia",
+    "place": "Índia",
+    "title": "Mahābhārata: Ṛtuparṇa estima folhas por amostragem",
+    "summary": "No episódio de Nala (Vana Parva), o rei Ṛtuparṇa declara quantas folhas e frutos há em dois ramos de uma árvore; Nala, disfarçado de cocheiro, derruba a árvore, conta e confirma. Ṛtuparṇa atribui a habilidade a ser 'proficiente em dados, além de versado em números' e a ensina a Nala. Hacking (1975, cap. 1) usa o trecho para sugerir uma ligação antiga entre jogo, contagem e estimativa.",
+    "connection": "Estimar um total a partir de uma parte e depois checar contra a contagem completa é uma pequena parábola de estimativa verificada contra uma referência.",
+    "conceptIds": [
+      "gold-standard",
+      "acuracia"
+    ],
+    "certainty": "interpretacao",
+    "caution": "A ligação entre dados e amostragem é sugestão de Hacking; a datação do épico é ampla.",
+    "refIds": [
+      "hacking-1975",
+      "ganguli-mahabharata"
+    ]
+  },
+  {
+    "id": "arthashastra-espioes",
+    "year": -150,
+    "yearLabel": "c. séc. II a.C.–séc. III",
+    "region": "sul-asia",
+    "place": "Índia",
+    "title": "Arthaśāstra: confirmar espiões por fontes independentes",
+    "summary": "O Arthaśāstra, atribuído a Kauṭilya, manda que informações de espiões sejam cruzadas entre três fontes independentes. Na tradução de Shamasastry (livro I, cap. 12): quando a informação das três fontes é exatamente a mesma, deve ser tida como confiável; se elas divergem com frequência, os espiões são punidos em segredo ou dispensados.",
+    "connection": "Aceitar um rótulo apenas por concordância de avaliadores independentes é o princípio do voto entre anotadores e das medidas de confiabilidade entre juízes.",
+    "conceptIds": [
+      "kappa",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Texto composto, com datação discutida (Olivelle: núcleo c. séc. I a.C.–séc. III d.C.); a citação segue a tradução de Shamasastry (1915).",
+    "refIds": [
+      "shamasastry-1915",
+      "olivelle-2013"
+    ]
+  },
+  {
+    "id": "nyaya-pramana",
+    "year": 150,
+    "yearLabel": "c. séc. II",
+    "region": "sul-asia",
+    "place": "Índia",
+    "title": "Nyāya-sūtra: os meios válidos de conhecimento",
+    "summary": "Os Nyāya-sūtra, atribuídos a Gautama (Akṣapāda), sistematizam quatro pramāṇa: percepção, inferência (anumāna), comparação e testemunho. A datação é incerta (entre c. séc. II a.C. e séc. II d.C.). O texto discute também quando uma percepção é errônea.",
+    "connection": "Perguntar quais fontes de conhecimento são confiáveis e quando falham é o antecedente filosófico da ideia de uma referência (gold standard) contra a qual julgamentos são avaliados.",
+    "conceptIds": [
+      "gold-standard",
+      "erros-tipo"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Datação do texto é debatida; a analogia com gold standard é nossa.",
+    "refIds": [
+      "sep-logic-india",
+      "iep-nyaya",
+      "ganeri-2001",
+      "matilal-1998"
+    ]
+  },
+  {
+    "id": "nyaya-silogismo",
+    "year": 150,
+    "yearLabel": "c. séc. II",
+    "region": "sul-asia",
+    "place": "Índia",
+    "title": "Silogismo de cinco membros",
+    "summary": "A inferência nyāya é apresentada em cinco passos: tese, razão (hetu), exemplo, aplicação e conclusão. O exemplo clássico é \"há fogo na montanha, porque há fumaça, como na cozinha\". A tradição posterior acrescenta o exemplo negativo (o lago, sem fumaça e sem fogo).",
+    "connection": "Inferir uma classe oculta (fogo) a partir de um sinal observável (fumaça) é a estrutura de todo classificador: um indicador usado para prever um estado não observado.",
+    "conceptIds": [
+      "matriz-confusao",
+      "sensibilidade"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "sep-logic-india",
+      "ganeri-2001"
+    ]
+  },
+  {
+    "id": "hetvabhasa",
+    "year": 150,
+    "yearLabel": "c. séc. II–V",
+    "region": "sul-asia",
+    "place": "Índia",
+    "title": "Hetvābhāsa: taxonomia das razões falaciosas",
+    "summary": "Os Nyāya-sūtra e seus comentadores (Vātsyāyana, c. séc. V) classificam cinco tipos de pseudo-razão, como a razão \"errante\" (savyabhicāra), que ocorre também onde a propriedade inferida está ausente, e a razão contraditória.",
+    "connection": "A razão \"errante\" é, em linguagem moderna, um sinal que dispara em casos negativos — a raiz conceitual do falso positivo e de uma catalogação sistemática dos modos de erro.",
+    "conceptIds": [
+      "erros-tipo",
+      "especificidade"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Correspondência com falso positivo é analogia; os lógicos falavam de relações universais (vyāpti), não de frequências.",
+    "refIds": [
+      "sep-logic-india",
+      "ganeri-2001",
+      "matilal-1998"
+    ]
+  },
+  {
+    "id": "sexto-empirico",
+    "year": 200,
+    "yearLabel": "c. 200",
+    "region": "grecia-roma",
+    "place": "Alexandria / Roma",
+    "title": "Sexto Empírico e aparências conflitantes",
+    "summary": "Os Esboços Pirrônicos reúnem os modos de Enesidemo: a mesma coisa aparece diferente a observadores e condições distintas, e não há critério indiscutível para decidir entre eles.",
+    "connection": "É a crítica filosófica ao 'padrão-ouro': se juízes discordam e o critério é contestável, a referência também pode errar.",
+    "conceptIds": [
+      "rotulos-ruidosos",
+      "kappa"
+    ],
+    "certainty": "especulativo",
+    "refIds": [
+      "sexto-bury-1933"
+    ]
+  },
+  {
+    "id": "porfirio-isagoge",
+    "year": 270,
+    "yearLabel": "c. 270",
+    "region": "grecia-roma",
+    "place": "Roma / Sicília",
+    "title": "Isagoge e a árvore de Porfírio",
+    "summary": "Porfírio escreve a Isagoge, introdução às Categorias, tratando gênero, espécie, diferença, próprio e acidente. A 'árvore de Porfírio', diagrama dicotômico de substância até homem, foi popularizada por comentadores medievais como Boécio.",
+    "connection": "A divisão por diferenças binárias sucessivas antecipa a lógica de árvores de decisão, mas sem nenhuma noção de erro.",
+    "conceptIds": [
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "caution": "O diagrama em árvore não aparece como figura no texto de Porfírio; é tradição posterior.",
+    "refIds": [
+      "porfirio-isagoge"
+    ]
+  },
+  {
+    "id": "pulso-chines",
+    "year": 280,
+    "yearLabel": "c. séc. III",
+    "region": "leste-asia",
+    "place": "China (Jin)",
+    "title": "Clássico do Pulso de Wang Shuhe",
+    "summary": "O Mai jing (脈經), de Wang Shuhe (séc. III), classifica cerca de 24 tipos de pulso e os associa a condições. É um sistema taxonômico de sinais diagnósticos.",
+    "connection": "Uma taxonomia explícita de sinais para classes de doença é um classificador manual — e estudos modernos mostram que a concordância entre examinadores nesses sistemas costuma ser baixa.",
+    "conceptIds": [
+      "kappa",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "unschuld-1985"
+    ]
+  },
+  {
+    "id": "talmud-rov",
+    "year": 450,
+    "yearLabel": "séc. III–VI (Maimônides, séc. XII)",
+    "region": "oriente-proximo",
+    "place": "Babilônia / Palestina",
+    "title": "Talmude: maioria (rov) e presunção (ḥazaqah)",
+    "summary": "O Talmude resolve casos de dúvida seguindo a maioria (rov) — carne achada na rua é atribuída à maioria dos açougues da cidade — e distingue presunções baseadas no estado anterior. Maimônides (séc. XII) sistematizou essas regras.",
+    "connection": "Decidir pela classe majoritária quando falta evidência é o classificador de linha de base e um uso implícito de prevalência.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "acuracia"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Tradição judaica, não islâmica; a leitura probabilística vem de Rabinovitch (1973).",
+    "refIds": [
+      "rabinovitch-1973",
+      "franklin-2001"
+    ]
+  },
+  {
+    "id": "trairupya",
+    "year": 500,
+    "yearLabel": "c. séc. VI",
+    "region": "sul-asia",
+    "place": "Índia",
+    "title": "Dignāga: as três condições do sinal válido",
+    "summary": "O lógico budista Dignāga (c. 480–540) formula o trairūpya: o sinal deve estar presente no sujeito, presente em casos semelhantes (sapakṣa) e ausente nos casos dessemelhantes (vipakṣa). No Hetucakra, cruza presença em todos/alguns/nenhum dos sapakṣa com todos/alguns/nenhum dos vipakṣa, obtendo nove tipos de razão: dois válidos, dois contraditórios e cinco inconclusivos.",
+    "connection": "A grade presença/ausência em casos positivos e negativos é talvez o parente pré-moderno mais próximo de uma matriz de confusão; as condições 2 e 3 lembram sensibilidade e especificidade, mas exigidas de forma absoluta, não estatística.",
+    "conceptIds": [
+      "matriz-confusao",
+      "sensibilidade",
+      "especificidade"
+    ],
+    "certainty": "interpretacao",
+    "caution": "A leitura como sensibilidade/especificidade é anacrônica; a condição exigida é universal (sem exceção), não uma taxa.",
+    "refIds": [
+      "sep-logic-india",
+      "ganeri-2001",
+      "matilal-1998"
+    ]
+  },
+  {
+    "id": "gondishapur-mito",
+    "year": 550,
+    "yearLabel": "séc. VI (tradição); crítica em 1987",
+    "region": "oriente-proximo",
+    "place": "Gondishapur (Jundaysābūr), Cuzistão, Irã sassânida",
+    "title": "Gondishapur: hospital-escola entre relato e evidência",
+    "summary": "Fontes árabes posteriores descrevem em Gondishapur uma grande academia e hospital sassânidas que teriam formado médicos (sobretudo cristãos nestorianos) e inspirado os hospitais abássidas; a família Bukhtīshūʿ, dali vinda, serviu à corte de Bagdá. Michael Dols (1987) mostrou que não há evidência contemporânea que sustente esse grande hospital-academia e apontou antecedentes bizantinos e tardo-antigos para o bimaristão.",
+    "connection": "O caso ensina a separar a reputação de uma instituição da evidência sobre ela, o mesmo cuidado de não aceitar um 'padrão-ouro' só porque a tradição o consagrou.",
+    "conceptIds": [
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Evite apresentar Gondishapur como primeiro hospital-escola: é uma tradição contestada. Que havia médicos cristãos ativos na cidade é bem atestado; a escala da instituição, não.",
+    "refIds": [
+      "dols-1987"
+    ]
+  },
+  {
+    "id": "exames-imperiais",
+    "year": 605,
+    "yearLabel": "séc. VII",
+    "region": "leste-asia",
+    "place": "China (Sui/Tang)",
+    "title": "Exames imperiais: seleção por prova escrita",
+    "summary": "Os exames para o serviço civil, iniciados sob os Sui e ampliados pelos Tang, selecionavam funcionários por provas padronizadas. Sob os Tang, recomendações e reputação ainda pesavam muito.",
+    "connection": "Um sistema de avaliação padronizado em larga escala — um \"benchmark\" humano, com problemas de viés e vazamento que reconhecemos hoje.",
+    "conceptIds": [
+      "benchmarks"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "elman-2000",
+      "chaffee-1985"
+    ]
+  },
+  {
+    "id": "dharmakirti",
+    "year": 630,
+    "yearLabel": "séc. VII",
+    "region": "sul-asia",
+    "place": "Índia",
+    "title": "Dharmakīrti: vínculo necessário entre sinal e alvo",
+    "summary": "Dharmakīrti (c. 600–660) argumenta que a mera observação de co-ocorrências não garante a inferência; é preciso uma relação natural (svabhāvapratibandha), de causalidade ou identidade. Discute o problema dos casos não observados.",
+    "connection": "Antecipa o alerta moderno de que uma correlação observada numa amostra não garante generalização — o problema da validação fora da amostra.",
+    "conceptIds": [
+      "validacao-cruzada"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Ligação com validação é analógica.",
+    "refIds": [
+      "sep-dharmakirti"
+    ]
+  },
+  {
+    "id": "hadith-isnad",
+    "year": 850,
+    "yearLabel": "séc. VIII–IX",
+    "region": "islamico",
+    "place": "Iraque, Ḥijāz, Khurāsān",
+    "title": "Crítica do hadith e ʿilm al-rijāl",
+    "summary": "Estudiosos como Ibn Maʿīn, Ibn Ḥanbal, al-Bukhārī (m. 870) e Muslim (m. 875) avaliaram cadeias de transmissores (isnād), atribuindo graus de confiabilidade a cada narrador (thiqa, ṣadūq, ḍaʿīf). Relatos foram classificados como ṣaḥīḥ, ḥasan (termo consolidado por al-Tirmidhī) ou ḍaʿīf.",
+    "connection": "Pontuar a confiabilidade de cada fonte e propagá-la ao veredito final é análogo a modelar anotadores ruidosos (como no modelo de Dawid–Skene).",
+    "conceptIds": [
+      "rotulos-ruidosos",
+      "kappa",
+      "calibracao"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A eficácia histórica do método é debatida (Goldziher, Schacht versus seus críticos); a analogia com aprendizado de máquina é nossa.",
+    "refIds": [
+      "brown-2009"
+    ]
+  },
+  {
+    "id": "al-kindi",
+    "year": 850,
+    "yearLabel": "séc. IX",
+    "region": "islamico",
+    "place": "Bagdá",
+    "title": "Al-Kindī e a análise de frequência",
+    "summary": "No tratado sobre decifração de mensagens criptografadas, al-Kindī (c. 801–873) descreve contar a frequência das letras num texto cifrado e compará-la com a de um texto de referência na mesma língua. O manuscrito, em Istambul, foi apresentado ao público ocidental por Al-Kadi (1992).",
+    "connection": "Inferir a partir de frequências comparadas a uma distribuição de referência é um dos usos documentados mais antigos de inferência baseada em contagem.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "razao-verossimilhanca"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "alkadi-1992",
+      "sep-al-kindi"
+    ]
+  },
+  {
+    "id": "al-razi-controle",
+    "year": 900,
+    "yearLabel": "c. 900",
+    "region": "islamico",
+    "place": "Bagdá / Rayy",
+    "title": "Al-Rāzī compara tratados e não tratados",
+    "summary": "No Kitāb al-Ḥāwī, al-Rāzī (c. 865–925) escreve sobre a febre cerebral (sirsām): \"certa vez salvei um grupo [de pacientes] com [a sangria], enquanto intencionalmente deixei outro grupo [sem sangrar]... para remover a dúvida de minha opinião\". Segundo Pormann, é a única passagem do Ḥāwī com comparação formal entre dois grupos.",
+    "connection": "Comparar desfechos entre grupo tratado e controle é o embrião do desenho que produz tabelas 2×2 de exposição por desfecho.",
+    "conceptIds": [
+      "matriz-confusao",
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Pormann alerta para não ler o presente no passado: exemplo isolado, sem alocação aleatória nem contagem de desfechos.",
+    "refIds": [
+      "pormann-2019",
+      "tibi-2006"
+    ]
+  },
+  {
+    "id": "huming",
+    "year": 992,
+    "yearLabel": "992",
+    "region": "leste-asia",
+    "place": "China (Song)",
+    "title": "Hú míng: correção cega com nomes cobertos",
+    "summary": "Na dinastia Song, os nomes dos candidatos passaram a ser cobertos (hú míng 糊名) no exame do palácio a partir de 992; a prática foi depois estendida aos demais níveis de exame no séc. XI. O objetivo era impedir favorecimento.",
+    "connection": "É um dos exemplos documentados mais antigos de avaliação cega institucionalizada — quem corrige não sabe quem é o avaliado.",
+    "conceptIds": [
+      "benchmarks",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Datas de extensão (departamental 1007, prefeitural 1032) seguem sínteses baseadas em Chaffee (1985); conferir no livro.",
+    "refIds": [
+      "chaffee-1985",
+      "elman-2000"
+    ]
+  },
+  {
+    "id": "tawatur",
+    "year": 1000,
+    "yearLabel": "séc. X–XI",
+    "region": "islamico",
+    "place": "Mundo islâmico",
+    "title": "Tawātur: certeza por transmissão em massa",
+    "summary": "Teóricos do direito (uṣūl al-fiqh) distinguiram relatos mutawātir — transmitidos por tantos canais independentes que o conluio é implausível, gerando certeza — de relatos āḥād, que geram apenas probabilidade (ẓann).",
+    "connection": "A ideia de que a concordância de muitas fontes independentes eleva a confiança lembra a agregação de rótulos e o teorema do júri de Condorcet.",
+    "conceptIds": [
+      "rotulos-ruidosos",
+      "prevalencia-bayes"
+    ],
+    "certainty": "interpretacao",
+    "refIds": [
+      "brown-2009",
+      "franklin-2001"
+    ]
+  },
+  {
+    "id": "tenglu",
+    "year": 1015,
+    "yearLabel": "1015",
+    "region": "leste-asia",
+    "place": "China (Song)",
+    "title": "Téng lù: recópia das provas por escreventes",
+    "summary": "Em 1015 os Song passaram a recopiar as provas (téng lù 謄錄) nos exames da capital, para que examinadores não reconhecessem a caligrafia; a prática chegou às prefeituras em 1037. As notas de dois examinadores eram conferidas por um examinador determinante.",
+    "connection": "Remover pistas de identidade e usar múltiplos corretores antecipa o mascaramento e a dupla anotação usados para reduzir viés e medir concordância.",
+    "conceptIds": [
+      "kappa",
+      "rotulos-ruidosos",
+      "benchmarks"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "chaffee-1985",
+      "elman-2000"
+    ]
+  },
+  {
+    "id": "ibn-sina-drogas",
+    "year": 1025,
+    "yearLabel": "c. 1025",
+    "region": "islamico",
+    "place": "Pérsia",
+    "title": "Ibn Sīnā: regras para testar medicamentos",
+    "summary": "No Cânone da Medicina, Ibn Sīnā (980–1037) dá sete regras para reconhecer a força de um remédio por experimentação: droga sem qualidades adquiridas, doença simples, teste em condições contrárias, potência proporcional à doença, atenção ao tempo de efeito, efeito constante em todos ou na maioria dos casos, e teste em humanos.",
+    "connection": "Exigir replicação e controle de fatores de confusão antes de atribuir um efeito antecipa princípios de validação e de desenho experimental.",
+    "conceptIds": [
+      "validacao-cruzada",
+      "erros-tipo"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "nasser-2009",
+      "sep-ibn-sina-logic"
+    ]
+  },
+  {
+    "id": "ibn-haytham",
+    "year": 1028,
+    "yearLabel": "c. 1011–1040",
+    "region": "islamico",
+    "place": "Cairo",
+    "title": "Ibn al-Haytham: experimento e dúvida",
+    "summary": "No Kitāb al-Manāẓir, Ibn al-Haytham (c. 965–1040) testa hipóteses sobre a visão com arranjos experimentais (iʿtibār) e cataloga erros de percepção visual. Em al-Shukūk ʿalā Baṭlamyūs aponta inconsistências em Ptolomeu.",
+    "connection": "Catalogar ilusões e erros do instrumento de percepção é análogo a estudar os modos de falha de um classificador.",
+    "conceptIds": [
+      "erros-tipo"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Chamá-lo de \"primeiro cientista\" é exagero comum.",
+    "refIds": [
+      "sep-arabic-natural",
+      "tbakhi-amr-2007"
+    ]
+  },
+  {
+    "id": "al-biruni",
+    "year": 1030,
+    "yearLabel": "séc. XI",
+    "region": "islamico",
+    "place": "Ghazni / Khwārazm",
+    "title": "Al-Bīrūnī e o erro de medição",
+    "summary": "Al-Bīrūnī (973–c. 1050) discute erros causados por instrumentos pequenos e por observadores humanos e, segundo Sheynin, foi o primeiro a considerar, qualitativamente, a propagação de erros de cálculo e de observação. Para estimar constantes (como densidade de metais) usava moda, ponto médio ou valores entre os extremos — ainda não a média aritmética como estimador padrão.",
+    "connection": "Reconhecer erro instrumental e combinar observações repetidas é pré-história da estimativa sob ruído.",
+    "conceptIds": [
+      "rotulos-ruidosos",
+      "acuracia"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Não afirmar que ele 'inventou a média'; Sheynin mostra o contrário.",
+    "refIds": [
+      "sheynin-2009"
+    ]
+  },
+  {
+    "id": "pantokrator-xenon",
+    "year": 1136,
+    "yearLabel": "1136",
+    "region": "grecia-roma",
+    "place": "Constantinopla (Império Bizantino)",
+    "title": "Xenon do Pantokrator: rondas e reexame de diagnósticos",
+    "summary": "O típico (regulamento) de fundação do mosteiro do Pantokrator, criado por João II Comneno em 1136, descreve um hospital com cerca de 50 leitos divididos em seções (feridas e fraturas, olhos e intestinos, mulheres, homens), médicos em escala mensal, ambulatório e estudantes acompanhando rondas. O documento prevê supervisores médicos encarregados de reexaminar pacientes e checar o trabalho dos médicos da ala.",
+    "connection": "Um segundo médico sênior revendo casos é a forma institucional de segunda leitura, base das discussões modernas sobre concordância entre avaliadores e referência clínica. Não havia contagem de discordâncias.",
+    "conceptIds": [
+      "kappa",
+      "gold-standard"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Números de leitos e funções vêm do típico (ed. Gautier 1974), que descreve o ideal prescrito, não necessariamente a prática; Horden questiona o grau de medicalização. A função dos primmikerioi de reexaminar pacientes e conferir diagnósticos segue a síntese de Miller; o texto grego não foi lido diretamente.",
+    "refIds": [
+      "miller-1997",
+      "gautier-1974",
+      "horden-medicalised"
+    ]
+  },
+  {
+    "id": "gyushi-urina-pulso",
+    "year": 1150,
+    "yearLabel": "c. séc. XII (texto-base); comentários até o séc. XVII",
+    "region": "leste-asia",
+    "place": "Tibete",
+    "title": "Quatro Tantras: diagnóstico por olhar, pulso, urina e perguntas",
+    "summary": "O rGyud bzhi (Quatro Tantras), texto fundamental da medicina tibetana tradicionalmente associado a Yuthok Yönten Gönpo, o Jovem, organiza o diagnóstico em inspeção (com destaque para a urina), palpação do pulso e interrogatório do paciente, com classes de sinais ligadas a categorias de doença. Janet Gyatso (2015) mostra que médicos do século XVII, na órbita do regente Desi Sangye Gyatso, debateram a autoridade do texto e valorizaram a experiência.",
+    "connection": "Um esquema que mapeia sinais observáveis em classes de doença é um classificador explícito; a revisão posterior pela observação é o embrião da ideia de testá-lo. Ninguém mediu acertos.",
+    "conceptIds": [
+      "matriz-confusao",
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Datação e autoria do rGyud bzhi são debatidas. A ideia de que passagens foram corrigidas com base em observação é leitura geral de Gyatso (2015), não conferida página a página. O conteúdo dos capítulos de urina foi visto só por fontes secundárias e pelas pinturas do regente (Hofer).",
+    "refIds": [
+      "gyatso-2015",
+      "yoeli-tlalim-2010",
+      "hofer-rubin-medical-paintings"
+    ]
+  },
+  {
+    "id": "dresden-venus",
+    "year": 1200,
+    "yearLabel": "c. séc. XI–XV (datação do códice debatida)",
+    "region": "americas",
+    "place": "Península de Iucatã (códice hoje na SLUB, Dresden)",
+    "title": "Códice de Dresden: tabela de Vênus com correções",
+    "summary": "O Códice de Dresden, manuscrito maia em papel de casca conservado em Dresden desde 1739, traz uma tabela das aparições de Vênus baseada num ciclo canônico de 584 dias, contra a média real de cerca de 583,92. Estudiosos (Teeple, Thompson, Bricker e Bricker) mostraram que o texto prevê reinícios com ajustes de dias que mantêm a tabela próxima das datas observadas de primeira aparição matutina ao longo de séculos.",
+    "connection": "Um modelo preditivo cujo erro acumulado contra a observação é medido e compensado por correções periódicas: um ancestral da ideia de recalibrar previsões quando elas desviam do observado. Os maias não formalizaram taxas de erro.",
+    "conceptIds": [
+      "calibracao"
+    ],
+    "certainty": "interpretacao",
+    "caution": "O esquema exato de correção (quantos dias e quando) é reconstrução moderna e difere entre autores; afirmações populares de precisão de 'duas horas em 481 anos' dependem desses modelos e não devem ser citadas como fato.",
+    "refIds": [
+      "bricker-2011",
+      "slub-codex-dresdensis",
+      "justeson-lowry-2025"
+    ]
+  },
+  {
+    "id": "dresden-eclipses",
+    "year": 1201,
+    "yearLabel": "c. séc. XI–XV (datação do códice debatida)",
+    "region": "americas",
+    "place": "Península de Iucatã (códice hoje na SLUB, Dresden)",
+    "title": "Códice de Dresden: tabela de alertas de eclipse",
+    "summary": "A tabela de eclipses do Códice de Dresden reúne 69 datas de lua nova em 405 lunações (cerca de 11 960 dias, quase 33 anos), separadas sobretudo por 177/178 dias e às vezes por 148 dias; 55 marcam datas de possível eclipse solar. As datas funcionam como janelas de alerta: nem todo eclipse assinalado seria visível na região maia.",
+    "connection": "Uma regra que emite alertas sabendo que muitos não se concretizarão localmente troca falsos alarmes por não perder eventos, a mesma tensão entre sensibilidade e especificidade de um detector. A analogia é nossa; o códice não conta acertos e erros.",
+    "conceptIds": [
+      "sensibilidade",
+      "limiar-custo"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Os intervalos são consenso. A origem (calendárica, segundo Justeson e Lowry 2025), as regras de reinício e a data-base (proposta entre 1043 e 1116 d.C.) seguem debatidas; o esquema de correção dos Bricker não convenceu a maioria.",
+    "refIds": [
+      "bricker-2011",
+      "slub-codex-dresdensis",
+      "justeson-lowry-2025"
+    ]
+  },
+  {
+    "id": "ibn-khaldun",
+    "year": 1377,
+    "yearLabel": "1377",
+    "region": "islamico",
+    "place": "Norte da África",
+    "title": "Ibn Khaldūn: crítica dos relatos históricos",
+    "summary": "Na Muqaddima, Ibn Khaldūn (1332–1406) lista causas de erro dos historiadores — partidarismo, confiança excessiva nos transmissores, desconhecimento das condições da civilização — e propõe testar relatos pela plausibilidade, não só pela confiabilidade da cadeia.",
+    "connection": "Separar a confiabilidade da fonte da plausibilidade a priori do conteúdo lembra, em espírito, combinar prior e evidência.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "interpretacao",
+    "refIds": [
+      "rosenthal-1958"
+    ]
+  },
+  {
+    "id": "cotas-exames",
+    "year": 1425,
+    "yearLabel": "séc. XV",
+    "region": "leste-asia",
+    "place": "China (Ming)",
+    "title": "Cotas regionais nos exames",
+    "summary": "Em 1397 o exame metropolitano aprovou 51 (ou 52) candidatos, todos do sul, gerando protesto; o imperador reexaminou, puniu examinadores e fez nova lista com nortistas. Em 1425 o imperador Hongxi fixou que 40% dos aprovados viessem do norte; depois surgiu uma divisão em sul, norte e centro.",
+    "connection": "Ajustar limiares por grupo por razões de equidade é um antecedente do debate sobre limiares e justiça entre subpopulações.",
+    "conceptIds": [
+      "limiar-custo",
+      "prevalencia-bayes"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "elman-2000"
+    ],
+    "caution": "Os 40% de 1425 seguem Chan (1988) via síntese; a divisão 55/35/10 e sua data exata não foram confirmadas em fonte primária."
+  },
+  {
+    "id": "cheugugi-1441",
+    "year": 1441,
+    "yearLabel": "1441–1442",
+    "region": "leste-asia",
+    "place": "Joseon (Coreia)",
+    "title": "Cheugugi: pluviômetro padronizado e rede de registros",
+    "summary": "Sob o rei Sejong, em 1441 o Gwansanggam (departamento de astronomia e meteorologia) fez um pluviômetro cilíndrico, o cheugugi, e magistrados locais receberam ordem de medir a chuva regularmente e informar a corte. Em 1442 as dimensões do instrumento e o método de medida foram padronizados e distribuídos às províncias, substituindo avaliações pela profundidade de umidade no solo, que variavam com o terreno.",
+    "connection": "Padronizar o instrumento e o procedimento para que medidas de lugares diferentes sejam comparáveis é pré-condição de qualquer benchmark justo. É metrologia, não avaliação de classificadores.",
+    "conceptIds": [
+      "benchmarks"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Os instrumentos do séc. XV se perderam; o sistema foi restabelecido em 1770 e a série contínua de Seul cobre 1778–1907. A extensão da rede no séc. XV e números de estações citados em divulgação não foram conferidos.",
+    "refIds": [
+      "conversation-cheugugi-2025",
+      "cho-2015-chugugi",
+      "lee-shin-hong-2024"
+    ]
+  },
+  {
+    "id": "gwageo-joseon-anonimato",
+    "year": 1450,
+    "yearLabel": "Goryeo e Joseon (bongmi desde 1011; yeokseo 1365–1835)",
+    "region": "leste-asia",
+    "place": "Joseon (Coreia)",
+    "title": "Gwageo coreano: provas seladas e notas separadas",
+    "summary": "Nos exames de serviço civil coreanos, a parte da folha com dados pessoais era dobrada e colada (bongmi) e identificada por um código do Clássico dos Mil Caracteres; de 1365 a 1835, escrivães recopiavam as respostas em tinta vermelha (yeokseo) para que a letra não revelasse o autor. Segundo o Museu Nacional da Coreia, no século XVIII cada examinador passou a registrar a própria nota.",
+    "connection": "Esconder a identidade de quem é avaliado reduz viés do avaliador; guardar notas individuais permite ver discordância entre juízes, matéria-prima do kappa. Complementa as práticas chinesas de húmíng e tēnglù.",
+    "conceptIds": [
+      "kappa",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Bongmi e yeokseo estão confirmados na Enciclopédia da Cultura Coreana (AKS). O registro de notas separadas por examinador vem só de peça de museu divulgada na imprensa. O procedimento não impediu suborno de escrivães nem a concentração de aprovados em linhagens yangban.",
+    "refIds": [
+      "korea-herald-gangseosigwon",
+      "aks-bongmi",
+      "aks-yeokseo"
+    ]
+  },
+  {
+    "id": "khipus-puruchuco",
+    "year": 1500,
+    "yearLabel": "c. 1450–1532 (período inca tardio)",
+    "region": "americas",
+    "place": "Puruchuco, costa central do Peru",
+    "title": "Khipus de Puruchuco: somas que sobem de nível",
+    "summary": "Gary Urton e Carrie Brezine analisaram por computador 21 khipus (registros em cordas com nós) do centro administrativo inca de Puruchuco. Encontraram relações hierárquicas: valores somados em khipus de nível inferior reaparecem em khipus de nível superior. O arquivo mostra como dados de censo e tributo eram sintetizados e transferidos entre níveis da administração.",
+    "connection": "Relatórios que precisam fechar com a soma das partes são uma forma de verificação interna de contagens, parente distante de conferir se os totais de uma tabela de contingência batem com as marginais. Não há ali avaliação de classificadores.",
+    "conceptIds": [
+      "matriz-confusao",
+      "macro-micro"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A leitura depende da interpretação numérica dos nós, bem aceita; o uso exato de cada khipu (o que cada cordão conta) segue incerto.",
+    "refIds": [
+      "urton-brezine-2005"
+    ]
+  },
+  {
+    "id": "codex-mendoza-tributos",
+    "year": 1541,
+    "yearLabel": "c. 1541–1542",
+    "region": "americas",
+    "place": "Cidade do México (hoje na Bodleian Library, Oxford)",
+    "title": "Códice Mendoza: o tributo das 38 províncias",
+    "summary": "Feito na Cidade do México poucas décadas após a conquista, com pinturas de escribas indígenas e glosas em espanhol, o códice tem uma seção que registra o tributo devido ao império mexica por 38 províncias (tecidos, trajes de guerra, alimentos, bens de luxo). Parte dessa seção tem paralelo com a Matrícula de Tributos, e as edições críticas (Berdan e Anawalt, 1992) comparam os dois com outras fontes do século XVI.",
+    "connection": "O valor histórico do códice é avaliado cruzando fontes independentes, sem nenhuma delas ser verdade absoluta: situação parecida com avaliar rótulos quando não há padrão-ouro perfeito.",
+    "conceptIds": [
+      "gold-standard",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A ligação com avaliação é do historiador moderno, não dos autores do códice. A relação exata entre Mendoza e Matrícula (cópia, fonte comum) é discutida.",
+    "refIds": [
+      "berdan-anawalt-1992",
+      "bodleian-codex-mendoza"
+    ]
+  },
+  {
+    "id": "cardano-ludo",
+    "year": 1564,
+    "yearLabel": "c. 1564 (publ. 1663)",
+    "region": "europa",
+    "place": "Itália",
+    "title": "Cardano: Liber de ludo aleae",
+    "summary": "Girolamo Cardano escreve um tratado sobre jogos de dados com contagem de casos igualmente possíveis ('circuito'). O livro só foi impresso em 1663, na Opera omnia.",
+    "connection": "Contar casos favoráveis sobre casos possíveis é a primeira aritmética de frequências relativas, base de qualquer taxa de acerto.",
+    "conceptIds": [
+      "acuracia"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "hald-1990"
+    ]
+  },
+  {
+    "id": "khipus-la-plata-1579",
+    "year": 1579,
+    "yearLabel": "1579",
+    "region": "americas",
+    "place": "La Plata (atual Sucre, Bolívia)",
+    "title": "Khipus em tribunal: dois khipukamayuq para a mesma conta",
+    "summary": "Em um processo de 1579 perante a Audiência de La Plata, especialistas andinos (khipukamayuq) leram em khipus as quantidades de bens entregues pela comunidade de Sacaca a seu encomendero ao longo de cinco anos, e a leitura foi transcrita pelos escrivães espanhóis. Gary Urton (1998) chamou atenção para a presença de dois khipukamayuq que parecem apresentar o mesmo relato.",
+    "connection": "Duas fontes independentes (ou complementares) para a mesma contagem lembram a lógica de dupla leitura e concordância entre registradores. É uma leitura possível, não a finalidade documentada do procedimento.",
+    "conceptIds": [
+      "kappa",
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Não está claro por que havia dois khipukamayuq. Fossa (2000) mostrou que os contadores de Sacaca somavam contas das parcialidades com pedras e grãos, o que favorece divisão do relato entre metades da comunidade, e não conferência mútua.",
+    "refIds": [
+      "urton-1998",
+      "fossa-2000"
+    ]
+  },
+  {
+    "id": "timbuktu-isnad",
+    "year": 1600,
+    "yearLabel": "séc. XV–XVII",
+    "region": "africa",
+    "place": "Tombuctu (Mali)",
+    "title": "Tombuctu: confiabilidade de fontes e transmissores",
+    "summary": "Eruditos de Tombuctu, como Ahmad Baba (1556–1627), copiavam e comentavam jurisprudência, astronomia e ciências do hadith. Essa tradição avaliava relatos pela cadeia de transmissores (isnād) e graduava cada transmissor por confiabilidade (ʿilm al-rijāl), classificando relatos como 'sahih', 'hasan' ou 'da'if'.",
+    "connection": "A graduação sistemática da confiabilidade de fontes, com o relato rebaixado por um elo fraco, prefigura a modelagem de rótulos ruidosos e da confiabilidade de anotadores.",
+    "conceptIds": [
+      "rotulos-ruidosos",
+      "kappa"
+    ],
+    "certainty": "interpretacao",
+    "caution": "A crítica do hadith não foi criada em Tombuctu; o evento ilustra seu cultivo na África Ocidental.",
+    "refIds": [
+      "loc-timbuktu"
+    ]
+  },
+  {
+    "id": "ifa-256-odu",
+    "year": 1650,
+    "yearLabel": "origem incerta; registrado desde o séc. XVII–XIX",
+    "region": "africa",
+    "place": "Iorubalândia (Nigéria, Benin)",
+    "title": "Ifá: 256 odù de estrutura binária",
+    "summary": "O babaláwo lança o opelê ou manipula 16 nozes de palma, marcando traços simples ou duplos em 8 posições, o que gera 2^8 = 256 odù. Cada odù remete a um corpus oral de versos (ese) memorizados, que o cliente relaciona ao seu caso. A UNESCO proclamou o sistema patrimônio imaterial em 2005.",
+    "connection": "Espaço de classificação combinatória binária completo (8 bits) mapeado a categorias interpretativas: ancestral estrutural de codificações binárias, não de medidas de acerto.",
+    "conceptIds": [
+      "matriz-confusao"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A antiguidade exata é desconhecida; a relação histórica com a geomancia árabe (ʿilm al-raml) é proposta, mas debatida.",
+    "refIds": [
+      "bascom-1969",
+      "unesco-ifa",
+      "eglash-1999"
+    ]
+  },
+  {
+    "id": "pascal-fermat",
+    "year": 1654,
+    "yearLabel": "1654",
+    "region": "europa",
+    "place": "Paris e Toulouse, França",
+    "title": "Correspondência Pascal–Fermat",
+    "summary": "Em cartas de 1654, Pascal e Fermat resolvem o 'problema dos pontos' (divisão justa de apostas em jogo interrompido), usando esperança e enumeração de casos.",
+    "connection": "Introduz o valor esperado, raiz da decisão por custo esperado e da escolha de limiar.",
+    "conceptIds": [
+      "limiar-custo"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "hacking-1975",
+      "hald-1990"
+    ],
+    "caution": "As cartas resolvem a divisão justa enumerando casos (Fermat) e por recursão (Pascal); o termo 'expectativa' e seu uso como valor de decisão vêm depois, com Huygens (1657)."
+  },
+  {
+    "id": "huygens-1657",
+    "year": 1657,
+    "yearLabel": "1657",
+    "region": "europa",
+    "place": "Leiden, Países Baixos",
+    "title": "Huygens: De ratiociniis in ludo aleae",
+    "summary": "Christiaan Huygens publica o primeiro tratado impresso de probabilidade, definindo a expectativa de um jogo como seu valor justo.",
+    "connection": "Formaliza a expectativa matemática usada depois em funções de perda e utilidade esperada.",
+    "conceptIds": [
+      "limiar-custo"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "hald-1990"
+    ]
+  },
+  {
+    "id": "sikidy-madagascar",
+    "year": 1660,
+    "yearLabel": "atestado desde c. séc. XVII",
+    "region": "africa",
+    "place": "Madagascar",
+    "title": "Sikidy: geomancia de 16 figuras",
+    "summary": "Adivinhos malgaxes (ombiasy) dispõem sementes em pilhas de uma ou duas, formando figuras-mãe e derivando as demais por regras de paridade (equivalentes à soma módulo 2). O quadro resultante passa por regras de consistência antes da interpretação.",
+    "connection": "Eglash mostra que as derivações funcionam como operações XOR sobre bits e que as checagens lembram verificação de erro; é ancestral de operações lógicas, não de métricas de avaliação.",
+    "conceptIds": [
+      "rotulos-ruidosos"
+    ],
+    "certainty": "interpretacao",
+    "caution": "A leitura como álgebra booleana é de Eglash; a origem via geomancia árabe é amplamente aceita.",
+    "refIds": [
+      "eglash-1999"
+    ]
+  },
+  {
+    "id": "port-royal-1662",
+    "year": 1662,
+    "yearLabel": "1662",
+    "region": "europa",
+    "place": "Paris, França",
+    "title": "Lógica de Port-Royal",
+    "summary": "A Logique ou l'art de penser (Arnauld e Nicole) termina com capítulos sobre julgar a crença em eventos e decidir pesando probabilidade e magnitude de ganhos e perdas.",
+    "connection": "Primeira formulação explícita de que a decisão depende da probabilidade e do custo das consequências, ideia central de limiar por custo.",
+    "conceptIds": [
+      "limiar-custo",
+      "prevalencia-bayes"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "arnauld-nicole-1662",
+      "hacking-1975"
+    ]
+  },
+  {
+    "id": "graunt-1662",
+    "year": 1662,
+    "yearLabel": "1662",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "Graunt e os 'searchers' dos boletins de mortalidade",
+    "summary": "John Graunt analisa os Bills of Mortality de Londres. Ele explica que as causas de morte eram atribuídas por 'searchers', 'ancient Matrons' juramentadas que examinavam o corpo, e discute quando seus relatos bastam (causas visíveis) e quando não. Aponta, por exemplo, que poucos mortos de 'French-Pox' (sífilis) eram registrados como tal.",
+    "connection": "É talvez a primeira análise explícita de erro nos rótulos de referência e de como ele distorce contagens agregadas.",
+    "conceptIds": [
+      "rotulos-ruidosos",
+      "gold-standard",
+      "prevalencia-bayes"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "graunt-1662"
+    ],
+    "caution": "A autoria é às vezes atribuída em parte a William Petty. O trecho sobre sífilis foi conferido: mortes fora dos hospitais eram registradas como 'Ulcers and Sores' (cap. 3, §17 na ed. de 1676)."
+  },
+  {
+    "id": "khipus-santa-revisita",
+    "year": 1670,
+    "yearLabel": "1670 (revisita); publicado em 2018",
+    "region": "americas",
+    "place": "San Pedro de Corongo, vale do Santa, costa norte do Peru",
+    "title": "Khipus do vale do Santa conferidos com a revisita espanhola",
+    "summary": "Manuel Medrano e Gary Urton (2018) compararam seis khipus coloniais com um documento de revisita administrativa de 1670 da mesma região. Os khipus se organizam em 133 grupos de seis cordões, e a soma dos nós nos primeiros cordões de cada grupo coincide com o tributo registrado no documento. Os autores sugerem que cores e modos de fixação dos cordões codificariam nomes e posição social dos tributários.",
+    "connection": "É um caso moderno de validação de uma leitura contra uma referência externa independente: a hipótese de decifração é testada pela concordância com o censo espanhol. A comparação é de totais, não de acertos por item.",
+    "conceptIds": [
+      "gold-standard",
+      "benchmarks"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A coincidência dos totais é o resultado firme; a leitura de nomes por cor e nós de fixação é hipótese dos autores, depois retomada e ajustada por outros trabalhos (ex.: FitzPatrick 2024).",
+    "refIds": [
+      "medrano-urton-2018"
+    ]
+  },
+  {
+    "id": "arbuthnot-1710",
+    "year": 1710,
+    "yearLabel": "1710",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "Arbuthnot: primeiro teste de significância",
+    "summary": "John Arbuthnot mostra que em 82 anos seguidos de batismos registrados em Londres (1629–1710) houve mais meninos que meninas e calcula a chance (1/2)^82 disso ocorrer por acaso, concluindo que 'é a Arte, não o Acaso, que governa'.",
+    "connection": "É um teste de sinal com hipótese nula explícita, ancestral de testar se um classificador supera o acaso.",
+    "conceptIds": [
+      "comparacao-estatistica"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "arbuthnot-1710",
+      "stigler-1986"
+    ]
+  },
+  {
+    "id": "bernoulli-1713",
+    "year": 1713,
+    "yearLabel": "1713",
+    "region": "europa",
+    "place": "Basileia, Suíça",
+    "title": "Jacob Bernoulli: Ars Conjectandi",
+    "summary": "Publicado postumamente, prova a primeira lei dos grandes números: a frequência observada converge para a probabilidade verdadeira, e discute 'certeza moral' e o quanto de amostra seria preciso.",
+    "connection": "Justifica estimar taxas de acerto a partir de amostras finitas e pergunta quantos casos um teste precisa.",
+    "conceptIds": [
+      "acuracia",
+      "benchmarks"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "bernoulli-1713",
+      "hald-1990"
+    ]
+  },
+  {
+    "id": "de-moivre-1738",
+    "year": 1733,
+    "yearLabel": "1718 / 1733 / 1738",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "De Moivre: aproximação normal",
+    "summary": "The Doctrine of Chances (1718) e a nota de 1733, incluída na 2ª edição de 1738, aproximam a binomial pela curva normal.",
+    "connection": "Permite intervalos para uma proporção de acertos, base de margens de erro de métricas.",
+    "conceptIds": [
+      "comparacao-estatistica",
+      "acuracia"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "hald-1990"
+    ]
+  },
+  {
+    "id": "linnaeus-1735",
+    "year": 1735,
+    "yearLabel": "1735",
+    "region": "europa",
+    "place": "Leiden, Países Baixos",
+    "title": "Lineu: Systema Naturae",
+    "summary": "Carl Linnaeus publica uma taxonomia hierárquica (classe, ordem, gênero, espécie), com classes vegetais baseadas em caracteres sexuais das flores.",
+    "connection": "Mostra um esquema de rótulos padronizado e artificial, que define o que conta como 'classe correta'.",
+    "conceptIds": [
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "refIds": [
+      "linnaeus-1735"
+    ]
+  },
+  {
+    "id": "lind-1753",
+    "year": 1753,
+    "yearLabel": "1747 / 1753",
+    "region": "europa",
+    "place": "HMS Salisbury / Edimburgo",
+    "title": "Lind e o escorbuto",
+    "summary": "Em maio de 1747, a bordo do HMS Salisbury, James Lind compara seis tratamentos em 12 marinheiros com escorbuto, dois por tratamento; os que receberam laranjas e limões melhoraram. O relato está no Treatise of the Scurvy (1753).",
+    "connection": "Comparação controlada julgada pelo desfecho, precursora da avaliação comparativa, ainda sem cegamento nem aleatorização.",
+    "conceptIds": [
+      "comparacao-estatistica",
+      "gold-standard"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "lind-1753"
+    ]
+  },
+  {
+    "id": "bayes-1763",
+    "year": 1763,
+    "yearLabel": "1763",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "Bayes e Price",
+    "summary": "Richard Price publica postumamente 'An Essay towards solving a Problem in the Doctrine of Chances', de Thomas Bayes, sobre inferir a probabilidade de um evento a partir de sucessos e falhas observados.",
+    "connection": "Base da atualização de crença que liga prevalência, sensibilidade e especificidade ao valor preditivo.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "precisao"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A 'regra de Bayes' na forma moderna com razão de verossimilhança deve mais a Laplace.",
+    "refIds": [
+      "bayes-1763"
+    ]
+  },
+  {
+    "id": "kaitai-shinsho",
+    "year": 1771,
+    "yearLabel": "1771 (dissecção); 1774 (publicação)",
+    "region": "leste-asia",
+    "place": "Kotsukappara, Edo (Japão)",
+    "title": "Kaitai Shinsho: o livro holandês conferido com o corpo",
+    "summary": "Em 1771 Sugita Genpaku, Maeno Ryōtaku e Nakagawa Jun'an assistiram à dissecção de uma executada levando a tradução holandesa (Ontleedkundige Tafelen) das tabelas anatômicas de Johann Adam Kulmus. Segundo o relato de Sugita, as ilustrações correspondiam ao que viam, ao contrário dos esquemas dos clássicos chineses; o grupo traduziu o livro e publicou o Kaitai Shinsho em 1774.",
+    "connection": "Duas fontes de referência são comparadas contra a observação direta, e a que concorda com ela é adotada: a lógica de escolher um padrão de referência por validação empírica.",
+    "conceptIds": [
+      "gold-standard"
+    ],
+    "certainty": "interpretacao",
+    "caution": "O relato vem das memórias de Sugita (Rangaku Kotohajime, 1815), escritas décadas depois e com tom de mito fundador. Yamawaki Tōyō já havia observado uma dissecção em 1754 e questionado os clássicos.",
+    "refIds": [
+      "sakula-1985",
+      "michel-2018"
+    ]
+  },
+  {
+    "id": "laplace-1774",
+    "year": 1774,
+    "yearLabel": "1774 / 1812",
+    "region": "europa",
+    "place": "Paris, França",
+    "title": "Laplace: probabilidade das causas",
+    "summary": "No Mémoire de 1774, Laplace formula a inferência das causas pelos eventos; na Théorie analytique des probabilités (1812) sistematiza a teoria, incluindo erros e testemunhos.",
+    "connection": "Dá a forma usual do teorema de Bayes, com prior e verossimilhança, usada para valor preditivo e razão de verossimilhança.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "razao-verossimilhanca"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "stigler-1986"
+    ]
+  },
+  {
+    "id": "condorcet-1785",
+    "year": 1785,
+    "yearLabel": "1785",
+    "region": "europa",
+    "place": "Paris, França",
+    "title": "Teorema do júri de Condorcet",
+    "summary": "No Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix, Condorcet mostra que, se jurados independentes acertam com probabilidade acima de 1/2, a maioria acerta com probabilidade que cresce com o número de jurados.",
+    "connection": "Ancestral direto da agregação de anotadores por voto majoritário e dos ensembles, e da hipótese de independência dos erros.",
+    "conceptIds": [
+      "rotulos-ruidosos",
+      "acuracia",
+      "kappa"
+    ],
+    "certainty": "interpretacao",
+    "refIds": [
+      "condorcet-1785",
+      "sep-jury-theorems",
+      "grofman-1983"
+    ],
+    "caution": "O título foi conferido na Gallica. O texto de Condorcet não usa a forma moderna do teorema; o nome 'teorema do júri' é de Grofman (1975) e os enunciados formais vêm de autores do século XX."
+  },
+  {
+    "id": "hanaoka-1804",
+    "year": 1804,
+    "yearLabel": "1804",
+    "region": "leste-asia",
+    "place": "Kii (atual Wakayama, Japão)",
+    "title": "Hanaoka Seishū: anestesia geral e registro de casos",
+    "summary": "Em 13 de outubro de 1804 Hanaoka Seishū retirou um tumor de mama de uma mulher de 60 anos, Kan Aiya, sob anestesia geral oral com preparado à base de Datura e acônito, desenvolvido por cerca de 20 anos. O caso está descrito em manuscrito atribuído a ele, e fontes posteriores atribuem-lhe mais de 150 cirurgias de câncer de mama.",
+    "connection": "Registrar casos e desfechos de forma sistemática é o primeiro passo para séries de casos e comparação de resultados. Não houve grupo controle nem taxa de sucesso formal.",
+    "conceptIds": [
+      "matriz-confusao"
+    ],
+    "certainty": "interpretacao",
+    "caution": "A ligação com avaliação é fraca; incluir só se o acervo quiser um marco japonês de registro clínico. O nome do anestésico (mafutsusan versus tsūsensan) é discutido.",
+    "refIds": [
+      "izuo-2004"
+    ]
+  },
+  {
+    "id": "legendre-gauss",
+    "year": 1809,
+    "yearLabel": "1805 / 1809",
+    "region": "europa",
+    "place": "Paris e Göttingen",
+    "title": "Mínimos quadrados e lei dos erros",
+    "summary": "Legendre publica o método dos mínimos quadrados (1805); Gauss, na Theoria motus (1809), o justifica com a distribuição normal dos erros de observação.",
+    "connection": "Trata a observação como verdade mais ruído, modelo que depois inspira pensar em erros de medida e de rótulo.",
+    "conceptIds": [
+      "scoring-rules",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "stigler-1986"
+    ]
+  },
+  {
+    "id": "quetelet-1835",
+    "year": 1835,
+    "yearLabel": "1835",
+    "region": "europa",
+    "place": "Bruxelas, Bélgica",
+    "title": "Quetelet e o homem médio",
+    "summary": "Em Sur l'homme (1835), Quetelet aplica a curva de erros a medidas sociais e corporais, criando a noção de 'homme moyen'.",
+    "connection": "Transfere a teoria do erro das observações astronômicas para populações, preparando a estatística de grupos comparados.",
+    "conceptIds": [
+      "prevalencia-bayes"
+    ],
+    "certainty": "interpretacao",
+    "refIds": [
+      "porter-1986"
+    ]
+  },
+  {
+    "id": "louis-1835",
+    "year": 1835,
+    "yearLabel": "1835",
+    "region": "europa",
+    "place": "Paris, França",
+    "title": "Louis e o método numérico",
+    "summary": "Pierre Louis publica Recherches sur les effets de la saignée (1835): em 77 pacientes com pneumonia, morreram 44% dos sangrados nos dias 1–4 e 25% dos sangrados nos dias 5–9, e ele conclui que a sangria tinha muito menos efeito do que se acreditava.",
+    "connection": "Substitui a autoridade clínica pela contagem de desfechos em grupos, base de tabelas de comparação.",
+    "conceptIds": [
+      "comparacao-estatistica",
+      "gold-standard"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "louis-1835",
+      "morabia-2006"
+    ]
+  },
+  {
+    "id": "semmelweis-1847",
+    "year": 1847,
+    "yearLabel": "1847 / 1861",
+    "region": "europa",
+    "place": "Viena, Áustria",
+    "title": "Semmelweis e a febre puerperal",
+    "summary": "Semmelweis compara a mortalidade das duas clínicas obstétricas de Viena e mostra a queda após lavar as mãos com cloro (1847); publica a análise em 1861.",
+    "connection": "Uso de taxas comparadas antes e depois de uma intervenção como evidência, sem desenho aleatorizado.",
+    "conceptIds": [
+      "comparacao-estatistica"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "porter-1986",
+      "loudon-2013"
+    ]
+  },
+  {
+    "id": "farr-nightingale",
+    "year": 1858,
+    "yearLabel": "1839 / 1858",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "Farr, Nightingale e a nosologia estatística",
+    "summary": "William Farr propõe no 1º relatório do Registrar General (1839) uma nosologia padronizada das causas de morte. Florence Nightingale, com Farr, usa diagramas de área polar (1858) para mostrar mortes evitáveis no exército na Crimeia.",
+    "connection": "Padronizar categorias de causa é criar um esquema de rótulos de referência, cuja qualidade condiciona toda contagem.",
+    "conceptIds": [
+      "gold-standard",
+      "rotulos-ruidosos"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "porter-1986"
+    ]
+  },
+  {
+    "id": "peirce-jastrow-1885",
+    "year": 1885,
+    "yearLabel": "1885",
+    "region": "americas",
+    "place": "Baltimore, EUA",
+    "title": "Peirce e Jastrow: experimento aleatorizado e cego",
+    "summary": "Em 'On Small Differences of Sensation' (Memoirs of the NAS, vol. 3, 1885), C. S. Peirce e Joseph Jastrow testam a percepção de diferenças mínimas de peso. A direção da mudança era sorteada por um baralho embaralhado de cartas vermelhas e pretas, sem que o sujeito soubesse, e as respostas certas e erradas eram contadas.",
+    "connection": "Avalia um 'classificador humano' contra a verdade conhecida com aleatorização e cegamento; também antecipa a detecção de sinais (d').",
+    "conceptIds": [
+      "acuracia",
+      "d-linha",
+      "gold-standard",
+      "comparacao-estatistica"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Distinto do artigo de Peirce de 1884 sobre previsões de tornados, já no arquivo.",
+    "refIds": [
+      "peirce-jastrow-1885"
+    ]
+  },
+  {
+    "id": "galton-1888",
+    "year": 1888,
+    "yearLabel": "1886 / 1888",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "Galton: regressão e correlação",
+    "summary": "Galton descreve a regressão à média (1886) e define o índice de 'co-relation' em 1888 nos Proceedings of the Royal Society.",
+    "connection": "Introduz medir associação entre duas variáveis por um único número, precursor de métricas de concordância.",
+    "conceptIds": [
+      "kappa"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "galton-1888"
+    ]
+  },
+  {
+    "id": "pearson-1900-1904",
+    "year": 1900,
+    "yearLabel": "1900 / 1904",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "Pearson: qui-quadrado e contingência",
+    "summary": "Karl Pearson publica o teste qui-quadrado de aderência (1900) e, em 'On the Theory of Contingency and its Relation to Association and Normal Correlation' (1904), a contingência quadrática média e o coeficiente de contingência para tabelas cruzadas.",
+    "connection": "Dá a teoria das tabelas de contingência, a mesma estrutura da matriz de confusão, com teste contra independência (acaso).",
+    "conceptIds": [
+      "matriz-confusao",
+      "comparacao-estatistica",
+      "kappa"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "pearson-1900",
+      "pearson-1904"
+    ]
+  },
+  {
+    "id": "yule-1900-1912",
+    "year": 1900,
+    "yearLabel": "1900 / 1912",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "Yule: associação entre atributos",
+    "summary": "G. Udny Yule propõe o coeficiente Q para tabelas 2×2 (1900) e, em 1912, revisa e compara métodos de medir associação entre dois atributos, incluindo o coeficiente de correlação aplicado à tabela 2×2 (hoje phi, equivalente ao MCC).",
+    "connection": "Métricas de resumo de uma tabela 2×2, como phi/MCC e razão de chances, vêm diretamente dessa linha.",
+    "conceptIds": [
+      "matriz-confusao",
+      "escolha-metrica",
+      "kappa"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "yule-1900",
+      "yule-1912"
+    ],
+    "caution": "O phi não é invenção de Yule: deriva da correlação de Pearson; o nome e a prioridade são discutidos."
+  },
+  {
+    "id": "spearman-1904",
+    "year": 1904,
+    "yearLabel": "1904",
+    "region": "europa",
+    "place": "Londres / Leipzig",
+    "title": "Spearman: fidedignidade e atenuação",
+    "summary": "Em 'The Proof and Measurement of Association between Two Things', Spearman mostra que erro de medida atenua correlações e propõe corrigi-la usando medidas repetidas.",
+    "connection": "Primeira formalização de que referências imperfeitas subestimam o desempenho verdadeiro, questão central de rótulos ruidosos.",
+    "conceptIds": [
+      "rotulos-ruidosos",
+      "kappa"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "spearman-1904"
+    ]
+  },
+  {
+    "id": "student-1908",
+    "year": 1908,
+    "yearLabel": "1908",
+    "region": "europa",
+    "place": "Dublin, Irlanda",
+    "title": "Student: o erro provável da média",
+    "summary": "W. S. Gosset, sob o pseudônimo Student, deriva a distribuição t para pequenas amostras na Biometrika.",
+    "connection": "Base de comparar médias de desempenho com poucas repetições, como em validação cruzada.",
+    "conceptIds": [
+      "comparacao-estatistica",
+      "validacao-cruzada"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "student-1908",
+      "zabell-2008"
+    ]
+  },
+  {
+    "id": "fisher-1935-cha",
+    "year": 1935,
+    "yearLabel": "1935",
+    "region": "europa",
+    "place": "Rothamsted / Londres",
+    "title": "Fisher: desenho e a senhora do chá",
+    "summary": "Em The Design of Experiments (1935), Fisher descreve uma senhora que diz distinguir se o leite foi posto antes do chá: 8 xícaras, 4 de cada tipo, em ordem aleatória, e a probabilidade de acertar todas por acaso é 1/70.",
+    "connection": "É uma avaliação de classificador contra rótulos conhecidos, com aleatorização e distribuição nula exata (teste exato, hoje de Fisher), sobre uma tabela 2×2.",
+    "conceptIds": [
+      "matriz-confusao",
+      "comparacao-estatistica",
+      "gold-standard",
+      "acuracia"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "fisher-1935",
+      "box-1978"
+    ],
+    "caution": "O livro de 1935 não nomeia a senhora nem relata o resultado; a identificação com Muriel Bristol e a versão de que ela acertou vêm de Joan Fisher Box (1978). Fisher considera 1/70 'decididamente significativo' e mostra que 3 certas e 1 errada (17/70) não seria."
+  },
+  {
+    "id": "fisher-1936-discriminante",
+    "year": 1936,
+    "yearLabel": "1936",
+    "region": "europa",
+    "place": "Londres, Inglaterra",
+    "title": "Fisher: discriminante linear (Iris)",
+    "summary": "Fisher publica 'The Use of Multiple Measurements in Taxonomic Problems' (Annals of Eugenics, 1936), com a função discriminante linear aplicada a medidas de flores de Iris coletadas por Edgar Anderson.",
+    "connection": "O Iris depois virou um dos primeiros benchmarks. Fisher estima a probabilidade de classificação errada a partir da distância entre as médias, sem contar erros num conjunto de teste, mas a ideia já é a mesma de relatar o erro de classificação.",
+    "conceptIds": [
+      "benchmarks",
+      "roc",
+      "d-linha"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "fisher-1936"
+    ]
+  },
+  {
+    "id": "mahalanobis-1936",
+    "year": 1936,
+    "yearLabel": "1936",
+    "region": "sul-asia",
+    "place": "Calcutá, Índia",
+    "title": "Distância de Mahalanobis",
+    "summary": "P. C. Mahalanobis publica 'On the Generalised Distance in Statistics' nos Proceedings of the National Institute of Sciences of India, medindo a separação entre grupos levando em conta as correlações entre variáveis.",
+    "connection": "A distância entre classes padronizada pela covariância é parente direta do d' e da separabilidade que curvas ROC resumem.",
+    "conceptIds": [
+      "d-linha",
+      "roc"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A ideia de D² vem de trabalhos antropométricos da década de 1920; 1936 é a formulação geral.",
+    "refIds": [
+      "mahalanobis-1936",
+      "chaudhuri-2020"
+    ]
+  },
+  {
+    "id": "turing-good-evidencia",
+    "year": 1941,
+    "yearLabel": "1940–1941 / 1950",
+    "region": "europa",
+    "place": "Bletchley Park / Londres",
+    "title": "Turing e Good: peso da evidência",
+    "summary": "No Banburismus contra a Enigma, Turing mede evidência em 'bans' e 'decibans' (log da razão de verossimilhança), somando-a sequencialmente. I. J. Good expõe a ideia em Probability and the Weighing of Evidence (1950).",
+    "connection": "A razão de verossimilhança em escala logarítmica é exatamente a forma moderna de combinar testes diagnósticos.",
+    "conceptIds": [
+      "razao-verossimilhanca",
+      "prevalencia-bayes",
+      "limiar-custo"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "good-1950",
+      "good-1979"
+    ]
+  },
+  {
+    "id": "wald-1945",
+    "year": 1945,
+    "yearLabel": "1943 / 1945",
+    "region": "americas",
+    "place": "Nova York, EUA",
+    "title": "Wald: teste sequencial",
+    "summary": "Abraham Wald desenvolve o teste sequencial da razão de probabilidades (SPRT) no Statistical Research Group de Columbia (relatório restrito de 1943), publicado em 1945 nos Annals of Mathematical Statistics.",
+    "connection": "Decidir parando quando a razão de verossimilhança cruza limiares fixados por taxas de erro tipo I e II.",
+    "conceptIds": [
+      "erros-tipo",
+      "razao-verossimilhanca",
+      "limiar-custo"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "wald-1945"
+    ]
+  },
+  {
+    "id": "yerushalmy-1947",
+    "year": 1947,
+    "yearLabel": "1947",
+    "region": "americas",
+    "place": "Serviço de Saúde Pública dos EUA",
+    "title": "Yerushalmy e a discordância entre leitores de radiografia",
+    "summary": "Jacob Yerushalmy comparou quatro técnicas de radiografia de tórax para triagem de tuberculose em cerca de 1.200 pessoas, lidas por cinco especialistas, e encontrou discordância substancial entre leitores e do mesmo leitor em momentos diferentes. Usou sensibilidade e especificidade para descrever o desempenho das técnicas.",
+    "connection": "Popularizou sensibilidade e especificidade como medidas de testes diagnósticos na medicina e mostrou que o próprio rótulo de referência (o leitor humano) é ruidoso.",
+    "conceptIds": [
+      "sensibilidade",
+      "especificidade",
+      "rotulos-ruidosos",
+      "kappa"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Binney, Hyde e Bossuyt (2021) mostram que as noções já eram usadas na sorologia do início do século XX; o próprio Yerushalmy chama as medidas de 'procedimento usual'. Não é a origem dos termos.",
+    "refIds": [
+      "yerushalmy-1947",
+      "binney-2021"
+    ]
+  },
+  {
+    "id": "youden-brier-1950",
+    "year": 1950,
+    "yearLabel": "1950",
+    "region": "americas",
+    "place": "EUA (National Bureau of Standards; U.S. Weather Bureau)",
+    "title": "Youden e Brier: um número para resumir teste e previsão",
+    "summary": "Em 1950, W. J. Youden propôs um índice (sensibilidade + especificidade - 1) para classificar testes diagnósticos, e Glenn Brier propôs, na Monthly Weather Review, avaliar previsões probabilísticas do tempo pelo erro quadrático entre probabilidade prevista e resultado.",
+    "connection": "Os dois trabalhos mostram a passagem da tabela de acertos para escores únicos: um para decisões binárias (índice J), outro para probabilidades (escore de Brier, uma regra de pontuação própria).",
+    "conceptIds": [
+      "youden",
+      "scoring-rules",
+      "calibracao",
+      "escolha-metrica"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "youden-1950",
+      "brier-1950"
+    ]
+  },
+  {
+    "id": "fix-hodges-1951",
+    "year": 1951,
+    "yearLabel": "1951",
+    "region": "americas",
+    "place": "USAF School of Aviation Medicine, Randolph Field (Texas)",
+    "title": "Fix e Hodges: discriminação não paramétrica e vizinhos mais próximos",
+    "summary": "Evelyn Fix e Joseph Hodges escreveram um relatório técnico para a Força Aérea dos EUA (Projeto 21-49-004, Relatório 4) sobre discriminação sem supor distribuições conhecidas. O texto propõe regras baseadas nas observações mais próximas e estuda sua consistência.",
+    "connection": "É a origem usual do classificador de k vizinhos mais próximos e marca a mudança de classificadores derivados de modelos paramétricos (Fisher) para regras julgadas pelo erro que cometem.",
+    "conceptIds": [
+      "gold-standard",
+      "acuracia"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Relatório interno de pouca circulação na época; republicado pela International Statistical Review em 1989.",
+    "refIds": [
+      "fix-hodges-1951"
+    ]
+  },
+  {
+    "id": "radar-roc-1954",
+    "year": 1954,
+    "yearLabel": "1954–1966",
+    "region": "americas",
+    "place": "Universidade de Michigan (Ann Arbor)",
+    "title": "Radar, detecção de sinais e a curva ROC",
+    "summary": "Peterson, Birdsall e Fox formalizaram a teoria da detectabilidade de sinais a partir do problema do radar, descrevendo o compromisso entre acertos e alarmes falsos à medida que o limiar varia. No mesmo ano, Tanner e Swets aplicaram a ideia à percepção humana; Green e Swets consolidaram a teoria em livro em 1966.",
+    "connection": "Aqui a curva ROC nasce como objeto: o desempenho deixa de ser um ponto e vira a família de pontos obtida variando o limiar, separando capacidade de discriminação (d') de critério de decisão.",
+    "conceptIds": [
+      "roc",
+      "d-linha",
+      "limiar-custo",
+      "fpr",
+      "sensibilidade"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A origem no radar da Segunda Guerra é clara, mas não encontramos documento publicado anterior a 1954 com a expressão 'receiver operating characteristic'; Peterson, Birdsall e Fox são a primeira formalização documentada.",
+    "refIds": [
+      "peterson-birdsall-fox-1954",
+      "tanner-swets-1954",
+      "green-swets-1966"
+    ]
+  },
+  {
+    "id": "meehl-1954",
+    "year": 1954,
+    "yearLabel": "1954",
+    "region": "americas",
+    "place": "Universidade de Minnesota",
+    "title": "Meehl: julgamento clínico contra previsão estatística",
+    "summary": "Paul Meehl publicou 'Clinical versus Statistical Prediction', revisando estudos que comparavam previsões de clínicos com fórmulas atuariais simples. Na maioria dos estudos revisados, as fórmulas igualaram ou superaram os especialistas.",
+    "connection": "Consolida a prática de comparar juízo humano e regra mecânica sobre os mesmos casos e o mesmo desfecho, ou seja, avaliar classificadores (humanos ou não) contra uma referência comum.",
+    "conceptIds": [
+      "comparacao-estatistica",
+      "gold-standard",
+      "benchmarks"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "meehl-1954"
+    ],
+    "caution": "O número de estudos revisados (cerca de 20) vem de fontes secundárias."
+  },
+  {
+    "id": "kent-1955",
+    "year": 1955,
+    "yearLabel": "1955",
+    "region": "americas",
+    "place": "Western Reserve University (Cleveland)",
+    "title": "Kent e colegas: medir a recuperação de documentos",
+    "summary": "Allen Kent, Madeline Berry, Fred Luehrs e J. W. Perry propuseram medidas para avaliar sistemas de recuperação de informação, baseadas em razões entre documentos pertinentes recuperados, total recuperado e total pertinente.",
+    "connection": "São ancestrais diretos de precisão e revocação, ainda com outra nomenclatura; a lógica da matriz de confusão reaparece fora da medicina, em bibliotecas e documentação.",
+    "conceptIds": [
+      "precisao",
+      "sensibilidade",
+      "ranking-ir"
+    ],
+    "certainty": "interpretacao",
+    "caution": "As duas razões básicas estão no artigo, mas os nomes variam nas fontes secundárias ('recall' e 'relevance' segundo Saracevic, 2007; 'recall' e 'pertinency' em outras); o texto original não foi conferido. A afiliação exata dos autores em 1955 (Western Reserve University ou Battelle) também não foi conferida.",
+    "refIds": [
+      "kent-1955",
+      "saracevic-2007"
+    ]
+  },
+  {
+    "id": "chow-rejeicao",
+    "year": 1957,
+    "yearLabel": "1957 / 1970",
+    "region": "americas",
+    "place": "Burroughs Corporation Research Center, Paoli (Pensilvânia, EUA)",
+    "title": "Chow: reconhecimento ótimo e a opção de rejeitar",
+    "summary": "C. K. Chow descreveu em 1957 um sistema de reconhecimento de caracteres baseado em regra de decisão bayesiana. Em 1970, no IEEE Transactions on Information Theory, derivou o compromisso ótimo entre taxa de erro e taxa de rejeição quando o classificador pode se abster.",
+    "connection": "Acrescenta uma terceira saída à matriz de confusão (não decidir) e mostra que o limiar de confiança troca erros por abstenções, antecipando as curvas atuais de cobertura contra risco.",
+    "conceptIds": [
+      "limiar-custo",
+      "prevalencia-bayes",
+      "matriz-confusao"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Afiliação de 1957 (Departamento de Eletromecanismos da Burroughs, Paoli) confirmada por Mendon-Plasek (2021); afiliação em 1970 não conferida.",
+    "refIds": [
+      "chow-1957",
+      "chow-1970",
+      "mendon-plasek-2021"
+    ]
+  },
+  {
+    "id": "perceptron-1958",
+    "year": 1958,
+    "yearLabel": "1958",
+    "region": "americas",
+    "place": "Cornell Aeronautical Laboratory (Buffalo)",
+    "title": "Rosenblatt: o perceptron",
+    "summary": "Frank Rosenblatt publicou na Psychological Review um modelo de neurônio artificial que aprende a separar padrões ajustando pesos a partir dos erros cometidos.",
+    "connection": "Primeiro classificador treinado por erro com grande repercussão pública. A ligação com avaliação é indireta: a medição de desempenho ainda era informal, e a necessidade de protocolos veio depois.",
+    "conceptIds": [
+      "acuracia"
+    ],
+    "certainty": "interpretacao",
+    "caution": "Vínculo indireto com a história das métricas.",
+    "refIds": [
+      "rosenblatt-1958"
+    ]
+  },
+  {
+    "id": "ledley-lusted-1959",
+    "year": 1959,
+    "yearLabel": "1959",
+    "region": "americas",
+    "place": "EUA (publicado na Science)",
+    "title": "Ledley e Lusted: fundamentos lógicos do diagnóstico",
+    "summary": "Robert Ledley e Lee Lusted publicaram na Science um artigo que descrevia o diagnóstico médico com lógica simbólica, probabilidade (teorema de Bayes) e teoria do valor para a escolha do tratamento.",
+    "connection": "Traz para a clínica o esquema probabilidade a priori + verossimilhança + custo da decisão, base da leitura de valor preditivo e de limiar de tratamento.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "razao-verossimilhanca",
+      "limiar-custo"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "ledley-lusted-1959"
+    ]
+  },
+  {
+    "id": "cohen-kappa-1960",
+    "year": 1960,
+    "yearLabel": "1960",
+    "region": "americas",
+    "place": "Universidade de Nova York",
+    "title": "Cohen: kappa para concordância entre juízes",
+    "summary": "Jacob Cohen propôs o coeficiente kappa em Educational and Psychological Measurement, corrigindo a concordância observada entre dois avaliadores pela concordância esperada por acaso.",
+    "connection": "Torna-se a ferramenta padrão para verificar se os próprios rótulos de referência são confiáveis e, depois, para comparar classificador e anotador.",
+    "conceptIds": [
+      "kappa",
+      "rotulos-ruidosos",
+      "acuracia"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "cohen-1960"
+    ]
+  },
+  {
+    "id": "warner-1961",
+    "year": 1961,
+    "yearLabel": "1961",
+    "region": "americas",
+    "place": "Salt Lake City (LDS Hospital / Universidade de Utah)",
+    "title": "Warner: Bayes no computador para cardiopatias congênitas",
+    "summary": "Homer Warner, Alan Toronto, L. George Veasey e Robert Stephenson publicaram no JAMA (vol. 177, p. 177–183, 1961) um modelo bayesiano que estimava a probabilidade de diversas formas de cardiopatia congênita a partir de achados clínicos e comparava os resultados com diagnósticos confirmados e com cardiologistas.",
+    "connection": "Um dos primeiros casos em que um classificador automático usou dados reais de pacientes e foi avaliado contra uma referência e contra especialistas.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "gold-standard",
+      "comparacao-estatistica"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Grafia correta: Veasey. Fontes secundárias citam 35 formas de cardiopatia e 50 achados; esses números não foram conferidos no artigo original.",
+    "refIds": [
+      "warner-1961"
+    ]
+  },
+  {
+    "id": "cranfield",
+    "year": 1962,
+    "yearLabel": "1962–1966",
+    "region": "europa",
+    "place": "College of Aeronautics, Cranfield (Inglaterra)",
+    "title": "Experimentos de Cranfield: coleção de teste com julgamentos",
+    "summary": "Cyril Cleverdon conduziu testes comparando sistemas de indexação sobre um conjunto fixo de documentos, perguntas e julgamentos de relevância, medindo a proporção de relevantes recuperados e a de recuperados relevantes.",
+    "connection": "Cria o paradigma de benchmark: mesma coleção, mesmos rótulos, sistemas diferentes. Precisão e revocação ganham uso sistemático aqui.",
+    "conceptIds": [
+      "benchmarks",
+      "precisao",
+      "sensibilidade",
+      "ranking-ir",
+      "gold-standard"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "cleverdon-1962",
+      "cleverdon-1966"
+    ]
+  },
+  {
+    "id": "cover-hart-1967",
+    "year": 1967,
+    "yearLabel": "1967",
+    "region": "americas",
+    "place": "Universidade Stanford",
+    "title": "Cover e Hart: o erro do vizinho mais próximo",
+    "summary": "Thomas Cover e Peter Hart provaram que, com amostras grandes, a taxa de erro da regra do vizinho mais próximo é no máximo o dobro do erro de Bayes, o menor erro possível para o problema.",
+    "connection": "Estabelece o erro de Bayes como referência teórica: a acurácia de um classificador passa a ser lida contra um limite, não só contra outro sistema.",
+    "conceptIds": [
+      "acuracia",
+      "prevalencia-bayes"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "cover-hart-1967"
+    ]
+  },
+  {
+    "id": "vapnik-chervonenkis-1971",
+    "year": 1971,
+    "yearLabel": "1971 (original russo: 1968)",
+    "region": "europa",
+    "place": "Instituto de Ciências de Controle, Moscou (URSS)",
+    "title": "Vapnik e Chervonenkis: quando o erro de treino engana",
+    "summary": "Vladimir Vapnik e Alexey Chervonenkis deram condições para que frequências observadas numa amostra convirjam uniformemente para as probabilidades verdadeiras numa classe de eventos, usando a medida de capacidade hoje chamada dimensão VC.",
+    "connection": "Explica por que o erro medido nos dados de ajuste subestima o erro real e justifica teoricamente avaliar classificadores em dados separados.",
+    "conceptIds": [
+      "validacao-cruzada",
+      "acuracia"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Resultado anunciado em 1968 nos Doklady Akademii Nauk SSSR 181(4):781–783 (tradução em Soviet Mathematics Doklady 9:915–918); o artigo completo de 1971 é a tradução inglesa do texto publicado em russo em Teoriya Veroyatnostei i ee Primeneniya.",
+    "refIds": [
+      "vapnik-chervonenkis-1971",
+      "bottou-2013"
+    ]
+  },
+  {
+    "id": "kahneman-tversky-1973",
+    "year": 1973,
+    "yearLabel": "1973–1974",
+    "region": "americas",
+    "place": "Universidade Hebraica de Jerusalém / Oregon Research Institute",
+    "title": "Kahneman e Tversky: negligência da taxa-base",
+    "summary": "Em 'On the psychology of prediction' (Psychological Review, 1973) e 'Judgment under Uncertainty' (Science, 1974), Daniel Kahneman e Amos Tversky mostraram que as pessoas tendem a ignorar probabilidades a priori quando recebem evidência descritiva do caso.",
+    "connection": "Documenta empiricamente o erro que a prevalência provoca: sensibilidade alta não garante valor preditivo alto quando a classe é rara.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "precisao"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Os autores eram israelenses e trabalharam também nos EUA; a região reflete as publicações.",
+    "refIds": [
+      "kahneman-tversky-1973",
+      "tversky-kahneman-1974"
+    ]
+  },
+  {
+    "id": "stone-geisser-cv",
+    "year": 1974,
+    "yearLabel": "1974–1975",
+    "region": "europa",
+    "place": "University College London / Universidade de Minnesota",
+    "title": "Stone e Geisser: validação cruzada como método",
+    "summary": "Mervyn Stone (JRSS B, 1974) e Seymour Geisser (JASA, 1975) formalizaram, de modo independente, o uso de observações deixadas de fora para escolher e avaliar modelos de previsão.",
+    "connection": "Dá a forma moderna do protocolo de reamostragem usado para estimar o desempenho de classificadores com dados limitados.",
+    "conceptIds": [
+      "validacao-cruzada",
+      "comparacao-estatistica"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Ideias de amostra de validação existiam antes (ex.: Lachenbruch e Mickey, Mosteller e Tukey); 1974–75 é a formalização mais citada.",
+    "refIds": [
+      "stone-1974",
+      "geisser-1975"
+    ]
+  },
+  {
+    "id": "matthews-1975",
+    "year": 1975,
+    "yearLabel": "1975",
+    "region": "americas",
+    "place": "Institute of Molecular Biology, Universidade de Oregon (Eugene, EUA)",
+    "title": "Matthews: correlação para predição de estrutura de proteínas",
+    "summary": "B. W. Matthews comparou predições de estrutura secundária de proteínas com estruturas conhecidas usando um coeficiente de correlação sobre a tabela 2x2, equivalente ao coeficiente phi de Pearson.",
+    "connection": "O coeficiente entra na bioinformática e depois se torna métrica de referência para classes desbalanceadas (MCC).",
+    "conceptIds": [
+      "mcc",
+      "matriz-confusao",
+      "escolha-metrica"
+    ],
+    "certainty": "estabelecido",
+    "caution": "A fórmula é o phi de Pearson; o nome 'MCC' é posterior.",
+    "refIds": [
+      "matthews-1975"
+    ]
+  },
+  {
+    "id": "casscells-1978",
+    "year": 1978,
+    "yearLabel": "1978",
+    "region": "americas",
+    "place": "Hospitais de ensino da Harvard Medical School (Boston)",
+    "title": "Casscells: médicos e o valor preditivo positivo",
+    "summary": "Casscells, Schoenberger e Graboys perguntaram a 60 pessoas em quatro hospitais de ensino de Harvard (20 médicos assistentes, 20 residentes, 20 estudantes do 4.º ano) qual a chance de doença após um teste positivo, com prevalência de 1/1000 e taxa de falso positivo de 5%. Só 11 (18%) responderam cerca de 2%; a resposta mais comum, dada por 27 (45%), foi 95%.",
+    "connection": "Exemplo clássico, no NEJM, de confusão entre especificidade e valor preditivo positivo (precisão) sob baixa prevalência.",
+    "conceptIds": [
+      "prevalencia-bayes",
+      "precisao",
+      "fpr"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Números conferidos em fonte secundária que cita o artigo (Manrai et al., 2014), não no texto original. A pergunta não informa a sensibilidade.",
+    "refIds": [
+      "casscells-1978",
+      "manrai-2014"
+    ]
+  },
+  {
+    "id": "roc-medicina",
+    "year": 1978,
+    "yearLabel": "1978–1988",
+    "region": "americas",
+    "place": "Universidade de Chicago e outros centros dos EUA",
+    "title": "A ROC entra na radiologia e na estatística médica",
+    "summary": "Charles Metz (1978) apresentou a análise ROC à medicina nuclear e à radiologia; Hanley e McNeil (1982) interpretaram a área sob a curva como probabilidade de ordenar corretamente um par doente/sadio; DeLong e colegas (1988) propuseram teste não paramétrico para comparar AUCs correlacionadas. Swets resumiu o programa na Science em 1988.",
+    "connection": "A AUC passa a ser a métrica padrão de testes diagnósticos contínuos, com inferência estatística própria.",
+    "conceptIds": [
+      "roc",
+      "auc",
+      "comparacao-estatistica"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "metz-1978",
+      "hanley-mcneil-1982",
+      "delong-1988",
+      "swets-1988"
+    ]
+  },
+  {
+    "id": "van-rijsbergen-1979",
+    "year": 1979,
+    "yearLabel": "1979",
+    "region": "europa",
+    "place": "Universidade de Cambridge / Glasgow",
+    "title": "Van Rijsbergen: a medida E, origem do F",
+    "summary": "No livro 'Information Retrieval' (2.ª ed.), C. J. van Rijsbergen apresentou a medida de efetividade E, que combina precisão e revocação com um peso; F = 1 - E tornou-se o F-measure.",
+    "connection": "Origem direta do F1 usado hoje para avaliar classificadores e extratores de informação.",
+    "conceptIds": [
+      "f-measure",
+      "precisao",
+      "sensibilidade"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "van-rijsbergen-1979"
+    ]
+  },
+  {
+    "id": "efron-1979",
+    "year": 1979,
+    "yearLabel": "1979",
+    "region": "americas",
+    "place": "Universidade Stanford",
+    "title": "Efron: o bootstrap",
+    "summary": "Bradley Efron publicou no Annals of Statistics o bootstrap, que estima a variabilidade de uma estatística reamostrando os próprios dados com reposição.",
+    "connection": "Permite intervalos de confiança para acurácia, AUC e outras métricas sem fórmula fechada.",
+    "conceptIds": [
+      "comparacao-estatistica",
+      "auc"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "efron-1979",
+      "efron-tibshirani-1993"
+    ]
+  },
+  {
+    "id": "cart-id3",
+    "year": 1984,
+    "yearLabel": "1984–1986",
+    "region": "americas",
+    "place": "EUA (Berkeley/Stanford) e Austrália (Sydney)",
+    "title": "CART e ID3: árvores de decisão e poda por erro estimado",
+    "summary": "Breiman, Friedman, Olshen e Stone publicaram 'Classification and Regression Trees' (1984), com escolha do tamanho da árvore por validação cruzada e custos de erro de classificação. Ross Quinlan publicou o ID3 no primeiro volume da revista Machine Learning (1986).",
+    "connection": "O aprendizado de máquina incorpora ao próprio algoritmo a matriz de custos e a estimativa de erro fora da amostra.",
+    "conceptIds": [
+      "validacao-cruzada",
+      "limiar-custo",
+      "acuracia"
+    ],
+    "certainty": "estabelecido",
+    "caution": "Região simplificada: Quinlan trabalhava na Austrália.",
+    "refIds": [
+      "breiman-1984",
+      "quinlan-1986"
+    ]
+  },
+  {
+    "id": "valiant-1984",
+    "year": 1984,
+    "yearLabel": "1984",
+    "region": "americas",
+    "place": "Universidade Harvard",
+    "title": "Valiant: aprendizado provavelmente aproximadamente correto",
+    "summary": "Leslie Valiant publicou 'A theory of the learnable', definindo quando um algoritmo aprende um conceito com erro pequeno e alta probabilidade a partir de um número polinomial de exemplos.",
+    "connection": "Formaliza o desempenho de um classificador como erro sobre a mesma distribuição que gerou os exemplos, a premissa implícita de todo conjunto de teste.",
+    "conceptIds": [
+      "acuracia",
+      "validacao-cruzada"
+    ],
+    "certainty": "estabelecido",
+    "refIds": [
+      "valiant-1984"
+    ]
+  },
+  {
+    "id": "muc-trec",
+    "year": 1987,
+    "yearLabel": "1987–1992",
+    "region": "americas",
+    "place": "EUA (DARPA; NIST)",
+    "title": "MUC e TREC: avaliações comunitárias organizadas",
+    "summary": "As Message Understanding Conferences, organizadas pelo Naval Ocean Systems Center com apoio da DARPA a partir de 1987, avaliaram extração de informação; a MUC-2 (1989) fixou revocação e precisão, e a MUC-4 (1992) usou F. Em 1992, o NIST e a DARPA lançaram a TREC, que julga um pool de documentos dos sistemas participantes e publica as avaliações.",
+    "connection": "Modelo da competição com dados compartilhados e métricas fixas que leva aos benchmarks atuais de aprendizado de máquina.",
+    "conceptIds": [
+      "benchmarks",
+      "f-measure",
+      "ranking-ir",
+      "gold-standard"
+    ],
+    "certainty": "estabelecido",
+    "caution": "MUC-1 (1987) foi exploratória, sem avaliação formal (Grishman e Sundheim, 1996).",
+    "refIds": [
+      "chinchor-1992",
+      "voorhees-harman-2005",
+      "nist-trec",
+      "grishman-sundheim-1996"
+    ]
+  }
+]

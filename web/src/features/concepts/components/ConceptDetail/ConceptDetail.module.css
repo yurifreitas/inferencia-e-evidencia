@@ -1,0 +1,36 @@
+.detail { display: grid; gap: var(--space-8); max-width: 880px; }
+.header { display: grid; gap: var(--space-2); }
+.group { font: 500 var(--text-xs) var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--brand); }
+.name { font: 600 clamp(30px, 3.6vw, 42px)/1.1 var(--font-serif); letter-spacing: -.02em; }
+.aka { color: var(--text-muted); font-size: var(--text-sm); }
+.definition { font-size: 19px; line-height: 1.6; }
+.section { display: grid; gap: var(--space-4); }
+.h2 { font: 600 var(--text-lg) var(--font-serif); display: flex; align-items: baseline; gap: var(--space-3); }
+.h2 span { font: 400 var(--text-xs) var(--font-mono); color: var(--text-muted); }
+.prose { line-height: 1.7; max-width: 70ch; }
+.pitfalls { display: grid; gap: var(--space-3); }
+.pitfalls li { position: relative; padding-left: var(--space-6); line-height: 1.6; }
+.pitfalls li::before { content: ""; position: absolute; left: 4px; top: 10px; width: 8px; height: 8px; border-radius: 2px; background: var(--brand); transform: rotate(45deg); }
+.actions { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.primary, .secondary {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 var(--space-6); border-radius: var(--radius-md);
+  font-size: var(--text-sm); font-weight: 600; text-decoration: none; transition: transform var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+.primary { background: var(--brand); color: var(--brand-fg); }
+.primary:hover { transform: translateY(-1px); }
+.secondary { border: 1px solid var(--border); background: var(--surface); }
+.secondary:hover { border-color: var(--border-strong); }
+.related { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: var(--space-3); }
+.relatedCard {
+  display: grid; gap: var(--space-2); height: 100%; padding: var(--space-4); border: 1px solid var(--border); border-radius: var(--radius-md);
+  background: var(--surface); text-decoration: none; transition: border-color var(--dur) var(--ease);
+}
+.relatedCard:hover { border-color: var(--brand); }
+.relatedName { font-weight: 600; font-size: var(--text-sm); }
+.relatedFormula { font: 400 var(--text-xs) var(--font-mono); color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.myths { display: grid; gap: var(--space-3); }
+.myths a { display: grid; gap: var(--space-1); padding: var(--space-4) var(--space-6); border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--surface); text-decoration: none; transition: border-color var(--dur) var(--ease); }
+.myths a:hover { border-color: var(--brand); }
+.myths s { color: var(--text-muted); text-decoration-color: var(--brand); }
+.myths span { font-weight: 500; }
+.headActions { display: flex; gap: var(--space-2); margin-top: var(--space-2); }

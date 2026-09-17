@@ -1,0 +1,4751 @@
+{
+ "generatedAt": "2026-09-17T14:32:56.000Z",
+ "items": {
+  "abu-mostafa-2012": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "aks-bongmi": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "aks-yeokseo": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "alkadi-1992": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "altman-bland-1994a": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "altman-bland-1994b": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "altman-bland-1994c": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "altman-bland-1995": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "amodei-2016": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "amrhein-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "angelopoulos-bates-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 2,
+   "blocked": 1,
+   "issues": []
+  },
+  "angwin-2016": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "arbuthnot-1710": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "archaeology-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "aristoteles-categorias": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "arnauld-nicole-1662": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "aroyo-welty-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "artstein-poesio-2008": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "avalon-hammurabi": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "azar-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "bai-2022": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "barnett-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "bascom-1969": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bayes-1763": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "begg-greenes-1983": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "belkin-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "bellhouse-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "benavoli-2017": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "benjamini-hochberg-1995": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "bennett-2010": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "berdan-anawalt-1992": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "berger-1985": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bergstra-2012": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "berkson-1944": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "berkson-1946": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bernoulli-1713": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "besiroglu-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bianchi-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bickel-1975": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "biderman-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "bigbench-repo": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "binkowski-2018": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "binney-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "bishop-2006": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "blau-michaeli-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bm-chester-beatty-iii": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bodleian-codex-mendoza": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "bottou-2013": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "bouthillier-2021": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "box-1978": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "boyd-2013": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "bradley-1997": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "bradley-terry-1952": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "breasted-1930": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "breiman-1984": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bricker-2011": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "brier-1950": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "broder-1997": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "brodersen-2010": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "brooks-smith-1987": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "brown-1992-entropia": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "brown-2009": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "brown-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "brown-cai-dasgupta-2001": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "bucilua-2006": {
+   "verdict": "ok",
+   "doi": "nao-checado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "buckley-voorhees-2004": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "buderer-1996": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "buolamwini-2018": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "c2pa-spec": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "callison-burch-2006": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "camerer-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "campbell-1979": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "carlini-2023-diffusion": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "casscells-1978": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "census-p60-282": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "chaffee-1985": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "chai-draxler-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "charig-1986": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chaudhuri-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chemillier-2007": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chen-2021-codex": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chiang-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chicco-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chicco-jurman-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "chinchor-1992": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "cho-2015-chugugi": {
+   "verdict": "revisar",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": [
+    "link sem resposta (read ECONNRESET): https://doi.org/10.14191/atmos.2015.25.4.719"
+   ]
+  },
+  "cho-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "chong-forsyth-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chouldechova-2017": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "chow-1957": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chow-1970": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "christiano-2017": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "chung-2024-flan": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "cleverdon-1962": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 2,
+   "blocked": 1,
+   "issues": []
+  },
+  "cleverdon-1966": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 3,
+   "blocked": 2,
+   "issues": []
+  },
+  "clopper-pearson-1934": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "cohen-1960": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "cohen-1988": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "condorcet-1785": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "conversation-cheugugi-2025": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "copet-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "corvi-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "cover-hart-1967": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "cover-thomas-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "cox-1958": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "croce-2021": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "daston-1988": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "davis-goadrich-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "dawes-faust-meehl-1989": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "dawid-skene-1979": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "defossez-2023": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "degrave-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "dehghani-2021": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "delgado-tibau-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "delong-1988": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "demoivre-1738": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "demsar-2006": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "desplanques-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "dettmers-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "devlin-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "devroye-1996": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "dhariwal-2021": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "dice-1945": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "dietterich-1998": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "ding-2020-dists": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "dodge-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "dodge-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "dols-1987": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "drummond-holte-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "dubois-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "duda-hart-stork-2001": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "dunn-1961": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "dwork-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "ebbell-1937": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "efron-1979": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "efron-1987": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "efron-tibshirani-1993": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "eglash-1997": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "eglash-1999": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "elizalde-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "elkan-2001": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "elman-2000": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "elo-1978": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "elton-gruber-blake-1996": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "es-2024": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "esl-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "everingham-2010": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "fabbri-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "farr-1839": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "fawcett-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "feinstein-cicchetti-1990": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "fermat-pascal-1654": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "fernandez-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "ferri-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "finlayson-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "fischer-2011": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "fisher-1918": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "fisher-1922": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "fisher-1935": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "fisher-1936": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "fix-hodges-1951": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "flach-2012": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "flach-kull-2015": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "fleiss-1971": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "forman-scholz-2010": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "fossa-2000": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "franklin-2001": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "french-1999": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "furedi-1999": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "gal-2023-textual-inversion": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "galton-1886": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "galton-1888": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "ganeri-2001": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "ganguli-mahabharata": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "gao-2023": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "gauss-1809": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "gautier-1974": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "geirhos-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "geisser-1975": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "geller-2010": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "gelman-loken-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "gelman-price-1999": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "geman-1992": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "ghalioungui-1963": {
+   "verdict": "ok",
+   "doi": "nao-checado",
+   "linksOk": 1,
+   "linksTotal": 2,
+   "blocked": 1,
+   "issues": []
+  },
+  "ghosh-2023-geneval": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "gigerenzer-1989": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "gigerenzer-2007": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "gigerenzer-hoffrage-1995": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "gneiting-raftery-2007": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "golchin-surdeanu-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "good-1950": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "good-1979": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 2,
+   "blocked": 1,
+   "issues": []
+  },
+  "goodfellow-2015": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "goodhart-1975": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "google-mlcc-classification": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "grandini-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "graunt-1662": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "green-swets-1966": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "greenland-2016": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "gretton-2012": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "grishman-sundheim-1996": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "grofman-1983": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "grother-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "gu-2023-mixofshow": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "gui-2024": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "guo-2017": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "gwet-2014": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "gyatso-2015": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hacking-1975": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "hacking-1990": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "hald-1990": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "hald-1998": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "hallaq-1999": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hand-1997": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "hand-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hand-christen-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hand-till-2001": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hanley-mcneil-1982": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "hardt-2016": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hardt-recht-2022": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hastie-tibshirani-statlearning": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "haubold-steele-stevens-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "he-garcia-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "heessel-2000": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "heidke-1926": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "henderson-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hendrycks-2021": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "hendrycks-dietterich-2019": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hernan-robins-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hernandez-orallo-2012": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hessel-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hestness-2017": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "heusel-2017": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hill-1965": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "hinton-2015": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hipocrates-adams-1849": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ho-2020-ddpm": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "ho-salimans-2022-cfg": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hoekstra-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hofer-rubin-medical-paintings": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hoffmann-2022": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "horden-medicalised": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "houlsby-2019": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "howard-ruder-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "hripcsak-rothschild-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hu-2022-lora": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "hu-2023-tifa": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "huang-2022-voicemos": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "huang-2023-t2icompbench": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hubert-arabie-1985": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hunger-1992": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "hunwick-1999": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "huygens-1657": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "hyndman-koehler-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "iep-nyaya": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ioannidis-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "isl-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "itu-r-bs1534-2015": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "itu-t-p800-1996": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "izuo-2004": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "jaccard-1912": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "japkowicz-shah-2011": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "jarvelin-kekalainen-2002": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "jayasumana-2024": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "jelinek-1977": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "jeyes-1989": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ji-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "jolliffe-stephenson-2011": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 2,
+   "blocked": 1,
+   "issues": []
+  },
+  "julious-mullee-1994": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "justeson-lowry-2025": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kadavath-2022": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kahneman-tversky-1973": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kaplan-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kapoor-narayanan-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kaufman-2012": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "keller-2010": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kent-1955": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "kiela-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kilgour-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "kinnunen-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kirchenbauer-2023": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "kirkpatrick-2017": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 2,
+   "blocked": 1,
+   "issues": []
+  },
+  "kirstain-2023": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kleinberg-2016": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kleinberg-2017": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "koch-westenholz-1995": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "kohavi-1995": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "kolmogorov-1933": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kolmogorov-1933-ks": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "korea-herald-gangseosigwon": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "krakovna-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "krichene-rendle-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "krippendorff-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "krzanowski-hand-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "kubichek-1993": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kuhn-johnson-2013": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kulal-2019": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kull-2017": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kull-2019": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kullback-leibler-1951": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kumari-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "kvalseth-1985": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kynkaanniemi-2019": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "kynkaanniemi-2023": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lambert-2024": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "landis-koch-1977": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "laupacis-1988": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "lazer-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "le-roux-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ledley-lusted-1959": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "lee-2022": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "lee-2023": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lee-shin-hong-2024": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "leeflang-2013": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "levenshtein-1966": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "li-2023-alpacaeval": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "liang-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "liang-2023-helm": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "liao-2021": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lin-1991": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lin-2004": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lin-2014-coco": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lin-2022": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lin-2024-vqascore": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lind-1753": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lindeberg-1922": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "linnaeus-1735": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "lipton-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "liu-2023-audioldm": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "loc-timbuktu": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "lopez-paz-2017": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "loudon-2013": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "louis-1835": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "luccioni-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "luo-2023-forgetting": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "macmillan-creelman-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "madry-2018": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "magar-schwartz-2022": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "mahalanobis-1936": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "maier-hein-2024": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "mangel-samaniego-1984": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "manheim-garrabrant-2018": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "manning-2008": {
+   "verdict": "ok",
+   "doi": "nao-checado",
+   "linksOk": 4,
+   "linksTotal": 4,
+   "blocked": 0,
+   "issues": []
+  },
+  "manrai-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "martin-1997": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "matilal-1998": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "matthews-1975": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "mcgrath-2016": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "mcnemar-1947": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "medrano-urton-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "meehl-1954": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "melis-2018": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "mendon-plasek-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "meng-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "messerli-2012": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "metz-1978": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "michel-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "miller-1997": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "miller-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "min-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "mitchell-1997": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "mittag-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "morabia-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "moreno-torres-2012": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "morris-2004": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "motzki-2005": {
+   "verdict": "ok",
+   "doi": "nao-checado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "mou-2024-t2i-adapter": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "mrc-1948": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "murphy-1973": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "murphy-1996": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "murphy-2022": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "murphy-winkler-1987": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "nadeau-bengio-2003": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "naeem-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "naeini-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "nagendran-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "nakkiran-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "nasser-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "neyman-1937": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "neyman-pearson-1933": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "niculescu-caruana-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "nightingale-1858": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "nist-ai-100-4": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "nist-trec": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "northcutt-2021": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 5,
+   "linksTotal": 5,
+   "blocked": 0,
+   "issues": []
+  },
+  "nunn-1996": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ojha-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "olivelle-2013": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "openai-2023-classifier": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "openai-2023-gpt4": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ore-1953": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "osc-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ouyang-2022": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "papineni-2002": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "parpola-1993": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "paullada-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "pearl-1995": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "pearl-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "pearl-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "pearson-1900": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "pearson-1904": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "peirce-1884": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "peirce-jastrow-1885": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "pepe-2003": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "peterson-birdsall-fox-1954": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 3,
+   "blocked": 1,
+   "issues": []
+  },
+  "pitman-1937": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "pizzi-2022-sscd": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "platt-1999": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "polya-1920": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "popovic-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "porfirio-isagoge": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "pormann-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "porter-1986": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "post-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "powers-2011": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "prechelt-1998": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "provost-1998": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "pustejovsky-stubbs-2012": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "quinlan-1986": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "quinonero-candela-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rabanser-2019": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "rabinovitch-1973": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "rafailov-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rajpurkar-2016": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ransohoff-feinstein-1978": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "raschka-2018": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "raykar-2010": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rbins-ishango": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "recht-2019": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "reddy-2021-dnsmos": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rei-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "reinke-2024": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ribeiro-2011": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rix-2001": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "roberts-1978": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "robinson-1950": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rochberg-2004": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "rombach-2022": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "rosenblatt-1958": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rosenthal-1958": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "rossouw-2002": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rousseeuw-1987": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rss-2001": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ruiz-2023-dreambooth": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "russakovsky-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "rutjes-2007": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "ryu-2022-lora": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "saberi-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sachs-hunger-1988": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "sackett-1979": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "saeki-2022": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "saerens-2002": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "sainz-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "saito-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "sajjadi-2018": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sakula-1985": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "salimans-2016": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "salton-mcgill-1983": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "san-roman-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "sanderson-2010": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sanh-2019-distilbert": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sanh-2022-t0": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "saracevic-2007": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sasaki-2007": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "schaeffer-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "schmidtchen-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "schulman-2017": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sclar-2024": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "scurlock-andersen-2005": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "sefaria-ketubot-15a": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sellam-2020": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "seneta-2013": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sep-al-kindi": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sep-arabic-natural": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sep-chinese-logic": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sep-dharmakirti": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sep-ibn-sina-logic": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sep-jury-theorems": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sep-logic-india": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sep-mohism": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sexto-bury-1933": {
+   "verdict": "ok",
+   "doi": "nao-checado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "shafer-vovk-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "shafer-vovk-2008": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "shalev-shwartz-ben-david-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "shamasastry-1915": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "shannon-1948": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sheynin-1992": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "sheynin-2009": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "shimodaira-2000": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "siddiqi-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "simpson-1951": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "sklearn-model-evaluation": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "slub-codex-dresdensis": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "smirnov-1948": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "snow-2008": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "snyder-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sohl-dickstein-2015": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "sokolova-lapalme-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "somepalli-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "song-2021-sde": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "spearman-1904": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "spiegelman-2010": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "squire-1988": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "srivastava-2023": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "stanton-2021": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "stard-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "starr-1990": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "steyerberg-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "stiennon-2020": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "stigler-1983-bayes": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "stigler-1986": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "stigler-1986-laplace": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "stone-1974": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "strathern-1997": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "strehl-ghosh-2002": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "student-1908": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "subramanian-2009": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "sullivan-feinn-2012": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "swets-1988": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "taal-2011": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "tague-sutcliffe-1992": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "taha-hanbury-2015": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "tanner-swets-1954": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "tbakhi-amr-2007": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "tibi-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "todisco-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "tsoumakas-katakis-2007": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "tversky-kahneman-1971": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "tversky-kahneman-1974": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "ub-leipzig-ebers": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "unesco-ifa": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "unschuld-1985": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "urton-1998": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "urton-brezine-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "valiant-1984": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "van-calster-2019": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "van-rijsbergen-1979": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "vapnik-chervonenkis-1971": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "varma-simon-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "varoquaux-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "verhulst-1845": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "vickers-elkin-2006": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "vinh-2010": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "voorhees-1999": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "voorhees-harman-2005": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "vovk-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "wainer-2007": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "wald-1945": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "wald-1950": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "wald-1980": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "wang-2004-ssim": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "wang-2020-cnn": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "wang-2023-valle": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "warner-1961": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "wasserstein-lazar-2016": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 2,
+   "blocked": 1,
+   "issues": []
+  },
+  "wei-2022": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "wei-2022-flan": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "weiss-1985": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "wen-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "whiting-2004": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "whiting-2011": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "willmott-matsuura-2005": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "wilson-1927": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "wong-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "wright-1921": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "wu-2023-hpsv2": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "wu-2023-laion-clap": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "xu-2023-imagereward": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "ye-2023-ip-adapter": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "yerushalmy-1947": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "yoeli-tlalim-2010": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "yosinski-2014": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "youden-1950": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "yule-1900": {
+   "verdict": "ok",
+   "doi": "nao-checado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "yule-1903": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "yule-1912": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "yule-1926": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "yurdakul-2018": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zabell-1989": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zabell-2008": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "zadrozny-elkan-2002": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  },
+  "zaslavsky-1973": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zech-2018": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zeghidour-2021": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zhang-2018-lpips": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "zhang-2020-bertscore": {
+   "verdict": "ok",
+   "doi": "sem-doi",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zhang-2023-controlnet": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 3,
+   "linksTotal": 3,
+   "blocked": 0,
+   "issues": []
+  },
+  "zhang-2024-gsm1k": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zhang-zhou-2014": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zheng-2023": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 1,
+   "linksTotal": 1,
+   "blocked": 0,
+   "issues": []
+  },
+  "zhou-2011": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 0,
+   "blocked": 0,
+   "issues": []
+  },
+  "zhou-2023-lima": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 2,
+   "linksTotal": 2,
+   "blocked": 0,
+   "issues": []
+  },
+  "zweig-campbell-1993": {
+   "verdict": "ok",
+   "doi": "confirmado",
+   "linksOk": 0,
+   "linksTotal": 1,
+   "blocked": 1,
+   "issues": []
+  }
+ }
+}

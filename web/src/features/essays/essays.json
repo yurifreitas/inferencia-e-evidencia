@@ -1,0 +1,517 @@
+[
+  {
+    "id": "do-oraculo-ao-benchmark",
+    "title": "Do oráculo ao benchmark",
+    "subtitle": "Como diferentes culturas transformaram previsões em registros, registros em comparações e comparações em métricas e tabelas de classificação, ganhando e perdendo algo a cada passo.",
+    "readingMinutes": 13,
+    "sections": [
+      {
+        "heading": "Uma cadeia de cinco elos",
+        "paragraphs": [
+          "Todo benchmark moderno esconde uma sequência que parece óbvia só porque já nascemos dentro dela. Alguém faz uma previsão; a previsão é escrita em algum lugar; em algum momento ela é posta ao lado do que de fato aconteceu; dessa comparação se extrai um número; e o número de vários sistemas é alinhado numa tabela. Previsão, registro, comparação, métrica, leaderboard. Este ensaio acompanha essa cadeia pela história, sem fingir que ela foi montada de uma vez nem que alguém no passado \"inventou\" a [[conceito:matriz-confusao|matriz de confusão]]. A proposta de ler os episódios como elos de uma mesma cadeia é nossa: é uma forma de organizar o material do acervo, não uma tese dos historiadores citados.",
+          "A cadeia tem uma propriedade curiosa. Cada elo pode existir sem o seguinte. Houve culturas que previam com enorme sofisticação e registravam com zelo, mas não temos indício de que contassem acertos. Houve quem comparasse previsões com resultados sem produzir um número. E houve, já no século XX, quem produzisse números sem perguntar o que eles escondiam. Por isso vale observar, em cada passo, o que se ganhou e o que ficou para trás.",
+          "O fio também atravessa geografias. O acervo reúne episódios da Mesopotâmia, do Egito, da Índia, da China, da Coreia, do mundo islâmico, dos Andes, da Mesoamérica e da Europa. Nenhum deles é \"precursor\" dos outros numa linha reta; são respostas locais a um problema comum, o de saber se a regra que usamos para antecipar o mundo merece confiança.",
+          "Um aviso de método: vários marcos citados aqui são classificados no acervo como interpretação, e não como fato estabelecido. Quando for esse o caso, o texto diz. A tentação de ver precisão e revocação num papiro de três mil anos é exatamente o tipo de anacronismo que a história da avaliação ensina a evitar."
+        ]
+      },
+      {
+        "heading": "Prever em forma condicional: fígados, céus e sonhos",
+        "paragraphs": [
+          "O primeiro elo, a previsão, ganhou cedo uma forma gramatical que ainda reconhecemos. Nas coleções paleobabilônicas de extispicina, adivinhos examinavam o fígado de ovelhas sacrificadas e registravam presságios no formato \"se o fígado tem o sinal P, então ocorrerá Q\", com modelos de fígado em argila para o ensino [[raiz:extispicina-paleobabilonica]] [[ref:koch-westenholz-1995]]. A série celeste Enūma Anu Enlil, com cerca de 70 tabuletas e milhares de presságios sobre Lua, Sol, clima e planetas, usa a mesma estrutura [[raiz:enuma-anu-enlil]] [[ref:rochberg-2004]]. Não é exagero dizer que aí está uma regra de classificação explícita: um sinal observável é associado a uma classe de desfecho.",
+          "No Egito, o Livro dos Sonhos do Papiro Chester Beatty III lista sonhos no formato \"se um homem se vê em sonho fazendo X\", seguido do rótulo \"bom\" ou \"mau\", com a palavra \"mau\" escrita em tinta vermelha [[raiz:livro-dos-sonhos-chester-beatty]] [[ref:bm-chester-beatty-iii]]. O Papiro Edwin Smith vai além: cada um dos 48 casos cirúrgicos termina num veredito em três classes, \"uma doença que tratarei\", \"uma doença com a qual lutarei\" e \"uma doença que não será tratada\" [[raiz:papiro-edwin-smith]] [[ref:breasted-1930]]. É uma classificação prognóstica ligada a uma ação, parente distante do que hoje chamamos de [[conceito:limiar-custo|limiar com custo de decisão]]. O acervo ressalta, porém, que não há registro de desfechos para conferir esses vereditos.",
+          "Na Assíria do século VII a.C., a previsão ganha outra propriedade decisiva: prazo. Cerca de 350 consultas ao deus-Sol, de Esarhaddon e Assurbanípal, formulam perguntas de sim ou não válidas por um período definido, como se um inimigo atacará ou se um candidato será leal, e anotam os sinais observados [[raiz:consultas-ao-deus-sol]] [[ref:starr-1990]]. Uma pergunta binária com horizonte temporal é, em princípio, verificável. O acervo classifica a leitura desse episódio como interpretação: algumas consultas registram duas ou três extispicinas, mas tratá-las como teste de confiabilidade é analogia moderna.",
+          "O que esse primeiro elo ganhou foi a forma: uma regra \"se, então\" pode ser copiada, ensinada e aplicada por outra pessoa. O que ele ainda não tinha era memória dos erros. Um catálogo de presságios cresce por acréscimo, e nada no formato obriga a marcar quais entradas falharam."
+        ]
+      },
+      {
+        "heading": "Registrar: o arquivo como matéria-prima",
+        "paragraphs": [
+          "O segundo elo é o registro sistemático, e o caso mais impressionante do acervo são os Diários Astronômicos da Babilônia. Durante séculos, escribas anotaram noite a noite posições da Lua e dos planetas, o tempo, o nível do Eufrates, preços de mercadorias e acontecimentos políticos, compilados em relatórios mensais e semestrais [[raiz:diarios-astronomicos]] [[ref:sachs-hunger-1988]]. O diário datado mais antigo é de 652 a.C., mas o diário \"padrão\" mais antigo preservado é de 568 a.C., e a série é descontínua [[ref:haubold-steele-stevens-2019]].",
+          "O detalhe que interessa a quem avalia classificadores é pequeno e enorme ao mesmo tempo: as anotações distinguem fenômenos observados de fenômenos previstos, como um eclipse calculado mas \"não observado\" por causa das nuvens. Separar o que se esperava do que se viu, na mesma página, é a condição mínima para qualquer comparação posterior. O próprio acervo, no entanto, adverte que o arquivo não calcula erros médios nem compara métodos com métricas explícitas; chamá-lo de benchmark é analogia.",
+          "Do outro lado do mundo, registros com lógica muito diferente mostram outra virtude do arquivo: a consistência interna. Gary Urton e Carrie Brezine analisaram 21 khipus de Puruchuco e encontraram valores de nível inferior que reaparecem somados em khipus de nível superior [[raiz:khipus-puruchuco]] [[ref:urton-brezine-2005]]. É uma verificação de contagens, não uma avaliação de previsões, mas lembra a exigência de que as células de uma tabela de contingência fechem com suas marginais. No Códice Mendoza, as pinturas registram o tributo devido por 38 províncias ao império mexica [[raiz:codex-mendoza-tributos]] [[ref:berdan-anawalt-1992]], e a ligação desse registro com avaliação é, como o acervo avisa, do historiador moderno.",
+          "Na Coreia de Sejong, em 1441, o pluviômetro padronizado cheugugi veio acompanhado da ordem para que magistrados locais medissem a chuva regularmente e informassem a corte [[raiz:cheugugi-1441]] [[ref:conversation-cheugugi-2025]]. Instrumento igual e protocolo igual são o que torna medições de lugares diferentes comparáveis; os registros contínuos preservados, porém, são sobretudo de 1777 em diante. O que o registro ganhou foi comparabilidade e memória. O que ele perdeu, ou melhor, o que ele passou a exigir, foi a decisão sobre o que anotar: tudo o que não entra no arquivo deixa de poder ser conferido."
+        ]
+      },
+      {
+        "heading": "Comparar: quando a expectativa encontra o resultado",
+        "paragraphs": [
+          "O terceiro elo aparece quando alguém põe a previsão ao lado do desfecho e pergunta se batem. Nas cartas dos eruditos assírios, Bel-ušezib escreve que as nuvens impediram saber se um eclipse esperado ocorreu e sugere pedir observações a Assur, Babilônia, Nippur, Uruk e Borsipa [[raiz:relatorios-astrologos-assirios]] [[ref:parpola-1993]]. Os relatórios editados por Hunger aplicam presságios a fenômenos observados e às vezes atenuam o resultado ao aconselhar o rei [[ref:hunger-1992]]. A conferência existe, mas serve ao conselho político, não à estatística.",
+          "No Códice de Dresden, a tabela maia de Vênus parte de um ciclo canônico de 584 dias, contra uma média real de cerca de 583,92, e estudiosos mostraram que ela embute correções [[raiz:dresden-venus]] [[ref:bricker-2011]]. O acervo classifica essa leitura como interpretação: o esquema exato de correção é reconstrução moderna e varia entre autores. A tabela de eclipses do mesmo códice cobre 405 lunações e marca janelas em que um eclipse era possível, sabendo que nem todos seriam visíveis na região [[raiz:dresden-eclipses]] [[ref:slub-codex-dresdensis]]. Uma regra que prefere emitir alertas a perder eventos vive a tensão entre [[conceito:sensibilidade]] e [[conceito:especificidade]]; a analogia, repita-se, é nossa, e o códice não conta acertos e erros.",
+          "Às vezes a comparação só acontece milênios depois. O Papiro de Berlim 3038 manda regar cevada e trigo emmer com a urina da mulher: se germinarem, ela dará à luz. Em 1963, Ghalioungui, Khalil e Ammar testaram urinas de 40 grávidas e 28 controles; houve germinação em 28 das 40 grávidas e em nenhum controle, e a previsão do sexo acertou no máximo 19 de 40 [[raiz:teste-gravidez-cevada-trigo]] [[ref:ghalioungui-1963]]. Aqui a matriz de confusão existe de verdade: nenhum falso positivo, 12 falsos negativos, sensibilidade de cerca de 70%. Mas ela é obra do experimento moderno, pequeno e feito em placa de Petri, não da prática egípcia [[ref:nunn-1996]].",
+          "No mundo islâmico, a comparação ganha intenção deliberada. Al-Rāzī relata ter tratado um grupo de pacientes com sangria e deixado outro sem sangrar \"para remover a dúvida\" de sua opinião [[raiz:al-razi-controle]] [[ref:pormann-2019]]. Pormann alerta que é exemplo isolado, sem alocação aleatória nem contagem de desfechos, e o acervo o trata como interpretação. Ibn Sīnā, no Cânone, dá regras para testar a força de um remédio por experimentação, incluindo condições controladas e atenção ao tempo de efeito [[raiz:ibn-sina-drogas]] [[ref:nasser-2009]]. Nos Andes coloniais, a comparação com uma referência externa só foi feita em 2018, quando Medrano e Urton mostraram que somas de khipus do vale do Santa coincidem com o tributo de uma revisita espanhola de 1670 [[raiz:khipus-santa-revisita]] [[ref:medrano-urton-2018]]. O ganho desse elo é a possibilidade do erro visível; a perda é que a comparação precisa de um \"resultado\" confiável, problema que o ensaio \"A história do gabarito\" trata à parte."
+        ]
+      },
+      {
+        "heading": "Contar: de Graunt a Louis",
+        "paragraphs": [
+          "A passagem da comparação caso a caso para a contagem agregada tem um marco claro no acervo: John Graunt, em 1662, reuniu décadas dos Bills of Mortality de Londres em tabelas, como uma tabela de causas somando 20 anos com 229.250 mortes [[raiz:graunt-1662]] [[ref:graunt-1662]]. Contar muda a pergunta. Já não se pergunta se esta morte foi bem classificada, mas quantas mortes de cada tipo o sistema de registro produz e se as proporções fazem sentido.",
+          "No mesmo ambiente intelectual, a probabilidade ganha linguagem. A correspondência de Pascal e Fermat resolve a divisão justa de apostas enumerando casos [[raiz:pascal-fermat]] [[ref:hald-1990]]; a Lógica de Port-Royal propõe decidir pesando probabilidade e magnitude de ganhos e perdas [[raiz:port-royal-1662]] [[ref:arnauld-nicole-1662]]. Jacob Bernoulli prova que a frequência observada converge para a probabilidade verdadeira e pergunta quanto de amostra seria preciso [[raiz:bernoulli-1713]] [[ref:bernoulli-1713]]. Sem essa ideia, nenhuma taxa de acerto calculada num conjunto finito teria pretensão de dizer algo sobre casos futuros.",
+          "A medicina foi um dos primeiros lugares onde contagem e comparação se juntaram. James Lind comparou seis tratamentos em 12 marinheiros com escorbuto, dois por tratamento [[raiz:lind-1753]] [[ref:lind-1753]]. Pierre Louis, em 1835, mostrou que em 77 pacientes com pneumonia morreram 44% dos sangrados nos dias 1 a 4 e 25% dos sangrados nos dias 5 a 9, e concluiu que a sangria tinha muito menos efeito do que se acreditava [[raiz:louis-1835]] [[ref:morabia-2006]]. Semmelweis comparou a mortalidade de duas clínicas obstétricas antes e depois da lavagem das mãos com cloro [[raiz:semmelweis-1847]] [[ref:loudon-2013]].",
+          "O ganho da contagem é imenso: permite detectar efeitos que nenhum caso isolado revela. A perda também é real. A tabela apaga o paciente, o céu encoberto, a hesitação do observador. Graunt ainda discutia caso a caso se as searchers podiam reconhecer cada causa; a tabela que ele legou, uma vez impressa, circula sem essa discussão."
+        ]
+      },
+      {
+        "heading": "O número que desconta o acaso: Finley e Peirce",
+        "paragraphs": [
+          "O quarto elo, a métrica, tem um nascimento surpreendentemente dramático. Em 1884, J. P. Finley anunciou 96,6% de acerto em suas previsões de tornado. Gilbert observou que prever \"nunca haverá tornado\" daria 98,2% [[ref:murphy-1996]]. A [[conceito:acuracia]] de uma regra que não prevê nada superava a do meteorologista, porque tornados são raros. É o primeiro caso documentado no acervo do que hoje discutimos em [[debate:acuracia-serve]], e a tabela 2×2 de previsão e observação aparece justamente nessa controvérsia.",
+          "No mesmo ano, Charles S. Peirce respondeu com uma medida de habilidade: taxa de acerto nos casos positivos menos taxa de alarme falso [[ref:peirce-1884]]. É exatamente o que Youden redescobriria em 1950 para testes diagnósticos [[raiz:youden-brier-1950]] [[ref:youden-1950]], e o que o acervo registra como [[conceito:youden|índice de Youden ou Peirce skill score]]. A lição de Finley é que um número sem referência ao acaso engana; a resposta de Peirce é construir a referência dentro da métrica.",
+          "Peirce levou a preocupação com o acaso também ao desenho experimental. Com Joseph Jastrow, em 1885, testou a percepção de diferenças mínimas de peso sorteando a direção da mudança por um baralho de cartas vermelhas e pretas, sem que o sujeito soubesse [[raiz:peirce-jastrow-1885]] [[ref:peirce-jastrow-1885]]. Heidke, em 1926, propôs para previsões de vento uma medida de concordância corrigida pelo acaso com a mesma forma que o [[conceito:kappa]] de Cohen teria depois [[ref:heidke-1926]]. E Brier, em 1950, propôs avaliar previsões probabilísticas pelo erro quadrático entre probabilidade prevista e resultado [[ref:brier-1950]], abrindo a linhagem das [[conceito:scoring-rules|regras de pontuação]].",
+          "Nas décadas seguintes, a métrica se desdobra. A detecção de sinais descreve o compromisso entre acertos e alarmes falsos quando o limiar varia, origem da [[conceito:roc|curva ROC]] [[raiz:radar-roc-1954]] [[ref:peterson-birdsall-fox-1954]]. Yerushalmy usa os termos sensibilidade e especificidade para métodos de triagem [[raiz:yerushalmy-1947]] [[ref:yerushalmy-1947]]. Casscells e colegas mostram que médicos superestimam a chance de doença após um teste positivo quando a prevalência é baixa [[raiz:casscells-1978]] [[ref:casscells-1978]], lembrando que taxa condicional à verdade não é [[conceito:precisao|valor preditivo]]. O ganho da métrica é a portabilidade: um número viaja entre laboratórios. A perda é que cada número responde a uma pergunta só, e escolher a métrica passa a ser escolher o que importa [[conceito:escolha-metrica]]."
+        ]
+      },
+      {
+        "heading": "Mesma coleção, sistemas diferentes: Cranfield e TREC",
+        "paragraphs": [
+          "O quinto elo exige algo que nenhum dos episódios anteriores tinha: um conjunto fixo de casos, com respostas fixas, sobre o qual vários sistemas são postos à prova. Em 1955, Allen Kent e colegas propuseram medir sistemas de recuperação por razões entre documentos pertinentes recuperados, total recuperado e total pertinente [[raiz:kent-1955]] [[ref:kent-1955]]. O acervo classifica a correspondência exata com precisão e revocação como leitura retrospectiva: os nomes se fixaram depois.",
+          "Entre 1962 e 1966, Cyril Cleverdon conduziu em Cranfield testes que comparavam sistemas de indexação sobre um conjunto fixo de documentos, perguntas e julgamentos de relevância [[raiz:cranfield]] [[ref:cleverdon-1962]] [[ref:cleverdon-1966]]. É aqui que o acervo situa o nascimento do paradigma de benchmark: mesma coleção, mesmos rótulos, sistemas diferentes. Precisão e revocação ganham uso sistemático, e van Rijsbergen, em 1979, as combina na medida E, cuja complementar se tornou o [[conceito:f-measure]] [[raiz:van-rijsbergen-1979]] [[ref:van-rijsbergen-1979]].",
+          "O passo seguinte foi coletivo. As Message Understanding Conferences avaliaram extração de informação com precisão, revocação e F [[ref:chinchor-1992]], e em 1992 o NIST e o Departamento de Defesa lançaram a TREC, que reúne resultados de muitos sistemas, julga um pool de documentos e publica as avaliações [[raiz:muc-trec]] [[ref:voorhees-harman-2005]] [[ref:nist-trec]]. O pool é uma solução engenhosa e um compromisso: só se julga o que algum sistema recuperou, e o resto é tratado como não relevante, questão depois estudada por Buckley e Voorhees [[ref:buckley-voorhees-2004]].",
+          "Paralelamente, a estatística ofereceu ferramentas para que a comparação não fosse ilusória. Stone e Geisser formalizaram o uso de observações deixadas de fora para avaliar modelos [[raiz:stone-geisser-cv]] [[ref:stone-1974]] [[ref:geisser-1975]], base da [[conceito:validacao-cruzada]]; Efron propôs o bootstrap para estimar a variabilidade de uma estatística [[raiz:efron-1979]] [[ref:efron-1979]]. E Meehl já mostrara, em 1954, o valor de comparar juízo clínico e fórmula sobre os mesmos casos e o mesmo desfecho [[raiz:meehl-1954]] [[ref:meehl-1954]]. O que o benchmark ganhou foi comparabilidade entre grupos que nunca se encontraram. O que ele passou a arriscar é o tema da última seção."
+        ]
+      },
+      {
+        "heading": "O leaderboard e o que ele esquece",
+        "paragraphs": [
+          "Quando uma comunidade inteira otimiza contra o mesmo conjunto de teste, esse conjunto deixa de ser uma amostra independente, e é assim que o acervo define o problema dos [[conceito:benchmarks]]. Recht e colegas recriaram o test set do ImageNet seguindo o procedimento original e mediram quedas de acurácia de 11 a 14 pontos, embora o ranking relativo dos modelos se mantivesse [[ref:recht-2019]]. Dwork e colegas propuseram mecanismos para reutilizar um holdout sem invalidá-lo [[ref:dwork-2015]], sinal de que o reuso virou problema técnico em si.",
+          "Outras críticas atacam a validade do conjunto. Liao e colegas catalogam falhas de validade interna e externa em conclusões de benchmark [[ref:liao-2021]]; Dehghani e colegas mostram que a escolha de quais benchmarks usar muda qual modelo \"vence\" [[ref:dehghani-2021]]; Kiela e colegas propõem benchmarks dinâmicos com humanos no circuito [[ref:kiela-2021]]; Paullada e colegas criticam práticas de construção de dados [[ref:paullada-2021]]. Northcutt e colegas encontraram erros de rótulo em test sets famosos suficientes para alterar o ranking de modelos [[ref:northcutt-2021]]. O debate está organizado em [[debate:benchmarks-progresso]].",
+          "Relida à luz da cadeia, essa crise tem uma estrutura reconhecível. Os Diários babilônios guardavam, ao lado de cada previsão, a nota de que o céu estava nublado. Graunt discutia a confiabilidade de cada fonte antes de somar. Finley e Peirce mostraram que o número isolado mente quando não se conhece a taxa-base. O leaderboard comprime tudo isso numa coluna ordenada, e cada compressão descarta contexto: a incerteza do rótulo, a distribuição dos casos, o custo diferente de cada erro, a variação por amostragem que [[conceito:comparacao-estatistica|testes de comparação]] tentam recuperar [[ref:demsar-2006]].",
+          "Não se trata de concluir que o benchmark foi um erro. Cada elo da cadeia trouxe algo que nenhuma cultura anterior tinha de forma tão explícita: a possibilidade de pessoas desconhecidas entre si concordarem sobre qual regra erra menos. A interpretação que propomos é mais modesta e mais útil: o progresso da avaliação consistiu em transformar confiança em procedimento, e cada procedimento carrega a memória do que precisou esquecer para funcionar. Um bom avaliador de hoje faz o caminho de volta, do leaderboard ao número, do número à tabela, da tabela aos casos e dos casos à pergunta sobre quem decidiu o que era \"o resultado\"."
+        ]
+      }
+    ],
+    "refIds": [
+      "koch-westenholz-1995",
+      "rochberg-2004",
+      "bm-chester-beatty-iii",
+      "breasted-1930",
+      "starr-1990",
+      "sachs-hunger-1988",
+      "haubold-steele-stevens-2019",
+      "urton-brezine-2005",
+      "berdan-anawalt-1992",
+      "conversation-cheugugi-2025",
+      "parpola-1993",
+      "hunger-1992",
+      "bricker-2011",
+      "slub-codex-dresdensis",
+      "ghalioungui-1963",
+      "nunn-1996",
+      "pormann-2019",
+      "nasser-2009",
+      "medrano-urton-2018",
+      "graunt-1662",
+      "hald-1990",
+      "arnauld-nicole-1662",
+      "bernoulli-1713",
+      "lind-1753",
+      "morabia-2006",
+      "loudon-2013",
+      "murphy-1996",
+      "peirce-1884",
+      "youden-1950",
+      "peirce-jastrow-1885",
+      "heidke-1926",
+      "brier-1950",
+      "peterson-birdsall-fox-1954",
+      "yerushalmy-1947",
+      "casscells-1978",
+      "kent-1955",
+      "cleverdon-1962",
+      "cleverdon-1966",
+      "van-rijsbergen-1979",
+      "chinchor-1992",
+      "voorhees-harman-2005",
+      "nist-trec",
+      "buckley-voorhees-2004",
+      "stone-1974",
+      "geisser-1975",
+      "efron-1979",
+      "meehl-1954",
+      "recht-2019",
+      "dwork-2015",
+      "liao-2021",
+      "dehghani-2021",
+      "kiela-2021",
+      "paullada-2021",
+      "northcutt-2021",
+      "demsar-2006"
+    ]
+  },
+  {
+    "id": "a-historia-do-gabarito",
+    "title": "A história do gabarito",
+    "subtitle": "Quem decide a verdade contra a qual uma previsão é julgada, e por que o gold standard sempre foi uma construção social e estatística.",
+    "readingMinutes": 11,
+    "sections": [
+      {
+        "heading": "A pergunta que a matriz não faz",
+        "paragraphs": [
+          "Uma [[conceito:matriz-confusao|matriz de confusão]] tem duas margens: o que o classificador disse e o que \"de fato\" era. A segunda margem costuma ser tratada como dado, algo que simplesmente existe. O acervo define o [[conceito:gold-standard|gold standard]] de forma mais honesta: é o rótulo contra o qual a previsão é comparada, e a matriz mede concordância com esse rótulo, não com a verdade. Se o gabarito erra, a métrica herda o erro [[ref:rutjes-2007]].",
+          "Este ensaio conta a história dessa segunda margem. A tese que o organiza é interpretativa e declarada como tal: em todas as culturas documentadas no acervo, a \"verdade\" usada para julgar alguém ou algo foi produzida por um arranjo social, seja um deus-rio, uma maioria, uma cadeia de transmissores, um corpo de examinadores ou uma multidão de anotadores. A estatística do século XX não aboliu esse fato; ela aprendeu a modelá-lo.",
+          "O percurso vai do ordálio fluvial babilônio ao artigo \"Truth Is a Lie\", passando por Talmude, hadith, Arthaśāstra, exames imperiais chineses e coreanos, as searchers de Londres, Condorcet, Yerushalmy, Cohen e Dawid–Skene. As analogias com anotação e aprendizado de máquina são nossas, como o próprio acervo registra em cada marco, e não devem ser lidas como intenção dos autores antigos."
+        ]
+      },
+      {
+        "heading": "Quando falta prova: o rio como juiz",
+        "paragraphs": [
+          "O Código de Hamurabi abre com um bloco sobre acusação e prova. O §2 determina que o acusado de feitiçaria sem prova mergulhe no rio: se afundar, o acusador fica com sua casa; se sair ileso, o acusador é morto e perde a casa. Os §§1 e 3–4 punem acusações não provadas e falso testemunho [[raiz:ordalio-hamurabi]] [[ref:avalon-hammurabi]]. O acervo classifica a leitura desse marco como interpretação, e é importante dizer por quê: a conexão com avaliação é analogia, não método estatístico.",
+          "Ainda assim, a estrutura é instrutiva. Quando a evidência humana é insuficiente, a sociedade invoca uma referência externa, e essa referência é tratada como infalível por definição. Não há como \"auditar\" o rio; seu veredito é o gabarito. Ao mesmo tempo, o código cerca esse gabarito de incentivos: quem acusa arrisca a própria vida, e a testemunha que não prova uma acusação capital é punida. A preocupação com fontes de rótulo não confiáveis aparece antes de qualquer estatística.",
+          "Essa combinação, uma instância de decisão final mais regras para punir quem alimenta o sistema com informação falsa, reaparece sob muitas formas. O que muda ao longo da história é onde se localiza a autoridade, divina, coletiva, institucional ou estatística, e se é possível perguntar quanto ela erra.",
+          "Nem toda tradição, porém, entregou a autoridade a uma instância única. Os Nyāya-sūtra, atribuídos a Gautama e de datação incerta, sistematizam quatro meios válidos de conhecimento, percepção, inferência, comparação e testemunho, e discutem quando uma percepção é errônea [[raiz:nyaya-pramana]] [[ref:sep-logic-india]] [[ref:matilal-1998]]. O acervo avisa que a analogia com gold standard é nossa. Ainda assim, a lista mostra uma sensibilidade diferente da do ordálio: o testemunho é um meio de conhecer entre outros, e não o tribunal final, e a própria percepção pode falhar. Já a dúvida radical dos modos de Enesidemo, reunidos por Sexto Empírico, segundo a qual não haveria critério indiscutível para decidir entre aparências conflitantes, aparece no acervo como marco especulativo para esta história [[raiz:sexto-empirico]] [[ref:sexto-bury-1933]], e aqui só a mencionamos como o extremo oposto do rio infalível."
+        ]
+      },
+      {
+        "heading": "Maiorias e cadeias: Talmude, hadith e tawātur",
+        "paragraphs": [
+          "O Talmude Babilônico resolve casos de dúvida seguindo a maioria (rov). A passagem clássica, em Ketubot 15a, diz que carne achada na rua é atribuída à maioria dos açougues da cidade; mas, se alguém comprou num dos açougues e esqueceu em qual, a dúvida é \"fixa\" e tratada como meio a meio [[raiz:talmud-rov]] [[ref:sefaria-ketubot-15a]]. Maimônides sistematizou essas regras no século XII. A leitura probabilística vem de Rabinovitch [[ref:rabinovitch-1973]], e o acervo classifica o marco como interpretação.",
+          "Duas coisas chamam atenção. Primeiro, decidir pela classe majoritária quando falta evidência é o que hoje chamaríamos de classificador de linha de base, com uso implícito de [[conceito:prevalencia-bayes|prevalência]]. Segundo, os rabinos distinguiam situações em que a maioria vale de situações em que não vale, e acrescentavam presunções (ḥazaqah) baseadas no estado anterior [[ref:franklin-2001]]. O gabarito não era a maioria pura; era a maioria filtrada por regras sobre de onde o caso veio.",
+          "No mundo islâmico, entre os séculos VIII e IX, estudiosos como Ibn Maʿīn, Ibn Ḥanbal, al-Bukhārī e Muslim avaliaram cadeias de transmissores (isnād), atribuindo graus de confiabilidade a cada narrador, como thiqa, ṣadūq e ḍaʿīf, e classificaram relatos como ṣaḥīḥ, ḥasan ou ḍaʿīf [[raiz:hadith-isnad]] [[ref:brown-2009]]. Aqui o gabarito sobre a autenticidade de um relato é derivado de uma avaliação de cada fonte. O acervo aponta a analogia com modelos de anotadores ruidosos, mas registra que os graus eram qualitativos, sem regra probabilística de combinação, e que a eficácia histórica do método é debatida desde Goldziher e Schacht [[ref:motzki-2005]] [[ref:hallaq-1999]].",
+          "Os teóricos do direito foram além, distinguindo relatos mutawātir, transmitidos por tantos canais independentes que o conluio é implausível, de relatos āḥād, que geram apenas probabilidade [[raiz:tawatur]] [[ref:weiss-1985]]. A ideia de que muitas fontes independentes elevam a confiança lembra a agregação de rótulos e antecipa, como leitura nossa, o problema que Condorcet formalizaria. Séculos depois, Ibn Khaldūn criticou a confiança excessiva nos transmissores e propôs testar relatos também pela plausibilidade [[raiz:ibn-khaldun]] [[ref:rosenthal-1958]], e a tradição da crítica de fontes foi cultivada em Tombuctu por eruditos como Ahmad Baba [[raiz:timbuktu-isnad]] [[ref:loc-timbuktu]]. A cadeia de transmissão, afinal, também podia ser um gabarito enganoso."
+        ]
+      },
+      {
+        "heading": "Triangular e esconder: espiões e examinadores",
+        "paragraphs": [
+          "O Arthaśāstra, atribuído a Kauṭilya, manda que informações de espiões sejam cruzadas entre três fontes que não se conhecem. Na tradução de Shamasastry, quando a informação das três fontes é exatamente a mesma, deve ser tida como confiável; se elas divergem com frequência, os espiões são punidos em segredo ou dispensados [[raiz:arthashastra-espioes]] [[ref:shamasastry-1915]]. O texto é composto e sua datação é discutida; Olivelle situa o núcleo entre o século I a.C. e o III d.C. [[ref:olivelle-2013]].",
+          "A regra tem dois lados que a anotação moderna separa com cuidado. De um lado, o rótulo só é aceito com concordância de avaliadores independentes, princípio da dupla ou tripla anotação. De outro, a discordância frequente é usada para avaliar os próprios avaliadores. O gabarito e a confiabilidade de quem o produz são estimados juntos, ainda que sem números. Nos Andes coloniais, um processo de 1579 perante a Audiência de La Plata registra dois khipukamayuq que parecem apresentar o mesmo relato de uma conta [[raiz:khipus-la-plata-1579]] [[ref:urton-1998]]; o acervo classifica como interpretação a leitura de que seria conferência mútua, já que pode ter sido divisão do relato entre metades da comunidade.",
+          "Na China, os exames imperiais selecionavam funcionários por provas padronizadas [[raiz:exames-imperiais]] [[ref:elman-2000]], e os Song enfrentaram um problema diretamente ligado ao gabarito: o viés de quem corrige. A partir de 992, os nomes dos candidatos foram cobertos (hú míng) no exame do palácio [[raiz:huming]] [[ref:chaffee-1985]]. Como a caligrafia ainda revelava autores, em 1015 as provas passaram a ser recopiadas por escreventes (téng lù), e as notas de dois examinadores eram conferidas por um examinador determinante [[raiz:tenglu]]. O acervo adverte que a dupla correção servia para decidir a nota, não para medir a confiabilidade dos corretores, e que fraudes persistiram.",
+          "Na Coreia de Joseon, a parte da prova com dados pessoais era dobrada e selada, o candidato era identificado por um código, e, segundo o Museu Nacional da Coreia, a partir do século XVIII cada examinador passou a registrar sua nota separadamente [[raiz:gwageo-joseon-anonimato]] [[ref:korea-herald-gangseosigwon]]. A fonte é de divulgação, e as datas não foram conferidas em literatura acadêmica coreana. Mas o gesto de guardar notas individuais, e não só o total, é precisamente o que torna visível a discordância entre juízes. Um gabarito que só guarda o consenso destrói a evidência de sua própria incerteza."
+        ]
+      },
+      {
+        "heading": "As searchers de Londres: o erro dentro do registro",
+        "paragraphs": [
+          "Os Bills of Mortality que John Graunt analisou em 1662 tinham um gabarito humano bem identificado. Quando alguém morria, as searchers, mulheres idosas juramentadas, iam ao local, examinavam o corpo, perguntavam aos presentes e relatavam a causa ao sacristão, que levava a conta semanal ao salão da Companhia dos Clerks [[raiz:graunt-1662]] [[ref:graunt-1662]].",
+          "A originalidade de Graunt foi criticar a própria fonte. Ele discute quando os relatos das searchers bastam, em causas reconhecíveis pela aparência, como afogamento ou idade avançada, e quando não, e aponta que poucos mortos de sífilis eram registrados como tal: mortes fora dos hospitais apareciam como \"úlceras e feridas\". O acervo descreve o episódio como talvez a primeira análise explícita de erro nos rótulos de referência e de como ele distorce contagens agregadas.",
+          "O limite também está registrado: Graunt corrigia contagens com julgamento qualitativo, caso a caso, sem estimar taxas de erro das searchers nem separar falsos positivos de falsos negativos. E o erro que ele encontrou não era aleatório. A sífilis era escondida por vergonha e pela posição social de quem morria, o que significa que o ruído do gabarito tinha direção. É a forma mais perigosa de erro de rótulo, a que nenhuma média elimina.",
+          "Dois séculos depois, William Farr propôs uma nosologia padronizada das causas de morte no primeiro relatório do Registrar General [[raiz:farr-nightingale]] [[ref:farr-1839]]. Padronizar categorias é uma forma de reduzir a discordância entre quem rotula, mas também é uma decisão sobre o que conta como a mesma coisa [[ref:porter-1986]]. O gabarito ganha consistência ao preço de fixar uma taxonomia."
+        ]
+      },
+      {
+        "heading": "Condorcet e a matemática da maioria",
+        "paragraphs": [
+          "Em 1785, Condorcet publicou o Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix. Nele, mostra que, se jurados independentes acertam com probabilidade acima de 1/2, a maioria acerta com probabilidade que cresce com o número de jurados [[raiz:condorcet-1785]] [[ref:condorcet-1785]]. O acervo classifica a leitura moderna como interpretação: o nome \"teorema do júri\" é de Grofman, e os enunciados formais vêm do século XX [[ref:grofman-1983]] [[ref:sep-jury-theorems]].",
+          "O resultado dá forma matemática à intuição do tawātur e do Arthaśāstra, e tornou-se ancestral direto do voto majoritário entre anotadores. Mas ele depende de duas hipóteses que a história do gabarito não para de violar: competência igual e independência. As searchers de Graunt compartilhavam o mesmo constrangimento social; examinadores que reconheciam a caligrafia compartilhavam o mesmo viés. Quando os erros são correlacionados, somar votos não aproxima a verdade, apenas consolida o erro comum.",
+          "Condorcet também não estima a competência p a partir de dados, nem corrige a concordância esperada por acaso. Essas lacunas definem exatamente o programa das duas ferramentas que o século XX construiria: o kappa, que desconta o acaso, e o modelo de Dawid–Skene, que estima a competência de cada juiz.",
+          "Antes delas, um resultado de psicometria já tinha mostrado que o erro do gabarito não é um detalhe inocente. Em 1904, Spearman mostrou que o erro de medida atenua correlações e propôs corrigi-la usando medidas repetidas [[raiz:spearman-1904]] [[ref:spearman-1904]]. Transposto para a avaliação, e a transposição é nossa, o argumento diz que um classificador comparado com uma referência ruidosa parece pior, ou diferente, do que é, e que só medições repetidas permitem separar a qualidade de quem é avaliado da qualidade de quem avalia. Meehl, em 1954, ao comparar clínicos e fórmulas atuariais sobre o mesmo desfecho, tratou o próprio especialista humano como mais um classificador a ser julgado contra uma referência comum [[raiz:meehl-1954]] [[ref:meehl-1954]]. O juiz, que no ordálio estava acima de qualquer suspeita, começava a descer para dentro da tabela."
+        ]
+      },
+      {
+        "heading": "O leitor é ruidoso: Yerushalmy, Cohen e Dawid–Skene",
+        "paragraphs": [
+          "Em 1947, Jacob Yerushalmy analisou leituras de radiografias de tórax para tuberculose feitas por vários radiologistas e encontrou discordância substancial entre leitores e até do mesmo leitor em momentos diferentes [[raiz:yerushalmy-1947]] [[ref:yerushalmy-1947]]. O mesmo trabalho é citado com frequência como introdução dos termos [[conceito:sensibilidade]] e [[conceito:especificidade]] na medicina. A coincidência é reveladora: as métricas que pressupõem um gabarito entram na medicina junto com a demonstração de que o gabarito humano é instável.",
+          "Em 1960, Jacob Cohen propôs o coeficiente [[conceito:kappa]], que corrige a concordância observada entre dois avaliadores pela concordância esperada por acaso [[raiz:cohen-kappa-1960]] [[ref:cohen-1960]]. Heidke propusera a mesma forma para previsões meteorológicas em 1926 [[ref:heidke-1926]], e Fleiss generalizou para vários avaliadores [[ref:fleiss-1971]]. O kappa virou a ferramenta padrão para verificar se os rótulos de referência são confiáveis. Tem seus paradoxos: com margens desbalanceadas pode ser baixo mesmo com concordância observada altíssima [[ref:feinstein-cicchetti-1990]], e a escala qualitativa de Landis e Koch é convenção [[ref:landis-koch-1977]], tema de [[debate:kappa-paradoxos]].",
+          "O passo conceitual mais radical veio em 1979, quando Dawid e Skene estimaram por máxima verossimilhança, com o algoritmo EM, as taxas de erro de cada observador [[ref:dawid-skene-1979]]. No modelo, cada anotador é um classificador com sua própria matriz de confusão, e o rótulo verdadeiro é uma variável latente. O acervo resume a consequência em uma frase: o gabarito é uma inferência, não um dado [[conceito:rotulos-ruidosos]]. A medicina seguiu caminho paralelo com modelos de classe latente e painéis de referência quando não há exame perfeito [[ref:rutjes-2007]], e a ferramenta QUADAS-2 incorporou o risco de viés do padrão de referência [[ref:whiting-2011]].",
+          "Com o crowdsourcing, a questão ganhou escala. Snow e colegas avaliaram anotações baratas de não especialistas para tarefas de linguagem [[ref:snow-2008]], e Raykar e colegas propuseram aprender diretamente a partir de multidões, estimando ao mesmo tempo o classificador e a qualidade dos anotadores [[ref:raykar-2010]]. É, numa linguagem que Kauṭilya não reconheceria, a mesma operação do Arthaśāstra: estimar juntos a verdade e a confiabilidade de quem a relata."
+        ]
+      },
+      {
+        "heading": "A verdade é uma mentira? Erros no test set",
+        "paragraphs": [
+          "Em 2015, Lora Aroyo e Chris Welty publicaram \"Truth Is a Lie: Crowd Truth and the Seven Myths of Human Annotation\" [[ref:aroyo-welty-2015]]. A tese, como o acervo a registra, é que o desacordo entre anotadores pode ser informação sobre ambiguidade real, e não ruído a eliminar. Se uma frase admite duas leituras legítimas, forçar um único rótulo produz um gabarito mais limpo e menos verdadeiro.",
+          "Em 2021, Northcutt, Athalye e Mueller mostraram que test sets amplamente usados contêm erros de rótulo suficientes para inverter o ranking de modelos [[ref:northcutt-2021]]. O resultado reencontra, com máquinas, o problema de Graunt: quando o gabarito erra de maneira estruturada, a métrica premia quem reproduz o erro. O acervo acrescenta uma armadilha do presente: limpar os rótulos do teste com o próprio modelo avaliado cria circularidade [[conceito:rotulos-ruidosos]]. Paullada e colegas ampliam a crítica às práticas de construção de conjuntos de dados [[ref:paullada-2021]], e o problema se liga diretamente à fragilidade dos [[conceito:benchmarks]].",
+          "O debate [[debate:gold-verdade]] organiza as posições: o paradigma Cranfield assume julgamentos fixos e suficientes para ordenar sistemas [[ref:cleverdon-1966]] [[ref:voorhees-harman-2005]]; a crítica de Aroyo e Welty vê no desacordo um sinal; Northcutt mostra que o erro muda conclusões; e a tradição de Dawid–Skene e da medicina propõe estimar a referência quando ela não existe. A síntese do acervo é prática: documentar como o gabarito foi construído, quanto os anotadores concordaram e qual erro residual se espera.",
+          "Lida de ponta a ponta, a história sugere uma interpretação que vale tornar explícita. O rio de Hamurabi, a maioria do Talmude, a cadeia de transmissores, as três fontes do Arthaśāstra, a prova recopiada dos Song, as searchers juramentadas e o modelo EM são respostas à mesma dificuldade: não temos acesso direto à verdade, e precisamos de um procedimento que todos aceitem como substituto. A diferença do nosso tempo não é ter encontrado a verdade, mas ter ferramentas para perguntar quanto o substituto erra. Usá-las é a forma contemporânea da prudência que Kauṭilya exigia de seus espiões e Graunt de suas searchers."
+        ]
+      }
+    ],
+    "refIds": [
+      "rutjes-2007",
+      "avalon-hammurabi",
+      "sep-logic-india",
+      "matilal-1998",
+      "sexto-bury-1933",
+      "sefaria-ketubot-15a",
+      "rabinovitch-1973",
+      "franklin-2001",
+      "brown-2009",
+      "motzki-2005",
+      "hallaq-1999",
+      "weiss-1985",
+      "rosenthal-1958",
+      "loc-timbuktu",
+      "shamasastry-1915",
+      "olivelle-2013",
+      "urton-1998",
+      "elman-2000",
+      "chaffee-1985",
+      "korea-herald-gangseosigwon",
+      "graunt-1662",
+      "farr-1839",
+      "porter-1986",
+      "condorcet-1785",
+      "grofman-1983",
+      "sep-jury-theorems",
+      "spearman-1904",
+      "meehl-1954",
+      "yerushalmy-1947",
+      "cohen-1960",
+      "heidke-1926",
+      "fleiss-1971",
+      "feinstein-cicchetti-1990",
+      "landis-koch-1977",
+      "dawid-skene-1979",
+      "whiting-2011",
+      "snow-2008",
+      "raykar-2010",
+      "aroyo-welty-2015",
+      "northcutt-2021",
+      "paullada-2021",
+      "cleverdon-1966",
+      "voorhees-harman-2005"
+    ]
+  },
+  {
+    "id": "quem-julga-os-juizes",
+    "title": "Quem julga os juízes",
+    "subtitle": "Da confiança em pessoas à modelagem de suas matrizes de erro: concordância e confiabilidade de juízes, anotadores e fontes",
+    "readingMinutes": 16,
+    "sections": [
+      {
+        "heading": "O gabarito também é um juiz",
+        "paragraphs": [
+          "Toda métrica de classificação compara duas colunas: o que o sistema disse e o que se supõe verdadeiro. A segunda coluna costuma ser tratada como dada, mas quase nunca caiu do céu. Ela foi escrita por alguém: um radiologista que leu a radiografia, um anotador que marcou a frase, um examinador que corrigiu a prova, uma testemunha que viu o eclipse. Quando dizemos que um modelo tem sensibilidade de 80%, dizemos na verdade que ele concorda 80% das vezes com esse alguém nos casos que esse alguém chamou de positivos. A pergunta que este ensaio persegue é anterior a qualquer [[conceito:matriz-confusao|matriz de confusão]]: quem garante que o juiz de referência acerta?",
+          "O acervo reúne respostas a essa pergunta dadas em lugares e épocas muito distantes, e seria um erro lê-las como etapas de uma única invenção. Um tratado indiano de governo, os dicionários biográficos de transmissores de hadith, a burocracia de exames da dinastia Song e o artigo de Jacob Cohen em 1960 não se conheciam e respondiam a problemas diferentes. O que os aproxima, e que é leitura nossa e não dos autores, é um mesmo desconforto: a verdade que interessa está oculta, só temos acesso a ela por meio de relatos humanos, e relatos humanos erram.",
+          "O fio que proponho é o seguinte. As soluções antigas tendem a julgar pessoas: tal espião é confiável, tal narrador é fraco, tal examinador foi parcial. As soluções do século XX passam a medir concordância entre pessoas e a descontar o que concordariam por acaso. As soluções mais recentes vão além e modelam cada juiz como um pequeno classificador com sua própria matriz de erros, estimada ao mesmo tempo que a verdade que ninguém observa. Entre um extremo e outro há um deslocamento real, mas também uma continuidade: em todos os casos, a referência deixa de ser uma autoridade e passa a ser um objeto a ser examinado.",
+          "Convém fixar desde já uma cautela que atravessa o texto inteiro. Nenhum dos personagens pré-modernos calculou taxas de erro de juízes, e o acervo registra isso marco a marco. Quando digo que uma prática lembra o kappa ou o modelo de Dawid e Skene, estou apontando uma semelhança de estrutura, não uma filiação. O debate [[debate:gold-verdade]] resume bem por que a questão importa hoje: toda métrica mede concordância com o gabarito, e por isso é preciso documentar como ele foi construído e quanto seus construtores concordaram."
+        ]
+      },
+      {
+        "heading": "Três fontes que não se conhecem",
+        "paragraphs": [
+          "O [[raiz:arthashastra-espioes|Arthaśāstra]], tratado sânscrito de governo atribuído a Kauṭilya, contém uma das formulações mais nítidas da ideia de conferir informantes entre si. No livro I, capítulo 12, na tradução de Shamasastry, os espiões são organizados de modo a não se conhecerem, e a informação só é tida como confiável quando três fontes diferentes trazem exatamente a mesma versão; se elas divergem com frequência, os espiões envolvidos são punidos em segredo ou dispensados [[ref:shamasastry-1915]]. A datação é disputada: Olivelle situa a redação do texto que conhecemos entre o século I a.C. e o III d.C., bem depois do ministro maurya a quem a tradição o atribui [[ref:olivelle-2013]].",
+          "Há dois gestos distintos nessa regra, e vale separá-los. O primeiro é aceitar um fato apenas quando fontes independentes coincidem, que é o princípio do voto entre anotadores. O segundo é usar a divergência repetida para julgar o próprio informante, que é o embrião da ideia de estimar a confiabilidade de cada juiz a partir de seus desacordos com os outros. O acervo registra o que o texto não antecipa: ele exige unanimidade, não mede grau de concordância nem desconta o acaso. E é um texto normativo, que prescreve como o rei deveria agir, sem provar que esse controle cruzado tenha sido praticado assim.",
+          "Na Assíria do século VII a.C., a necessidade de múltiplos observadores aparece por outro caminho. Os eruditos da corte de Esarhaddon e Assurbanípal enviavam ao rei relatórios que aplicavam presságios de Enūma Anu Enlil a fenômenos observados e cartas sobre eclipses esperados [[ref:hunger-1992]] [[ref:parpola-1993]]. Numa dessas cartas, Bel-ušezib escreve que as nuvens impediram saber se o eclipse ocorreu e sugere pedir observações a Assur, Babilônia, Nippur, Uruk e Borsipa [[ref:archaeology-2020]]. É o problema do rótulo ausente em estado puro: a verdade existe, mas o observador local não a viu, e a solução é consultar outros observadores em outros lugares ([[raiz:relatorios-astrologos-assirios]]).",
+          "O acervo é cuidadoso ao limitar essa leitura. Conferir se um eclipse aconteceu é verificar uma observação, não calcular a taxa de acerto de um método, e não há agregação de muitos casos em medidas de desempenho. Algo parecido vale para as [[raiz:consultas-ao-deus-sol|consultas ao deus Šamaš]]: algumas tabuletas registram duas e ocasionalmente três extispicinas para a mesma pergunta, mas a repetição buscava obter uma resposta clara do deus, não medir concordância entre observadores [[ref:starr-1990]]. O que essas fontes mostram é a consciência de que a observação pode falhar e de que mais de um olho ajuda, não uma teoria do erro do observador.",
+          "Um terceiro exemplo, já na Europa moderna, desloca o foco do informante para o rótulo registrado. John Graunt, ao analisar os boletins de mortalidade de Londres, explica que as causas de morte eram atribuídas por searchers, matronas juramentadas que examinavam o corpo, e discute quando seus relatos bastam e quando não, notando por exemplo que poucas mortes por sífilis eram registradas como tal [[ref:graunt-1662]]. O acervo sugere que essa é talvez a primeira análise explícita de erro nos rótulos de referência e de como ele distorce contagens agregadas ([[raiz:graunt-1662]]), com a ressalva de que a autoria é às vezes atribuída em parte a William Petty."
+        ]
+      },
+      {
+        "heading": "Graduar quem transmite",
+        "paragraphs": [
+          "Se o Arthaśāstra julga espiões pela coincidência de seus relatos, a crítica do hadith constrói algo mais elaborado: um sistema de notas para cada transmissor. Entre os séculos VIII e IX, estudiosos como Ibn Maʿīn, Ibn Ḥanbal, al-Bukhārī e Muslim examinaram as cadeias de transmissores (isnād) de relatos sobre ditos e atos do Profeta e atribuíram a cada narrador graus como thiqa (confiável), ṣadūq (veraz) e ḍaʿīf (fraco) [[ref:brown-2009]]. Os relatos eram então classificados como ṣaḥīḥ, ḥasan ou ḍaʿīf. A disciplina que reunia essas avaliações em dicionários biográficos chama-se ʿilm al-rijāl, a ciência dos homens ([[raiz:hadith-isnad]]).",
+          "O procedimento descrito no acervo tem vários passos que soam familiares a quem constrói conjuntos de dados. Avalia-se cada narrador quanto à probidade e à precisão da memória; verifica-se se cada um pode ter encontrado o anterior; comparam-se variantes, e um relato de narrador confiável que contraria vias mais fortes é tratado como anômalo; procura-se defeito oculto. Um único elo fraco rebaixa a cadeia. A analogia com a modelagem de anotadores ruidosos, em que a confiabilidade de cada fonte é estimada e propagada ao veredito final, é explicitamente nossa, e o acervo acrescenta o que falta: os graus são qualitativos, não são combinados por regra probabilística e não há modelo explícito de independência entre fontes.",
+          "A mesma tradição produziu uma segunda ideia, mais próxima da agregação. Teóricos do direito islâmico distinguiram relatos mutawātir, transmitidos por tantos canais independentes em cada geração que o conluio é inconcebível, dos relatos āḥād, de poucos transmissores, que geram apenas presunção ([[raiz:tawatur]]). As condições discutidas incluem multiplicidade em cada elo da cadeia, percepção direta pelos primeiros transmissores e exclusão de conluio por lugares, grupos e interesses diferentes. Não havia número mínimo acordado, e as propostas iam de poucos a setenta; Weiss mostra que al-Ghazālī tratava a certeza do tawātur como psicológica, reconhecida quando surge, e não por um número fixado de antemão [[ref:weiss-1985]].",
+          "É tentador ver no tawātur uma antecipação do teorema do júri, e o acervo registra a aproximação como analogia [[ref:franklin-2001]]. O ponto de contato real é a exigência de independência: muitos relatos só valem mais do que um se não vierem de uma mesma fonte disfarçada. Hallaq, por sua vez, usa a escassez de relatos considerados mutawātir para argumentar que os próprios juristas tratavam a autenticidade da maioria dos hadith como questão de probabilidade [[ref:hallaq-1999]]. E a eficácia histórica do método como detector de forjas é debatida desde Goldziher e Schacht [[ref:motzki-2005]].",
+          "Dois desdobramentos ampliam o quadro. Em Tombuctu, eruditos como Ahmad Baba cultivaram essas ciências entre os séculos XV e XVII, recebendo de mestres licenças que os inseriam nas cadeias de transmissão ([[raiz:timbuktu-isnad]]) [[ref:loc-timbuktu]] [[ref:hunwick-1999]]. E Ibn Khaldūn, na Muqaddima, acrescentou uma crítica de outra natureza: historiadores erram por partidarismo e por confiança excessiva nos transmissores, e um relato deve ser testado também pela sua plausibilidade, não só pela cadeia [[ref:rosenthal-1958]]. Em linguagem moderna, e como interpretação, é a observação de que a confiabilidade da fonte não basta sem uma probabilidade a priori do conteúdo ([[raiz:ibn-khaldun]])."
+        ]
+      },
+      {
+        "heading": "Esconder o nome, dobrar o leitor",
+        "paragraphs": [
+          "Enquanto as tradições anteriores avaliam quem relata, os exames imperiais chineses enfrentaram o problema de quem julga. Os exames para o serviço civil, iniciados sob os Sui e ampliados pelos Tang, selecionavam funcionários por provas escritas, embora recomendações e reputação ainda pesassem muito ([[raiz:exames-imperiais]]) [[ref:elman-2000]]. Sob os Song, a expansão trouxe milhares de candidatos e acusações de favorecimento, e a corte respondeu com um pacote de regras de imparcialidade documentado por Chaffee [[ref:chaffee-1985]].",
+          "A primeira regra foi cobrir os nomes. A partir de 992, no exame do palácio, os dados do candidato passaram a ser cobertos (hú míng) e substituídos por um número; a prática foi depois estendida aos demais níveis ([[raiz:huming]]). O acervo alerta que as datas exatas de extensão seguem sínteses e devem ser conferidas no livro. Como a caligrafia continuava revelando autores, em 1015 veio a segunda regra: escreventes recopiavam cada prova em tinta distinta, a cópia era conferida com o original, e os examinadores só liam cópias numeradas; a prática chegou às prefeituras em 1037 ([[raiz:tenglu]]).",
+          "É no téng lù que aparece o traço mais interessante para este ensaio. As notas do primeiro e do segundo examinador eram conferidas por um examinador determinante, que fixava a nota final. Há aí dupla leitura e adjudicação, exatamente a arquitetura que hoje se usa para construir gabaritos: dois anotadores independentes e um terceiro que resolve os conflitos. O acervo, porém, é firme quanto ao limite: a dupla correção servia para decidir a nota, não para medir a confiabilidade dos corretores, nada indica registro sistemático de discordâncias, e tratar a prática como correção cega dupla é aproximação.",
+          "Na Coreia de Joseon, os exames incorporaram medidas semelhantes, com a parte da folha que identificava o candidato dobrada, selada e substituída por um código, e biombos nos exames orais. Segundo o Museu Nacional da Coreia, a partir do século XVIII cada examinador passou a registrar sua nota separadamente, e não só o total combinado ([[raiz:gwageo-joseon-anonimato]]) [[ref:korea-herald-gangseosigwon]]. Guardar notas individuais é, em retrospecto, guardar a matéria-prima de qualquer medida de concordância; o acervo avisa que esses detalhes vêm de divulgação baseada em peça de museu e não foram conferidos em fonte acadêmica coreana.",
+          "Um caso andino completa o quadro com mais incerteza. Num processo de 1579 perante a Audiência de La Plata, especialistas leram em khipus os bens entregues por uma comunidade a seu encomendero, e Gary Urton chamou atenção para a presença de dois khipukamayuq que parecem apresentar o mesmo relato [[ref:urton-1998]]. A lógica de dupla leitura é uma leitura possível, mas o acervo registra outra: os dois podiam representar metades da comunidade, e não conferência mútua ([[raiz:khipus-la-plata-1579]]). O exemplo serve de lembrete metodológico: uma estrutura que parece controle de confiabilidade pode ter tido outra função."
+        ]
+      },
+      {
+        "heading": "Da maioria ao coeficiente",
+        "paragraphs": [
+          "A passagem de julgar pessoas para calcular com elas tem um marco em 1785. No Essai sur l'application de l'analyse à la probabilité des décisions rendues à la pluralité des voix, Condorcet aplica probabilidade a decisões de assembleias e tribunais [[ref:condorcet-1785]]. O resultado hoje chamado teorema do júri diz que, se cada votante decide de forma independente e acerta com probabilidade maior que 1/2, a probabilidade de a maioria acertar cresce com o número de votantes ([[raiz:condorcet-1785]]). O acervo registra que Condorcet não o escreveu na forma moderna: o nome é de Grofman, e os enunciados formais vieram no século XX [[ref:grofman-1983]] [[ref:sep-jury-theorems]].",
+          "O teorema é a versão matemática do tawātur e das três fontes do Arthaśāstra, e por isso mesmo expõe o que essas tradições deixavam implícito. Ele depende de duas premissas: competência igual e independência. O verbete da Stanford Encyclopedia of Philosophy observa que a independência incondicional é a premissa mais frágil [[ref:sep-jury-theorems]]. O acervo nota também o que Condorcet não trata e que será o centro dos métodos posteriores: estimar a competência de cada juiz a partir dos dados, descontar a concordância esperada por acaso e lidar com erros correlacionados [[ref:daston-1988]].",
+          "O segundo marco vem da psicologia. Em 1904, Charles Spearman publicou The Proof and Measurement of Association between Two Things, em que mostra que erros acidentais de medida reduzem a correlação observada entre duas grandezas e propõe corrigi-la estimando a confiabilidade de cada medida pela correlação entre duas medições repetidas [[ref:spearman-1904]]. A correção por atenuação divide a correlação observada pela raiz do produto das duas confiabilidades ([[raiz:spearman-1904]]). Spiegelman destacou que Spearman foi talvez o primeiro a derivar um método para corrigir o viés de erro de medida usando replicação [[ref:spiegelman-2010]].",
+          "Para a avaliação de classificadores, a lição de Spearman é mais importante do que parece. Se a referência é medida com erro, um sistema perfeito parecerá imperfeito, porque discordará do gabarito sempre que o gabarito errar. O acervo resume isso como a primeira formalização de que referências imperfeitas subestimam o desempenho verdadeiro. E registra o limite: Spearman supõe erros aleatórios e independentes em medidas contínuas, não rótulos categóricos, e não trata de como a imperfeição do gabarito distorce taxas como sensibilidade e especificidade. A correção foi, além disso, contestada por Pearson e William Brown, que viam coeficientes corrigidos maiores que 1 como sinal de problema [[ref:stigler-1986]]."
+        ]
+      },
+      {
+        "heading": "Descontar o acaso",
+        "paragraphs": [
+          "Em 1947, Jacob Yerushalmy analisou leituras de radiografias de tórax para tuberculose feitas por vários radiologistas e encontrou discordância substancial entre leitores e até do mesmo leitor em momentos diferentes [[ref:yerushalmy-1947]]. O mesmo trabalho é citado com frequência como porta de entrada dos termos [[conceito:sensibilidade]] e [[conceito:especificidade]] na medicina, com a ressalva de que a primazia exata é discutida ([[raiz:yerushalmy-1947]]). A coincidência é reveladora: no momento em que a medicina ganha vocabulário para medir o desempenho de um teste contra uma referência, descobre que a referência humana é ela própria ruidosa.",
+          "Faltava um número para essa discordância que não fosse enganado pelo óbvio. Se dois leitores dizem normal a quase tudo, concordarão quase sempre sem que isso revele competência. Em 1960, Jacob Cohen propôs o coeficiente [[conceito:kappa]] em Educational and Psychological Measurement, corrigindo a concordância observada pela concordância esperada se os dois avaliadores decidissem de forma independente mantendo suas proporções marginais [[ref:cohen-1960]] ([[raiz:cohen-kappa-1960]]). A mesma forma já havia sido proposta por Heidke em 1926 para previsões de vento [[ref:heidke-1926]], e Fleiss a generalizou em 1971 para muitos avaliadores, o cenário típico de construção de conjuntos rotulados [[ref:fleiss-1971]].",
+          "O exemplo desenvolvido no acervo mostra o tamanho do desconto. Numa tabela com 80 concordâncias positivas, 810 negativas, 90 casos em que só o primeiro juiz disse positivo e 20 em que só o segundo disse, a concordância observada é 890 em 1000, ou 0,89. Mas as margens são muito desiguais: o primeiro diz positivo em 17% dos casos, o segundo em 10%. Se decidissem ao acaso com essas proporções, concordariam em 0,17 × 0,10 + 0,83 × 0,90, ou seja, 0,764. O kappa mede a fração realizada da concordância possível além do acaso: (0,89 − 0,764)/(1 − 0,764), que dá cerca de 0,534. Dos 89% de acordo, a maior parte já estava garantida pelas margens.",
+          "Esse mesmo mecanismo gera os paradoxos discutidos em [[debate:kappa-paradoxos]]. Feinstein e Cicchetti mostraram que, com prevalência extrema ou margens desiguais, o kappa pode ser baixo mesmo com concordância observada altíssima [[ref:feinstein-cicchetti-1990]]. Gwet propôs o AC1 para modelar a concordância por acaso de forma menos sensível à prevalência [[ref:gwet-2014]], e a escala verbal de Landis e Koch, que chama certos valores de moderados ou substanciais, é convenção e não resultado [[ref:landis-koch-1977]]. A recomendação do acervo é reportar juntos concordância observada, prevalência e kappa, e recorrer ao alfa de Krippendorff quando há muitas categorias ou dados faltantes [[ref:krippendorff-2018]] [[ref:artstein-poesio-2008]].",
+          "Há ainda uma sutileza para anotação de texto. Quando os verdadeiros negativos são indefinidos, como ao marcar entidades numa frase, Hripcsak e Rothschild mostram que o kappa tende ao F1, o que justifica usar o F1 como medida de concordância entre anotadores [[ref:hripcsak-rothschild-2005]]. O kappa, em suma, não é uma nota do anotador: é um resumo de uma tabela 2×2 entre dois juízes, sujeito às mesmas armadilhas de prevalência de qualquer métrica calculada sobre uma [[conceito:matriz-confusao|matriz de confusão]]."
+        ]
+      },
+      {
+        "heading": "Modelar o juiz",
+        "paragraphs": [
+          "O kappa mede quanto dois juízes concordam, mas não diz qual deles erra nem qual seria a resposta certa. Em 1979, Dawid e Skene deram o passo que fecha o arco iniciado pelos dicionários de transmissores: tratar a classe verdadeira de cada item como variável latente e cada observador como dono de uma matriz de confusão própria, e estimar as duas coisas ao mesmo tempo, por máxima verossimilhança com o algoritmo EM, sem gabarito [[ref:dawid-skene-1979]]. No vocabulário do acervo, é a base de todo o tratamento de [[conceito:rotulos-ruidosos|rótulos sem gabarito confiável]].",
+          "A derivação mostra por que o modelo generaliza o voto majoritário. Supondo juízes condicionalmente independentes dada a classe, a chance a posteriori de um item ser positivo, em escala logarítmica, é a chance a priori somada ao logaritmo da razão de verossimilhança de cada voto. O voto majoritário é o caso particular em que todos pesam igual. O exemplo do acervo torna isso concreto: três anotadores com acurácias estimadas de 0,9, 0,7 e 0,6 votam 1, 0 e 0. A maioria diz 0. Mas a verossimilhança dos votos se o item for positivo é 0,9 × 0,3 × 0,4 = 0,108, e se for negativo é 0,1 × 0,7 × 0,6 = 0,042; com prior 0,5, a probabilidade de ser positivo é 0,108/0,150, ou 0,72. O voto do anotador forte pesa mais do que os dois fracos somados.",
+          "É impossível não voltar aqui ao isnād, com uma ressalva que o próprio acervo faz: a comparação é analogia. Os críticos do hadith graduavam cada narrador e deixavam essa graduação pesar no veredito, mas não combinavam graus por regra probabilística. Dawid e Skene fazem essa combinação explicitamente e, mais importante, estimam a confiabilidade de cada juiz a partir dos próprios dados de desacordo, que era o gesto intuído pelo Arthaśāstra ao punir espiões que divergiam com frequência. O que era juízo sobre pessoas vira parâmetro.",
+          "A ideia ganhou escala com o crowdsourcing. Snow, O'Connor, Jurafsky e Ng mediram em 2008 quantos anotadores leigos do Mechanical Turk equivalem a um especialista em tarefas de linguagem natural [[ref:snow-2008]], e Raykar e colegas propuseram em 2010 estimar conjuntamente o classificador, a verdade latente e a sensibilidade e especificidade de cada anotador [[ref:raykar-2010]]. Na medicina, o mesmo problema recebe o nome de avaliação sem padrão-ouro, com painéis, referências compostas e modelos de classe latente [[ref:rutjes-2007]], e o QUADAS-2 torna explícito como uma referência imperfeita distorce a matriz [[ref:whiting-2011]].",
+          "O preço dessa elegância está nas premissas, e são as mesmas que fragilizavam Condorcet. O acervo registra que a independência condicional entre anotadores é crucial: erros correlacionados, causados por itens difíceis ou instruções ambíguas, inflam a confiança. Sem nenhum item com gabarito, o modelo só é identificável supondo anotadores melhores que o acaso, e em geral pelo menos três independentes. O tawātur exigia canais de lugares e interesses diferentes; o EM exige a mesma coisa, só que em notação."
+        ]
+      },
+      {
+        "heading": "Quando a discordância é o dado",
+        "paragraphs": [
+          "Todo o percurso até aqui supõe que existe uma resposta certa e que a discordância é ruído a eliminar. Essa suposição foi contestada de frente por Aroyo e Welty em 2015: em muitas tarefas de anotação não há uma única resposta correta, e a discordância entre anotadores é sinal sobre a ambiguidade do item, não defeito dos anotadores [[ref:aroyo-welty-2015]]. O ensaio deles, chamado Truth Is a Lie, obriga a repensar o que um gold standard mede e aparece como uma das posições do debate [[debate:gold-verdade]].",
+          "A objeção tem um ancestral filosófico que o acervo registra com a marca de especulativo. Os modos de Enesidemo, reunidos por Sexto Empírico, afirmam que a mesma coisa aparece diferente a observadores e condições distintas e que não há critério indiscutível para decidir entre eles [[ref:sexto-bury-1933]] ([[raiz:sexto-empirico]]). Ler isso como crítica ao padrão-ouro é interpretação, mas a estrutura do argumento é a mesma: se os juízes discordam e o critério é contestável, a referência também pode errar, ou pode simplesmente não existir.",
+          "O problema não é só teórico. Northcutt, Athalye e Mueller encontraram erros de rótulo em conjuntos de teste famosos, como ImageNet e CIFAR, suficientes para inverter o ranking de modelos [[ref:northcutt-2021]]. Isso liga o tema deste ensaio ao debate [[debate:benchmarks-progresso]]: um benchmark é uma amostra rotulada por juízes, e diferenças pequenas entre modelos podem estar abaixo do ruído dos próprios juízes. A construção de um gabarito é um processo de projeto, como mostra o ciclo de anotação descrito por Pustejovsky e Stubbs [[ref:pustejovsky-stubbs-2012]].",
+          "Visto de longe, o arco é claro sem ser linear. Começa com a confiança em pessoas, organizada por regras de independência e graduação: três espiões que não se conhecem, narradores com notas, relatos mutawātir, provas anônimas lidas por dois examinadores. Passa pela aritmética da maioria e da atenuação, com Condorcet e Spearman, e pela correção do acaso, com Heidke, Cohen e Fleiss. Chega à modelagem explícita da matriz de erros de cada juiz, com Dawid e Skene e seus herdeiros no crowdsourcing. E termina, por ora, questionando se sempre há uma verdade única atrás dos juízes.",
+          "A consequência prática é modesta e exigente. Antes de perguntar quão bom é um classificador, pergunte quem escreveu o [[conceito:gold-standard|gabarito]], quantos eram, se trabalharam de forma independente, quanto concordaram além do acaso e que erro residual se espera. As tradições antigas não tinham números para responder, mas sabiam fazer a pergunta. O avanço moderno não foi descobrir que juízes erram; foi transformar esse erro em algo que se estima, se reporta e se leva para dentro da métrica."
+        ]
+      }
+    ],
+    "refIds": [
+      "shamasastry-1915",
+      "olivelle-2013",
+      "hunger-1992",
+      "parpola-1993",
+      "archaeology-2020",
+      "starr-1990",
+      "graunt-1662",
+      "brown-2009",
+      "weiss-1985",
+      "franklin-2001",
+      "hallaq-1999",
+      "motzki-2005",
+      "loc-timbuktu",
+      "hunwick-1999",
+      "rosenthal-1958",
+      "elman-2000",
+      "chaffee-1985",
+      "korea-herald-gangseosigwon",
+      "urton-1998",
+      "condorcet-1785",
+      "grofman-1983",
+      "sep-jury-theorems",
+      "daston-1988",
+      "spearman-1904",
+      "spiegelman-2010",
+      "stigler-1986",
+      "yerushalmy-1947",
+      "cohen-1960",
+      "heidke-1926",
+      "fleiss-1971",
+      "feinstein-cicchetti-1990",
+      "gwet-2014",
+      "landis-koch-1977",
+      "krippendorff-2018",
+      "artstein-poesio-2008",
+      "hripcsak-rothschild-2005",
+      "dawid-skene-1979",
+      "snow-2008",
+      "raykar-2010",
+      "rutjes-2007",
+      "whiting-2011",
+      "aroyo-welty-2015",
+      "sexto-bury-1933",
+      "northcutt-2021",
+      "pustejovsky-stubbs-2012"
+    ]
+  },
+  {
+    "id": "pesar-a-evidencia",
+    "title": "Pesar a evidência: do sinal ao limiar",
+    "subtitle": "Por que TP, FP, FN e TN existem: decidir sob incerteza é trocar um tipo de erro pelo outro",
+    "readingMinutes": 17,
+    "sections": [
+      {
+        "heading": "Quatro células, duas perguntas",
+        "paragraphs": [
+          "A [[conceito:matriz-confusao|matriz de confusão]] parece uma convenção contábil: verdadeiros positivos, falsos positivos, falsos negativos, verdadeiros negativos. Mas ela registra um fato mais profundo. Sempre que decidimos sobre um estado que não vemos diretamente a partir de um sinal que vemos, cometemos dois tipos de erro que não podem ser eliminados ao mesmo tempo sem mais informação. Dizer sim quando é não, dizer não quando é sim. As quatro células existem porque cada decisão responde a duas perguntas distintas: o sinal aparece quando a coisa está presente? e o sinal fica ausente quando a coisa não está?",
+          "Este ensaio segue a história dessas duas perguntas por um caminho que não é o dos manuais. Começa com lógicos indianos que exigiam de um sinal válido presença nos casos semelhantes e ausência nos dessemelhantes, passa pela contagem de frequências de al-Kindī e pela probabilidade das causas de Bayes e Laplace, chega ao lema de Neyman e Pearson e ao peso da evidência de Turing e Good, atravessa o radar e a detecção de sinais, e termina na clínica, onde a taxa-base e os custos decidem onde o limiar deve ficar.",
+          "Uma advertência de método: os pensadores antigos não anteciparam sensibilidade e especificidade como taxas, e o acervo marca essas leituras como interpretação ou analogia. O que se pode afirmar com segurança é que a estrutura do problema, sinal observável contra estado oculto e dois modos de falhar, foi pensada muitas vezes antes de ganhar forma estatística. O que se ganhou depois foi a possibilidade de tolerar erro, medir quanto e escolher qual.",
+          "O fio condutor, formulado de antemão, é este: enquanto se exige um sinal infalível, não há escolha a fazer, e o erro é simplesmente desqualificação. Quando se aceita que o sinal é probabilístico, surgem duas taxas de erro que se movem em sentidos opostos com o limiar, e decidir passa a ser escolher um ponto numa curva segundo quanto custa cada erro e quão comum é a coisa procurada."
+        ]
+      },
+      {
+        "heading": "O sinal que não pode errar",
+        "paragraphs": [
+          "A tradição Nyāya apresenta a inferência em cinco membros, com o exemplo clássico: há fogo na montanha, porque há fumaça, como na cozinha; a tradição posterior acrescenta o exemplo negativo do lago, sem fumaça e sem fogo [[ref:sep-logic-india]] ([[raiz:nyaya-silogismo]]). Inferir uma classe oculta a partir de um indicador observável é, como o acervo observa, a estrutura de todo classificador. Os Nyāya-sūtra e seus comentadores classificaram também as pseudo-razões (hetvābhāsa), entre elas a razão errante, que ocorre também onde a propriedade inferida está ausente [[ref:iep-nyaya]] ([[raiz:hetvabhasa]]). Em linguagem moderna, um sinal que dispara em casos negativos; o acervo marca essa correspondência com o falso positivo como analogia.",
+          "Dignāga, lógico budista do século VI, deu ao problema sua forma mais rigorosa. No trairūpya, o sinal válido precisa estar presente no sujeito, presente em casos semelhantes (sapakṣa), que têm a propriedade a provar, e ausente nos casos dessemelhantes (vipakṣa), que não a têm ([[raiz:trairupya]]). No Hetucakra, cruzou presença em todos, alguns ou nenhum dos casos semelhantes com presença em todos, alguns ou nenhum dos dessemelhantes, obtendo uma roda de nove tipos de razão: dois válidos, dois contraditórios e cinco inconclusivos [[ref:matilal-1998]] [[ref:ganeri-2001]].",
+          "A grade 3×3 é, na formulação do acervo, talvez o parente pré-moderno mais próximo de uma matriz de confusão, e as condições 2 e 3 lembram [[conceito:sensibilidade]] e [[conceito:especificidade]]. Mas a diferença é decisiva e está anotada como cautela: as células registram todos, alguns ou nenhum, não proporções, e basta o sinal ocorrer em algum caso dessemelhante para desqualificá-lo. Não há taxa, limiar nem troca entre os dois tipos de erro. Note-se que razões presentes só em alguns casos semelhantes podem ser válidas, desde que nunca apareçam nos dessemelhantes: Dignāga tolera o que hoje seria sensibilidade incompleta, mas não tolera nenhum falso positivo.",
+          "Dharmakīrti, no século VII, deslocou a pergunta: a mera observação de co-ocorrências não garante a inferência, e é preciso uma relação natural, de causalidade ou identidade, entre sinal e alvo, o que o leva a discutir os casos não observados [[ref:sep-dharmakirti]] ([[raiz:dharmakirti]]). O acervo liga isso, por analogia, ao alerta de que uma associação vista numa amostra não garante generalização. O que interessa aqui é o contraste com o que virá: nessa tradição, o erro é um defeito lógico que invalida a razão, não uma quantidade a ser gerida."
+        ]
+      },
+      {
+        "heading": "Contar, esperar, inverter",
+        "paragraphs": [
+          "O caminho para tolerar o erro passa pela contagem. No tratado sobre decifração de mensagens cifradas, al-Kindī, no século IX, descreve contar a frequência de cada símbolo no texto cifrado e compará-la com a de um texto de referência na mesma língua, associando o mais frequente ao mais frequente e ajustando depois [[ref:alkadi-1992]] ([[raiz:al-kindi]]). O acervo o trata como um dos usos documentados mais antigos de inferência baseada em contagem comparada a uma distribuição de referência, e registra o limite: al-Kindī casa postos de frequência, não calcula verossimilhanças nem probabilidades.",
+          "No século XVII europeu, surge a outra metade do problema: o valor das consequências. As cartas de Pascal e Fermat de 1654 resolvem a divisão justa de apostas enumerando casos, e o termo expectativa e seu uso como valor de decisão vêm depois, com Huygens ([[raiz:pascal-fermat]]) [[ref:hacking-1975]]. A Lógica de Port-Royal, de 1662, termina com capítulos sobre decidir pesando a probabilidade e a magnitude de ganhos e perdas [[ref:arnauld-nicole-1662]]. O acervo a chama de primeira formulação explícita de que a decisão depende da probabilidade e do custo das consequências, ideia que só voltará a este ensaio no fim, sob o nome de [[conceito:limiar-custo|limiar por custo]] ([[raiz:port-royal-1662]]).",
+          "Falta a inversão: passar da probabilidade dos efeitos dadas as causas para a probabilidade das causas dados os efeitos. O ensaio de Thomas Bayes, publicado postumamente por Richard Price em 1763, pergunta qual a chance de que a probabilidade desconhecida de um evento esteja entre dois valores, sabendo quantas vezes ele aconteceu e falhou [[ref:bayes-1763]] ([[raiz:bayes-1763]]). O acervo é explícito: Bayes não escreve a fórmula geral nem fala de testes diagnósticos ou prevalência, e seu resultado é específico para uma chance binomial com prior uniforme.",
+          "Laplace, sem conhecer Bayes, formulou em 1774 o princípio de que a probabilidade de cada causa, dado o evento, é proporcional à probabilidade do evento sob essa causa, e depois o generalizou para causas com probabilidades a priori desiguais, reunindo tudo em 1812 [[ref:stigler-1986-laplace]] [[ref:stigler-1986]] ([[raiz:laplace-1774]]). É essa forma, com prior e verossimilhança, que liga [[conceito:prevalencia-bayes|prevalência]], sensibilidade e especificidade ao valor preditivo. Mas também aqui o acervo marca o limite: Laplace raciocina com causas e erros de observação, e a separação entre sensibilidade, especificidade e prevalência como grandezas de um teste diagnóstico só aparece no século XX [[ref:hald-1998]]."
+        ]
+      },
+      {
+        "heading": "Dois erros e uma razão",
+        "paragraphs": [
+          "A forma moderna dos dois erros foi dada por Jerzy Neyman e Egon Pearson em 1933 [[ref:neyman-pearson-1933]]. Diante de duas hipóteses, um teste é uma região de rejeição, e há duas probabilidades de falhar: rejeitar a hipótese nula quando ela é verdadeira, o erro tipo I, de probabilidade α, e aceitá-la quando é falsa, o erro tipo II, de probabilidade β. No vocabulário de classificação, α é a [[conceito:fpr|taxa de falso positivo]] e 1 − β, o poder, é a taxa de verdadeiro positivo ([[conceito:erros-tipo]]).",
+          "O lema de Neyman–Pearson responde à pergunta que Dignāga não podia fazer: se algum falso positivo é inevitável, qual o melhor teste para uma taxa de falso positivo fixada? A resposta é incluir na região de rejeição exatamente os pontos onde a [[conceito:razao-verossimilhanca|razão de verossimilhança]] entre as duas hipóteses passa de um limiar. Variando esse limiar, percorre-se a fronteira de pares ótimos entre α e 1 − β, que é, como observa o acervo, a curva ROC do teste de razão de verossimilhança. As duas perguntas do trairūpya, presença nos semelhantes e ausência nos dessemelhantes, ressurgem como duas integrais sobre a mesma região.",
+          "O exemplo desenvolvido no acervo mostra o compromisso em números. Suponha um valor medido que segue uma normal de média 0 sob a hipótese nula e de média 2 sob a alternativa, com desvio 1. Rejeitando a nula quando o valor passa de 1,645, obtém-se α de 0,050 e β de 0,361, ou seja, poder de 0,639. Endurecendo o limiar para 1,96, α cai para 0,025, mas β sobe para 0,484. Com os mesmos dados, um erro só cai se o outro sobe; só mais informação, como mais observações ou um atributo melhor, reduz os dois.",
+          "Há um detalhe que será crucial adiante. α e β são condicionais à hipótese verdadeira e não dependem de quão comum ela é. Já a probabilidade de que um positivo seja falso depende disso. A estatística de Neyman e Pearson descreve o teste; a pergunta do médico ou do analista, dado que deu positivo, qual a chance de ser verdade?, exige trazer de volta a probabilidade a priori de Laplace."
+        ]
+      },
+      {
+        "heading": "Somar decibans, decidir parando",
+        "paragraphs": [
+          "Enquanto a teoria de Neyman e Pearson se consolidava, a guerra produziu duas formulações práticas da mesma matemática. Em Bletchley Park, em 1940 e 1941, Alan Turing trabalhou contra a Enigma naval com o Banburismus, técnica para descobrir como duas mensagens cifradas se sobrepunham ([[raiz:turing-good-evidencia]]). Tratou o problema como escolha entre hipóteses com evidência que se acumula letra a letra, usando o fator pelo qual as chances a priori devem ser multiplicadas e seu logaritmo, medido em bans e decibans, que se somava ao longo das observações até passar de um limiar [[ref:good-1979]].",
+          "I. J. Good, seu assistente estatístico, expôs a ideia em 1950 em Probability and the Weighing of Evidence [[ref:good-1950]] e relatou a história em 1979, escrevendo que um deciban ou meio deciban é mais ou menos a menor variação no peso de evidência diretamente perceptível à intuição humana [[ref:good-1979]]. Good registra também que Turing não conhecia o uso do logaritmo do fator por C. S. Peirce, que o chamara de peso da evidência. O acervo adverte contra exagerar: o objetivo era decidir entre hipóteses criptográficas, e Turing não fala de ROC nem de sensibilidade e especificidade, embora a soma de log-razões seja a mesma matemática.",
+          "Essa matemática aparece com toda clareza no exemplo de razões de verossimilhança do acervo. Um teste de triagem com sensibilidade 0,8 e taxa de falso positivo 0,1 tem razão de verossimilhança positiva 8 e negativa 0,222. Com probabilidade pré-teste de 10%, a chance a priori é 1 para 9, ou 0,111. Um resultado positivo multiplica essa chance por 8, levando-a a 0,889, que corresponde a probabilidade de 47,1%; um negativo a multiplica por 0,222, levando a probabilidade a 2,4%. Em escala logarítmica, que é a escala de Turing, cada resultado soma ou subtrai seu peso, e testes condicionalmente independentes simplesmente se acumulam.",
+          "Do outro lado do Atlântico, Abraham Wald desenvolveu no Statistical Research Group de Columbia, em relatórios restritos de 1943, o teste sequencial da razão de probabilidades, publicado em 1945 [[ref:wald-1945]] ([[raiz:wald-1945]]). Em vez de fixar o tamanho da amostra, observa-se um item por vez e atualiza-se a razão acumulada: acima de um limiar superior rejeita-se a hipótese, abaixo de um inferior aceita-se, entre os dois observa-se mais. Os limiares são fixados diretamente pelas taxas de erro desejadas, aproximadamente (1 − β)/α e β/(1 − α). Good registra que Turing chegou a ideias sequenciais semelhantes de forma independente.",
+          "O SPRT torna explícito que as taxas de erro são uma escolha anterior à observação, e que a terceira opção, continuar observando, é uma forma de comprar redução nos dois erros ao mesmo tempo. Wald generalizou a abordagem em Statistical Decision Functions, de 1950, que funda a teoria estatística da decisão com função de perda e risco [[ref:wald-1950]]; é dali, segundo o acervo, que vem a ideia de que custos diferentes de falso positivo e falso negativo exigem limiares diferentes."
+        ]
+      },
+      {
+        "heading": "O radar e o observador",
+        "paragraphs": [
+          "Em 1954, Peterson, Birdsall e Fox formalizaram na Universidade de Michigan a teoria da detectabilidade de sinais a partir do problema do radar: um receptor precisa decidir se há um alvo em meio ao ruído, e o detector ótimo compara a razão de verossimilhança com um limiar [[ref:peterson-birdsall-fox-1954]]. Variando o limiar, obtém-se o compromisso entre acertos e alarmes falsos. No mesmo ano, Tanner e Swets levaram a ideia à percepção humana, tratando acerto, omissão, alarme falso e rejeição correta como comportamento de um observador que escolhe um critério [[ref:tanner-swets-1954]] ([[raiz:radar-roc-1954]]).",
+          "Aqui, como diz o acervo, a [[conceito:roc|curva ROC]] nasce como objeto: o desempenho deixa de ser um ponto e vira a família de pontos obtida variando o limiar. A derivação mostra que a inclinação da curva em cada ponto é a razão de verossimilhança naquele limiar, o que amarra a ROC ao lema de Neyman–Pearson e ao peso da evidência de Turing. O acervo acrescenta uma cautela: a expressão receiver operating characteristic já circulava na engenharia de radar da Segunda Guerra, e os trabalhos de 1954 são a formalização publicada mais citada.",
+          "O ganho conceitual mais importante foi separar duas coisas que a taxa de acerto confunde: capacidade de discriminar e disposição para dizer sim. Green e Swets consolidaram em 1966 a teoria que distingue a sensibilidade discriminativa [[conceito:d-linha|d′]] do critério de resposta [[ref:green-swets-1966]]. No modelo de variâncias iguais, d′ é a diferença entre os escores z da taxa de acerto e da taxa de alarme falso, e o limiar desaparece da conta. No exemplo do acervo, um radiologista que marca lesão em 84% das imagens com lesão e em 16% das normais tem d′ de cerca de 1,99 e critério neutro, com AUC implícita de 0,92. Outro radiologista com taxas diferentes, mas mesmo d′, seria igualmente discriminativo, apenas mais cauteloso ou mais ousado.",
+          "Essa separação é o que permite comparar observadores e testes sem ser enganado pelo limiar que cada um escolheu. Charles Metz levou a análise ROC à radiologia em 1978 [[ref:metz-1978]], Hanley e McNeil interpretaram em 1982 a área sob a curva como a probabilidade de ordenar corretamente um par doente e sadio [[ref:hanley-mcneil-1982]], e Swets defendeu na Science, em 1988, a área como medida de acurácia independente de limiar [[ref:swets-1988]] ([[raiz:roc-medicina]]). A [[conceito:auc]] tornou-se padrão, com os limites discutidos em [[debate:auc-coerente]]: se o sistema vai operar num limiar específico com custos conhecidos, é ali que deve ser avaliado."
+        ]
+      },
+      {
+        "heading": "A taxa-base esquecida",
+        "paragraphs": [
+          "A ROC descreve o detector independentemente de quão comum é o alvo, e essa virtude é também uma armadilha. Em 1959, Robert Ledley e Lee Lusted publicaram na Science um artigo que descrevia o diagnóstico médico com lógica simbólica, teorema de Bayes e teoria do valor para a escolha do tratamento [[ref:ledley-lusted-1959]] ([[raiz:ledley-lusted-1959]]). O acervo resume a contribuição como trazer para a clínica o esquema probabilidade a priori, mais verossimilhança, mais custo da decisão. Dois anos depois, Warner e colegas publicaram no JAMA um modelo bayesiano que estimava a probabilidade de formas de cardiopatia congênita a partir de achados clínicos e o comparava com cardiologistas [[ref:warner-1961]] ([[raiz:warner-1961]]).",
+          "A teoria estava pronta; a intuição, não. Em 1973 e 1974, Kahneman e Tversky mostraram que as pessoas tendem a ignorar probabilidades a priori quando recebem evidência descritiva do caso [[ref:kahneman-tversky-1973]] [[ref:tversky-kahneman-1974]] ([[raiz:kahneman-tversky-1973]]). Em 1978, Casscells, Schoenberger e Graboys perguntaram a 60 pessoas em hospitais de ensino de Harvard, entre médicos assistentes, residentes e estudantes, qual a chance de doença após um teste positivo, com prevalência de 1 em 1000 e taxa de falso positivo de 5%. A maioria superestimou a probabilidade, que fica em torno de 2% [[ref:casscells-1978]] ([[raiz:casscells-1978]]). O acervo ressalva que a resposta modal de 95%, amplamente citada, não foi conferida no texto original.",
+          "A conta é simples quando feita em contagens. Em 1000 pessoas, uma está doente e, supondo que o teste a detecte, dá positivo. Das 999 saudáveis, 5%, cerca de 50, também dão positivo. Dos cerca de 51 positivos, só um está doente: pouco menos de 2%. A taxa de falso positivo de 5% parece pequena, mas incide sobre uma multidão de negativos. É por isso que [[conceito:precisao|valor preditivo positivo]] e especificidade não são a mesma coisa, e é por isso que a célula FP da matriz pode dominar a coluna dos positivos preditos.",
+          "O exemplo de prevalência do acervo mostra o efeito ao longo de toda a escala. Um mesmo teste com sensibilidade 0,8 e especificidade 0,9 tem valor preditivo positivo de 0,008 quando a prevalência é 0,1%, de 0,075 com 1%, de 0,471 com 10% e de 0,889 com 50%, enquanto o valor preditivo negativo cai de 0,9998 para 0,818. Sensibilidade e especificidade ficaram fixas; só a taxa-base mudou. Na forma de chances, é a regra de Laplace e de Turing: chance posterior igual à razão de verossimilhança vezes a chance a priori [[ref:altman-bland-1994b]] [[ref:pepe-2003]].",
+          "Esse é também o núcleo do debate [[debate:roc-vs-pr]]. Como a ROC é invariante à prevalência, pode parecer excelente enquanto a maioria dos alarmes é falsa, e a curva precisão-recall expõe isso. A síntese do acervo é que a ROC descreve o detector independentemente da população, e a PR descreve o que o usuário vai ver naquela população. Os pacientes de Casscells não vivem na ROC; vivem na coluna dos positivos."
+        ]
+      },
+      {
+        "heading": "Onde pôr o limiar",
+        "paragraphs": [
+          "Se dois erros não podem ser eliminados juntos e a probabilidade de cada caso depende da taxa-base, resta a pergunta de Port-Royal: quanto custa cada erro? A teoria bayesiana da decisão dá uma resposta direta ([[conceito:limiar-custo]]). Com um modelo que fornece a probabilidade p de o caso ser positivo, prever positivo custa em média (1 − p) vezes o custo de um falso positivo, e prever negativo custa p vezes o custo de um falso negativo. Escolhe-se a ação de menor custo esperado, o que dá o limiar ótimo p* = c_FP/(c_FP + c_FN), derivado explicitamente para aprendizado de máquina por Elkan [[ref:elkan-2001]].",
+          "No exemplo do acervo, uma triagem de fraude em que um falso negativo custa quatro vezes mais que um falso positivo tem limiar ótimo 0,20, não 0,5. Uma transação com probabilidade 0,25 deve ser sinalizada: prever fraude custa em média 0,75, não prever custa 1,00. Em termos da razão de verossimilhança, isso é um limiar que combina prevalência e razão de custos; no espaço ROC, é o ponto onde uma reta de isocusto toca a curva, com inclinação 4,75 quando a prevalência é 5%. Neyman–Pearson fixava α por convenção; a teoria da decisão fixa o ponto operacional pelas consequências [[ref:drummond-holte-2006]] [[ref:berger-1985]].",
+          "Chow acrescentou em 1970 uma terceira saída: o classificador pode se abster, e o limiar de confiança troca erros por rejeições [[ref:chow-1970]] ([[raiz:chow-rejeicao]]). É a versão de reconhecimento de padrões da opção de continuar observando de Wald. Já na clínica, Vickers e Elkin propuseram em 2006 o benefício líquido, que pondera cada falso positivo pelas chances do limiar escolhido, pₜ/(1 − pₜ), interpretadas como a troca que o próprio clínico aceita [[ref:vickers-elkin-2006]] ([[conceito:net-benefit]]).",
+          "O exemplo do acervo fecha o percurso com números. Numa coorte de 1000 pacientes com prevalência de 10%, ao limiar de 0,20 um modelo sinaliza 230 pacientes: 80 doentes e 150 saudáveis. As chances do limiar são 0,25, então o benefício líquido é 80/1000 − (150/1000) × 0,25, ou 0,0425. Tratar todos daria 0,10 − 0,90 × 0,25, ou −0,125, e não tratar ninguém dá zero. O modelo equivale a 4,25 verdadeiros positivos líquidos por 100 pacientes e é melhor que as duas estratégias triviais nesse limiar. As quatro células, a prevalência e o custo aparecem na mesma linha [[ref:steyerberg-2019]].",
+          "O arco, então, vai de uma exigência de infalibilidade a uma aritmética de compromissos. Dignāga pedia presença nos semelhantes e ausência absoluta nos dessemelhantes; Neyman e Pearson mostraram que, quando o sinal é probabilístico, essas duas exigências viram duas taxas que se opõem; Turing e Wald somaram evidência até um limiar fixado pelos erros tolerados; o radar desenhou a curva inteira; Casscells mostrou que a taxa-base decide o que um positivo significa; e a teoria da decisão, com Vickers e Elkin, escolheu o ponto da curva pelo custo. TP, FP, FN e TN não são quatro números arbitrários: são o registro mínimo de uma decisão que não pode deixar de errar e precisa escolher como errar, como resume o debate [[debate:discriminacao-calibracao]]."
+        ]
+      }
+    ],
+    "refIds": [
+      "sep-logic-india",
+      "iep-nyaya",
+      "matilal-1998",
+      "ganeri-2001",
+      "sep-dharmakirti",
+      "alkadi-1992",
+      "hacking-1975",
+      "arnauld-nicole-1662",
+      "bayes-1763",
+      "stigler-1986-laplace",
+      "stigler-1986",
+      "hald-1998",
+      "neyman-pearson-1933",
+      "good-1979",
+      "good-1950",
+      "wald-1945",
+      "wald-1950",
+      "peterson-birdsall-fox-1954",
+      "tanner-swets-1954",
+      "green-swets-1966",
+      "metz-1978",
+      "hanley-mcneil-1982",
+      "swets-1988",
+      "ledley-lusted-1959",
+      "warner-1961",
+      "kahneman-tversky-1973",
+      "tversky-kahneman-1974",
+      "casscells-1978",
+      "altman-bland-1994b",
+      "pepe-2003",
+      "elkan-2001",
+      "drummond-holte-2006",
+      "berger-1985",
+      "chow-1970",
+      "vickers-elkin-2006",
+      "steyerberg-2019"
+    ]
+  }
+]

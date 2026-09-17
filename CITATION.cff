@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Se usar este acervo, cite-o assim. Para fatos específicos, cite também a fonte original indicada."
+title: "Inferência e evidência: história e fundamentos da avaliação de modelos"
+type: dataset
+authors:
+  - family-names: "Freitas"
+    given-names: "Yuri"
+repository-code: "https://github.com/yurifreitas/inferencia-e-evidencia"
+url: "https://yurifreitas.github.io/inferencia-e-evidencia/"
+version: 1.0.0
+date-released: 2026-09-16
+license: CC-BY-4.0
+keywords:
+  - confusion matrix
+  - classifier evaluation
+  - precision and recall
+  - ROC
+  - gold standard
+  - history of statistics
+  - history of science

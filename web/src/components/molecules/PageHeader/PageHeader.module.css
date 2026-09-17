@@ -1,0 +1,6 @@
+.header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: var(--space-6); margin-bottom: var(--space-12); }
+.copy { display: grid; gap: var(--space-3); max-width: 72ch; }
+.eyebrow { font: 500 var(--text-xs) var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--brand); }
+.title { font: 600 clamp(32px, 4vw, 44px)/1.08 var(--font-serif); letter-spacing: -.02em; }
+.lead { font-size: 17px; color: var(--text-muted); line-height: 1.6; }
+.aside { flex-shrink: 0; }
