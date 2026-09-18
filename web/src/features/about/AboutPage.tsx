@@ -1,4 +1,7 @@
+import { useState } from 'react'
 import { PageHeader } from '@/components/molecules/PageHeader'
+import { ChipGroup } from '@/components/molecules/ChipGroup'
+import { CopyButton } from '@/components/molecules/CopyButton'
 import { Callout } from '@/components/molecules/Callout'
 import { href } from '@/lib/router'
 import { REFERENCES } from '@/features/references/data'
@@ -10,6 +13,37 @@ import { DEBATES } from '@/features/debates/data'
 import styles from './AboutPage.module.css'
 
 const REPO_URL = 'https://github.com/yurifreitas/inferencia-e-evidencia'
+const SITE_URL = 'https://yurifreitas.github.io/inferencia-e-evidencia/'
+const AUTHOR = 'Freitas, Yuri'
+const WORK = 'Matriz: história e fundamentos da avaliação de classificadores'
+const VERSION = '1.0.0'
+
+type Format = 'abnt' | 'apa' | 'bibtex'
+
+const FORMAT_OPTIONS = [
+  { value: 'abnt' as const, label: 'ABNT' },
+  { value: 'apa' as const, label: 'APA' },
+  { value: 'bibtex' as const, label: 'BibTeX' },
+]
+
+function citation(format: Format, year: number, accessed: string): string {
+  if (format === 'abnt') {
+    return `${AUTHOR}. ${WORK}. Versão ${VERSION}. ${year}. Disponível em: ${SITE_URL}. Acesso em: ${accessed}.`
+  }
+  if (format === 'apa') {
+    return `${AUTHOR} (${year}). ${WORK} (Versão ${VERSION}) [Conjunto de dados]. ${SITE_URL}`
+  }
+  return [
+    '@misc{freitas_matriz,',
+    `  author       = {Freitas, Yuri},`,
+    `  title        = {{${WORK}}},`,
+    `  year         = {${year}},`,
+    `  version      = {${VERSION}},`,
+    `  howpublished = {\\url{${SITE_URL}}},`,
+    '  note         = {Acervo aberto, licença CC BY 4.0}',
+    '}',
+  ].join('\n')
+}
 
 export function AboutPage() {
   const items = Object.values(VERIFICATION.items)
@@ -17,6 +51,8 @@ export function AboutPage() {
   const date = verificationDate()
   const certainty = ROOT_EVENTS.reduce<Record<string, number>>((m, e) => ((m[e.certainty] = (m[e.certainty] ?? 0) + 1), m), {})
   const year = new Date().getFullYear()
+  const [format, setFormat] = useState<Format>('abnt')
+  const citationText = citation(format, year, new Date().toLocaleDateString('pt-BR'))
 
   return (
     <div className={styles.page}>
@@ -77,10 +113,21 @@ export function AboutPage() {
 
         <section className={styles.section}>
           <h2 className={styles.h2}>Como citar</h2>
-          <pre className={styles.cite}>{`Matriz: história e fundamentos da avaliação de classificadores. ${year}. ${REPO_URL}`}</pre>
+          <p>Versão <strong>{VERSION}</strong>{date ? <> · acervo conferido em <strong>{date}</strong></> : null}.</p>
+          <ChipGroup label="Formato da citação" options={FORMAT_OPTIONS} value={format} onChange={(v) => setFormat(v ?? 'abnt')} allowNone={false} />
+          <pre className={styles.cite}>{citationText}</pre>
+          <div className={styles.citeActions}>
+            <CopyButton text={citationText} label="Copiar citação" />
+            <a className={styles.linkQuiet} href={`${REPO_URL}/blob/main/CITATION.cff`} target="_blank" rel="noreferrer">CITATION.cff ↗</a>
+          </div>
           <p>Ao usar um fato específico, cite a fonte original indicada no cartão — o acervo é um mapa, não a fonte.</p>
+
           <h2 className={styles.h2}>Licenças</h2>
-          <p>Código sob <strong>MIT</strong>. Textos, dados e ensaios sob <strong>CC BY 4.0</strong>. Trechos de obras de terceiros são citações curtas com crédito e seguem os direitos de seus titulares.</p>
+          <p>
+            Código sob <a href={`${REPO_URL}/blob/main/LICENSE`} target="_blank" rel="noreferrer"><strong>MIT</strong></a>.
+            Textos, dados e ensaios sob <a href="https://creativecommons.org/licenses/by/4.0/deed.pt-br" target="_blank" rel="noreferrer"><strong>CC BY 4.0</strong></a> —
+            você pode copiar, adaptar e usar comercialmente, bastando dar crédito. Trechos de obras de terceiros são citações curtas com crédito e seguem os direitos de seus titulares.
+          </p>
         </section>
       </div>
 

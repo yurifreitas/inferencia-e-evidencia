@@ -25,3 +25,6 @@
 .code { font: 600 96px/1 var(--font-mono); color: transparent; -webkit-text-stroke: 1.5px var(--border-strong); }
 .nfTitle { font: 600 var(--text-2xl)/1.2 var(--font-serif); }
 .nfText { color: var(--text-muted); line-height: 1.6; }
+.citeActions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4); }
+.linkQuiet { color: var(--text-muted); font-size: var(--text-sm); text-decoration: none; border-bottom: 1px solid var(--border); }
+.linkQuiet:hover { color: var(--text); border-bottom-color: var(--border-strong); }

@@ -37,6 +37,7 @@ const START = ['van-rijsbergen-1979', 'green-swets-1966', 'fawcett-2006', 'bisho
 
 export function OverviewPage() {
   const free = REFERENCES.filter((r) => r.access === 'livre').length
+  const freePct = Math.round((free / REFERENCES.length) * 100)
   const years = REFERENCES.map((r) => r.year)
   return (
     <div className={styles.page}>
@@ -123,10 +124,14 @@ export function OverviewPage() {
 
       <section className={styles.coverage} aria-labelledby="cov-title">
         <div className={styles.startHead}>
-          <h2 id="cov-title" className={styles.h2}>O acervo por tradição</h2>
+          <h2 id="cov-title" className={styles.h2}>{freePct}% do acervo pode ser lido sem pagar nada</h2>
           <a href={href('linha-do-tempo')} className={styles.more}>Linha do tempo →</a>
         </div>
-        <p className={styles.covSub}>Referências por tema principal · parte escura = texto completo grátis</p>
+        <p className={styles.covSub}>{REFERENCES.length} referências por tema principal, em número de obras</p>
+        <ul className={styles.legend} aria-hidden="true">
+          <li><span className={`${styles.key} ${styles.keyFree}`} />texto completo grátis</li>
+          <li><span className={`${styles.key} ${styles.keyPaid}`} />acesso parcial ou pago</li>
+        </ul>
         <ul className={styles.bars}>
           {COVERAGE.map((c) => (
             <li key={c.label} className={styles.barRow}>
