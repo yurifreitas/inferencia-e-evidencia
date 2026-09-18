@@ -120,6 +120,23 @@ async function checkLink(url) {
   }
 }
 
+/**
+ * Falha passageira (5xx, conexão derrubada, timeout) não é link quebrado: servidores como o
+ * GitHub limitam a taxa quando o acervo inteiro é checado de uma vez. Repete com espera
+ * crescente antes de condenar a referência.
+ */
+const transient = (r) => r.verdict === 'falha-rede' || (r.verdict === 'erro' && r.status >= 500)
+
+async function checkLinkResilient(url) {
+  let last
+  for (let attempt = 0; attempt < 3; attempt++) {
+    last = await checkLink(url)
+    if (!transient(last)) return last
+    if (attempt < 2) await sleep(3000 * (attempt + 1))
+  }
+  return last
+}
+
 async function verify(ref) {
   const out = { id: ref.id, title: ref.title, year: ref.year, issues: [] }
   if (!args['no-crossref']) {
@@ -140,8 +157,8 @@ async function verify(ref) {
   }
   if (!args['no-links']) {
     out.links = []
-    for (const l of ref.links ?? []) out.links.push({ label: l.label, type: l.type, ...(await checkLink(l.url)) })
-    if (ref.doi) out.doiLink = await checkLink(`https://doi.org/${ref.doi}`)
+    for (const l of ref.links ?? []) out.links.push({ label: l.label, type: l.type, ...(await checkLinkResilient(l.url)) })
+    if (ref.doi) out.doiLink = await checkLinkResilient(`https://doi.org/${ref.doi}`)
     for (const l of out.links) if (l.verdict === 'quebrado') out.issues.push(`link quebrado (${l.status}): ${l.url}`)
     for (const l of out.links) if (l.verdict === 'falha-rede' || l.verdict === 'erro') out.issues.push(`link sem resposta (${l.status ?? l.error}): ${l.url}`)
   }

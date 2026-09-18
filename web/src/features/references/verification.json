@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-17T14:32:56.000Z",
+ "generatedAt": "2026-09-18T13:04:19.978Z",
  "items": {
   "abu-mostafa-2012": {
    "verdict": "ok",
@@ -364,9 +364,9 @@
   "bm-chester-beatty-iii": {
    "verdict": "ok",
    "doi": "sem-doi",
-   "linksOk": 1,
+   "linksOk": 0,
    "linksTotal": 1,
-   "blocked": 0,
+   "blocked": 1,
    "issues": []
   },
   "bodleian-codex-mendoza": {
@@ -515,7 +515,7 @@
   },
   "bucilua-2006": {
    "verdict": "ok",
-   "doi": "nao-checado",
+   "doi": "confirmado",
    "linksOk": 0,
    "linksTotal": 1,
    "blocked": 1,
@@ -870,9 +870,9 @@
   "dawes-faust-meehl-1989": {
    "verdict": "ok",
    "doi": "confirmado",
-   "linksOk": 1,
+   "linksOk": 0,
    "linksTotal": 1,
-   "blocked": 0,
+   "blocked": 1,
    "issues": []
   },
   "dawid-skene-1979": {
@@ -1255,8 +1255,8 @@
    "verdict": "ok",
    "doi": "confirmado",
    "linksOk": 0,
-   "linksTotal": 0,
-   "blocked": 0,
+   "linksTotal": 1,
+   "blocked": 1,
    "issues": []
   },
   "fisher-1922": {
@@ -1406,8 +1406,8 @@
   "gauss-1809": {
    "verdict": "ok",
    "doi": "sem-doi",
-   "linksOk": 0,
-   "linksTotal": 0,
+   "linksOk": 1,
+   "linksTotal": 1,
    "blocked": 0,
    "issues": []
   },
@@ -1469,7 +1469,7 @@
   },
   "ghalioungui-1963": {
    "verdict": "ok",
-   "doi": "nao-checado",
+   "doi": "confirmado",
    "linksOk": 1,
    "linksTotal": 2,
    "blocked": 1,
@@ -2267,14 +2267,6 @@
    "blocked": 0,
    "issues": []
   },
-  "kleinberg-2016": {
-   "verdict": "ok",
-   "doi": "sem-doi",
-   "linksOk": 1,
-   "linksTotal": 1,
-   "blocked": 0,
-   "issues": []
-  },
   "kleinberg-2017": {
    "verdict": "ok",
    "doi": "confirmado",
@@ -2741,7 +2733,7 @@
   },
   "manning-2008": {
    "verdict": "ok",
-   "doi": "nao-checado",
+   "doi": "confirmado",
    "linksOk": 4,
    "linksTotal": 4,
    "blocked": 0,
@@ -2925,7 +2917,7 @@
   },
   "motzki-2005": {
    "verdict": "ok",
-   "doi": "nao-checado",
+   "doi": "confirmado",
    "linksOk": 1,
    "linksTotal": 1,
    "blocked": 0,
@@ -3054,8 +3046,8 @@
   "nightingale-1858": {
    "verdict": "ok",
    "doi": "sem-doi",
-   "linksOk": 0,
-   "linksTotal": 0,
+   "linksOk": 1,
+   "linksTotal": 1,
    "blocked": 0,
    "issues": []
   },
@@ -3845,7 +3837,7 @@
   },
   "sexto-bury-1933": {
    "verdict": "ok",
-   "doi": "nao-checado",
+   "doi": "confirmado",
    "linksOk": 1,
    "linksTotal": 1,
    "blocked": 0,
@@ -4518,8 +4510,8 @@
   "wright-1921": {
    "verdict": "ok",
    "doi": "sem-doi",
-   "linksOk": 0,
-   "linksTotal": 0,
+   "linksOk": 1,
+   "linksTotal": 1,
    "blocked": 0,
    "issues": []
   },
@@ -4581,7 +4573,7 @@
   },
   "youden-1950": {
    "verdict": "ok",
-   "doi": "confirmado",
+   "doi": "nao-checado",
    "linksOk": 0,
    "linksTotal": 0,
    "blocked": 0,
@@ -4589,7 +4581,7 @@
   },
   "yule-1900": {
    "verdict": "ok",
-   "doi": "nao-checado",
+   "doi": "confirmado",
    "linksOk": 0,
    "linksTotal": 1,
    "blocked": 1,

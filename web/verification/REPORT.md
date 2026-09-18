@@ -1,16 +1,16 @@
 # Verificação do acervo
 
-Gerado em 2026-09-17T14:32:56.000Z por `scripts/verify-references.mjs`.
+Gerado em 2026-09-18T13:04:19.978Z por `scripts/verify-references.mjs`.
 
 | | |
 |---|---|
-| Referências verificadas | 593 |
-| Sem pendências | 592 |
+| Referências verificadas | 592 |
+| Sem pendências | 591 |
 | A revisar | 1 |
-| DOIs confirmados no Crossref | 349 |
-| DOIs sugeridos (referências sem DOI) | 4 |
-| Links OK | 533 de 639 |
-| Links bloqueados a robôs (abrir no navegador) | 105 |
+| DOIs confirmados no Crossref | 358 |
+| DOIs sugeridos (referências sem DOI) | 3 |
+| Links OK | 533 de 642 |
+| Links bloqueados a robôs (abrir no navegador) | 108 |
 | Links quebrados | 0 |
 
 ## A revisar
@@ -20,10 +20,9 @@ Gerado em 2026-09-17T14:32:56.000Z por `scripts/verify-references.mjs`.
 
 ## DOIs sugeridos
 
-- `fernandez-2023` → 10.1109/iccv51070.2023.02053 (“The Stable Signature: Rooting Watermarks in Latent Diffusion Models”, 2023)
-- `hoffmann-2022` → 10.52202/068431-2176 (“Training Compute-Optimal Large Language Models”, 2022)
-- `wang-2020-cnn` → 10.1109/cvpr42600.2020.00872 (“CNN-Generated Images Are Surprisingly Easy to Spot… for Now”, 2020)
-- `wen-2023` → 10.52202/075280-2529 (“Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images”, 2023)
+- `kirstain-2023` → 10.52202/075280-1594 (“Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation”, 2023)
+- `lin-2024-vqascore` → 10.1007/978-3-031-72673-6_20 (“Evaluating Text-to-Visual Generation with Image-to-Text Generation”, 2024)
+- `zhang-2018-lpips` → 10.1109/cvpr.2018.00068 (“The Unreasonable Effectiveness of Deep Features as a Perceptual Metric”, 2018)
 
 ## Links bloqueados a verificadores automáticos
 
@@ -38,6 +37,7 @@ Gerado em 2026-09-17T14:32:56.000Z por `scripts/verify-references.mjs`.
 - `berdan-anawalt-1992` undefined https://networks.h-net.org/node/23910/reviews/54240/crider-berdan-and-anawalt-essential-codex-mendoza
 - `bickel-1975` 403 https://doi.org/10.1126/science.187.4175.398
 - `binney-2021` 403 https://www.acpjournals.org/doi/abs/10.7326/M20-5028
+- `bm-chester-beatty-iii` 403 https://www.britishmuseum.org/collection/object/Y_EA10683-3
 - `bricker-2011` 403 https://www.journals.uchicago.edu/doi/abs/10.1086/676751
 - `bucilua-2006` 403 https://doi.org/10.1145/1150402.1150464
 - `buckley-voorhees-2004` 403 https://doi.org/10.1145/1008992.1009000
@@ -50,6 +50,7 @@ Gerado em 2026-09-17T14:32:56.000Z por `scripts/verify-references.mjs`.
 - `clopper-pearson-1934` 403 https://doi.org/10.1093/biomet/26.4.404
 - `cover-thomas-2006` 403 https://doi.org/10.1002/047174882X
 - `cox-1958` 403 https://doi.org/10.1111/j.2517-6161.1958.tb00292.x
+- `dawes-faust-meehl-1989` 403 https://meehl.umn.edu/sites/meehl.umn.edu/files/files/138cstixdawesfaustmeehl.pdf
 - `degrave-2021` 403 https://doi.org/10.1101/2020.09.13.20193565
 - `devroye-1996` undefined https://www.szit.bme.hu/~gyorfi/pbook.pdf
 - `dice-1945` 403 https://doi.org/10.2307/1932409
@@ -58,6 +59,7 @@ Gerado em 2026-09-17T14:32:56.000Z por `scripts/verify-references.mjs`.
 - `efron-1987` 403 https://doi.org/10.1080/01621459.1987.10478410
 - `eglash-1997` 403 https://anthrosource.onlinelibrary.wiley.com/doi/abs/10.1525/aa.1997.99.1.112
 - `finlayson-2021` 403 https://doi.org/10.1056/NEJMc2104626
+- `fisher-1918` 429 https://doi.org/10.1017/s0080456800012163
 - `fisher-1922` 403 https://doi.org/10.1098/rsta.1922.0009
 - `fisher-1936` 403 https://doi.org/10.1111/j.1469-1809.1936.tb02137.x
 - `fossa-2000` 403 https://read.dukeupress.edu/ethnohistory/article/47/2/453/8190/Two-Khipu-One-Narrative-Answering-Urton-s
