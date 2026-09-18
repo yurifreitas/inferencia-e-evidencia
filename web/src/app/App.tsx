@@ -1,6 +1,7 @@
 import { lazy, Suspense, useCallback, useEffect, useState, type ComponentType } from 'react'
 import { AppShell } from '@/components/templates/AppShell'
 import { useRoute } from '@/lib/router'
+import { useDocumentMeta } from '@/lib/meta'
 import { useTheme } from '@/lib/useTheme'
 import { ErrorBoundary } from './ErrorBoundary'
 import { Brand, Nav, SearchTrigger, ThemeSwitch } from './Nav'
@@ -62,15 +63,11 @@ function Page({ route }: { route: string[] }) {
   return <P.C {...P.props} />
 }
 
-const TITLES: Record<string, string> = {
-  '': 'Visão geral', raizes: 'Raízes', ensaios: 'Ensaios', fundamentos: 'Fundamentos', laboratorio: 'Laboratório', debates: 'Debates',
-  trilhas: 'Trilhas', 'linha-do-tempo': 'Linha do tempo', acervo: 'Referências', equivocos: 'Equívocos de hoje', revisao: 'Revisão', mapa: 'Mapa de conceitos', glossario: 'Glossário', ref: 'Referência', sobre: 'Sobre',
-}
-
 export function App() {
   const route = useRoute()
   const { theme, setTheme } = useTheme()
   const [paletteOpen, setPaletteOpen] = useState(false)
+  useDocumentMeta(route)
   const openPalette = useCallback(() => setPaletteOpen(true), [])
 
   useEffect(() => {
@@ -88,10 +85,6 @@ export function App() {
     const idle = (cb: () => void) => (typeof window.requestIdleCallback === 'function' ? window.requestIdleCallback(cb) : setTimeout(cb, 800))
     idle(() => Object.values(Pages).forEach((p) => p.preload()))
   }, [])
-
-  useEffect(() => {
-    document.title = `${TITLES[route[0] ?? ''] ?? 'Página não encontrada'} · Matriz`
-  }, [route])
 
   const pageKey = route.join('/')
 
