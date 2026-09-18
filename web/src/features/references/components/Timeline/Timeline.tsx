@@ -1,17 +1,18 @@
 import { href } from '@/lib/router'
 import { shortAuthors } from '@/lib/format'
 import { REFERENCES } from '../../data'
-import { THEME_LABEL, type Theme } from '../../model'
+import { themeLabel, type Theme } from '../../model'
 import styles from './Timeline.module.css'
 
 const decadeOf = (y: number) => Math.floor(y / 10) * 10
 const DECADES = Array.from(new Set(REFERENCES.map((r) => decadeOf(r.year)))).sort((a, b) => a - b)
 
-const TRADITIONS: { label: string; themes: Theme[]; className: string }[] = [
+export const TRADITIONS: { label: string; themes: Theme[]; className: string }[] = [
   { label: 'Recuperação da informação', themes: ['ir'], className: styles.tIr },
   { label: 'Detecção de sinais e decisão', themes: ['sdt', 'decisao'], className: styles.tSdt },
   { label: 'Medicina e anotação', themes: ['diagnostico', 'gold'], className: styles.tMed },
-  { label: 'Estatística e ML', themes: ['ml', 'metricas', 'validacao', 'calibracao'], className: styles.tMl },
+  { label: 'Estatística e ML', themes: ['ml', 'metricas', 'validacao', 'calibracao', 'inferencia'], className: styles.tMl },
+  { label: 'IA moderna e justiça', themes: ['ia-dados', 'justica'], className: styles.tIa },
   { label: 'História das ideias', themes: ['historia'], className: styles.tHist },
 ]
 
@@ -36,7 +37,7 @@ export function Timeline() {
                       <a
                         href={href('ref', r.id)}
                         className={`${styles.item} ${r.kind === 'livro' ? styles.book : ''}`}
-                        title={`${r.title} — ${THEME_LABEL[r.themes[0]]}`}
+                        title={`${r.title} — ${themeLabel(r.themes[0])}`}
                       >
                         <span className={`${styles.swatch} ${traditionOf(r.themes[0]).className}`} />
                         <span className={styles.year}>{r.year}</span>

@@ -3,7 +3,7 @@ import { ExternalLink } from '@/components/atoms/ExternalLink'
 import { CopyButton } from '@/components/molecules/CopyButton'
 import { VerifyBadge } from '../VerifyBadge'
 import { href } from '@/lib/router'
-import { ACCESS_LABEL, citation, KIND_LABEL, scholarUrl, THEME_LABEL, type Reference, type RefLink } from '../../model'
+import { ACCESS_LABEL, citation, KIND_LABEL, scholarUrl, themeLabel, type Reference, type RefLink } from '../../model'
 import styles from './ReferenceCard.module.css'
 
 export type ReferenceCardProps = { reference: Reference; variant?: 'list' | 'full' }
@@ -38,7 +38,7 @@ export function ReferenceCard({ reference: r, variant = 'list' }: ReferenceCardP
         <p className={styles.why}>{r.why}</p>
         {r.notes && <p className={styles.notes}>{r.notes}</p>}
         <ul className={styles.themes} aria-label="Temas">
-          {r.themes.map((t) => <li key={t}>{THEME_LABEL[t]}</li>)}
+          {r.themes.map((t) => <li key={t}>{themeLabel(t)}</li>)}
         </ul>
         {r.links.length > 0 && (
           <div className={styles.links}>

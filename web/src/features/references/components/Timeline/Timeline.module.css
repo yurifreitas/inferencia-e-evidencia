@@ -6,6 +6,7 @@
 .tSdt { background: var(--class-pos); }
 .tMed { background: var(--teal); }
 .tMl { background: var(--gold); }
+.tIa { background: var(--viz-ia); }
 .scroller { overflow-x: auto; padding-bottom: var(--space-4); }
 .track { display: grid; grid-auto-flow: column; grid-auto-columns: 196px; gap: var(--space-3); min-width: max-content; }
 .decade { display: grid; align-content: start; gap: var(--space-3); padding-top: var(--space-4); border-top: 2px solid var(--border); }

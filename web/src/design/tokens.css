@@ -25,6 +25,7 @@
   --teal-soft: oklch(95% .02 190);
   --class-pos: oklch(55% .13 255);
   --class-neg: oklch(62% .03 60);
+  --viz-ia: oklch(55% .14 310);
   --grid: oklch(50% .02 60 / .12);
   --overlay: oklch(20% .02 60 / .35);
   --glow: radial-gradient(60% 50% at 20% 0%, oklch(90% .05 40 / .5), transparent 70%);
@@ -82,6 +83,7 @@
   --teal-soft: oklch(28% .03 190);
   --class-pos: oklch(72% .11 255);
   --class-neg: oklch(70% .02 60);
+  --viz-ia: oklch(74% .12 310);
   --grid: oklch(90% .02 60 / .1);
   --overlay: oklch(5% .01 60 / .6);
   --glow: radial-gradient(60% 50% at 20% 0%, oklch(40% .08 40 / .25), transparent 70%);
