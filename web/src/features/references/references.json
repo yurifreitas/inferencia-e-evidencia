@@ -5691,7 +5691,7 @@
     "layer": "fundador",
     "themes": [
       "historia",
-      "razao-verossimilhanca"
+      "diagnostico"
     ],
     "why": "Relato de primeira mão sobre fatores de Bayes, bans e decibans e análise sequencial em Bletchley Park.",
     "doi": "10.1093/biomet/66.2.393",
@@ -5719,7 +5719,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "prevalencia-bayes"
+      "calibracao"
     ],
     "why": "Introdução e tradução inglesa do mémoire de 1774 sobre a probabilidade das causas.",
     "doi": "10.1214/ss/1177013620",
@@ -5742,7 +5742,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "prevalencia-bayes"
+      "calibracao"
     ],
     "why": "Discussão histórica sobre prioridade e recepção do ensaio de Bayes.",
     "doi": "10.2307/2682766",
@@ -5765,7 +5765,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "prevalencia-bayes"
+      "calibracao"
     ],
     "why": "História da regra de sucessão de Bayes e Laplace e de suas críticas.",
     "doi": "10.1007/BF01236567",
@@ -5788,7 +5788,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "comparacao-estatistica"
+      "validacao"
     ],
     "why": "Leitura crítica do artigo de Student no centenário, incluindo erros nos exemplos.",
     "doi": "10.1198/016214508000000030",
@@ -5811,7 +5811,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "comparacao-estatistica"
+      "validacao"
     ],
     "why": "Biografia de Fisher pela filha; fonte da história de Muriel Bristol e o chá.",
     "access": "pago",
@@ -5830,7 +5830,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "comparacao-estatistica"
+      "validacao"
     ],
     "why": "Reconstrução dos números de Semmelweis com as taxas das duas clínicas de Viena.",
     "doi": "10.1177/0141076813507844",
@@ -5853,7 +5853,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "comparacao-estatistica"
+      "validacao"
     ],
     "why": "Análise do estudo de Louis sobre sangria e pneumonia, com os números dos grupos.",
     "doi": "10.1177/014107680609900322",
@@ -5876,7 +5876,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "rotulos-ruidosos"
+      "gold"
     ],
     "why": "Situa a correção por atenuação de Spearman na história dos métodos de erro de medida.",
     "doi": "10.1093/ije/dyq201",
@@ -5899,7 +5899,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "rotulos-ruidosos"
+      "gold"
     ],
     "why": "Formalização moderna e generalizações do teorema do júri de Condorcet.",
     "doi": "10.1007/BF00125672",
@@ -5922,7 +5922,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "rotulos-ruidosos"
+      "gold"
     ],
     "why": "Panorama do teorema do júri, de Condorcet a versões com dependência entre votantes.",
     "access": "livre",
@@ -5981,7 +5981,7 @@
     "layer": "fundador",
     "themes": [
       "historia",
-      "limiar-custo"
+      "decisao"
     ],
     "why": "As cartas de 1654 em que se resolve a divisão justa de apostas.",
     "access": "livre",
@@ -6003,7 +6003,7 @@
     "layer": "fundador",
     "themes": [
       "historia",
-      "limiar-custo"
+      "decisao"
     ],
     "why": "Primeiro tratado de probabilidade impresso; define o valor esperado de um jogo.",
     "access": "livre",
@@ -6025,7 +6025,7 @@
     "layer": "fundador",
     "themes": [
       "historia",
-      "comparacao-estatistica"
+      "validacao"
     ],
     "why": "Contém a tradução do texto de 1733 com a primeira aproximação normal da binomial.",
     "access": "livre",
@@ -6047,8 +6047,7 @@
     "layer": "fundador",
     "themes": [
       "historia",
-      "gold-standard",
-      "rotulos-ruidosos"
+      "gold"
     ],
     "why": "Defesa de uma nomenclatura estatística uniforme de causas de morte, origem remota da CID.",
     "access": "livre",
@@ -6070,11 +6069,17 @@
     "layer": "fundador",
     "themes": [
       "historia",
-      "gold-standard"
+      "gold"
     ],
     "why": "Análise da mortalidade na Crimeia por causa, com diagramas de área polar.",
     "access": "livre",
-    "links": []
+    "links": [
+      {
+        "label": "Digitalização (Wellcome/Internet Archive)",
+        "url": "https://archive.org/details/b20387118",
+        "type": "texto"
+      }
+    ]
   },
   {
     "id": "hacking-1990",
@@ -6148,8 +6153,7 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "validacao",
-      "benchmarks"
+      "validacao"
     ],
     "why": "Mostra que reusar um holdout adaptativamente gera overfitting e propõe o Thresholdout, baseado em privacidade diferencial.",
     "doi": "10.1126/science.aaa9375",
@@ -6388,8 +6392,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "sensibilidade",
-      "especificidade"
+      "metricas"
     ],
     "why": "Mostra que sensibilidade e especificidade vêm da sorologia do início do século XX, antes de Yerushalmy (1947).",
     "doi": "10.7326/M20-5028",
@@ -6412,8 +6415,8 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "prevalencia-bayes",
-      "precisao"
+      "calibracao",
+      "metricas"
     ],
     "why": "Replica a pergunta de Casscells et al. (1978) e reporta os números originais e os novos.",
     "doi": "10.1001/jamainternmed.2014.1059",
@@ -6436,8 +6439,8 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "ranking-ir",
-      "precisao"
+      "ir",
+      "metricas"
     ],
     "why": "Situa Kent et al. (1955) como primeira proposta de medidas de efetividade baseadas em relevância.",
     "doi": "10.1002/asi.20682",
@@ -6460,8 +6463,8 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "benchmarks",
-      "f-measure"
+      "validacao",
+      "metricas"
     ],
     "why": "Relato dos organizadores sobre MUC-1 (1987) a MUC-6, incluindo a origem de revocação e precisão na MUC-2.",
     "access": "livre",
@@ -6484,7 +6487,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "validacao-cruzada"
+      "validacao"
     ],
     "why": "Comentário sobre a nota de 1968 de Vapnik e Chervonenkis e sua tradução.",
     "doi": "10.1007/978-3-642-41136-6_1",
@@ -6512,7 +6515,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "limiar-custo"
+      "decisao"
     ],
     "why": "História do reconhecimento de padrões nos anos 1950–60; documenta a afiliação de C. K. Chow à Burroughs (Paoli).",
     "access": "livre",
@@ -6535,7 +6538,7 @@
     "layer": "moderno",
     "themes": [
       "historia",
-      "comparacao-estatistica"
+      "validacao"
     ],
     "why": "Revisão que reafirma, 35 anos depois, as conclusões de Meehl (1954).",
     "doi": "10.1126/science.2648573",
@@ -6849,7 +6852,7 @@
     "layer": "fundador",
     "themes": [
       "historia",
-      "estatistica"
+      "validacao"
     ],
     "why": "Mostra que associações entre atributos podem surgir ou desaparecer ao misturar subpopulações — antecessor do paradoxo de Simpson.",
     "doi": "10.1093/biomet/2.2.121",
@@ -6872,7 +6875,7 @@
     "layer": "fundador",
     "themes": [
       "historia",
-      "estatistica"
+      "validacao"
     ],
     "why": "Exemplo em tabelas 2×2×2 que deu nome ao paradoxo de Simpson.",
     "doi": "10.1111/j.2517-6161.1951.tb00088.x",
@@ -6894,7 +6897,7 @@
     "kind": "artigo",
     "layer": "fundador",
     "themes": [
-      "estatistica",
+      "validacao",
       "justica"
     ],
     "why": "O caso real mais conhecido de reversão ao estratificar: admissões de Berkeley por departamento.",
@@ -6917,8 +6920,7 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "estatistica",
-      "causalidade"
+      "validacao"
     ],
     "why": "Argumenta que escolher entre tabela agregada e estratificada é uma questão causal.",
     "doi": "10.1080/00031305.2014.876829",
@@ -6962,8 +6964,7 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "validacao",
-      "reprodutibilidade"
+      "validacao"
     ],
     "why": "Taxonomia de tipos de vazamento e levantamento de artigos afetados em várias áreas científicas.",
     "doi": "10.1016/j.patter.2023.100804",
@@ -6985,7 +6986,7 @@
     "kind": "artigo",
     "layer": "fundador",
     "themes": [
-      "generalizacao"
+      "ml"
     ],
     "why": "Populariza a decomposição viés–variância em aprendizado de máquina.",
     "doi": "10.1162/neco.1992.4.1.1",
@@ -7007,7 +7008,7 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "generalizacao"
+      "ml"
     ],
     "why": "Descreve o 'double descent', que qualifica a curva em U clássica.",
     "doi": "10.1073/pnas.1903070116",
@@ -7029,7 +7030,7 @@
     "kind": "artigo",
     "layer": "fundador",
     "themes": [
-      "mudanca-distribuicao"
+      "validacao"
     ],
     "why": "Formaliza covariate shift e a correção por pesos de importância.",
     "doi": "10.1016/S0378-3758(00)00115-4",
@@ -7051,7 +7052,7 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "mudanca-distribuicao",
+      "validacao",
       "calibracao"
     ],
     "why": "Correção de probabilidades para novos priors e estimativa dos priors por EM.",
@@ -7074,7 +7075,7 @@
     "kind": "livro",
     "layer": "moderno",
     "themes": [
-      "mudanca-distribuicao"
+      "validacao"
     ],
     "why": "Coletânea que consolida o estudo de mudança de distribuição.",
     "doi": "10.7551/mitpress/9780262170055.001.0001",
@@ -7097,7 +7098,7 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "mudanca-distribuicao"
+      "validacao"
     ],
     "why": "Terminologia unificada para os tipos de mudança de distribuição.",
     "doi": "10.1016/j.patcog.2011.06.019",
@@ -7119,8 +7120,8 @@
     "kind": "artigo",
     "layer": "fundador",
     "themes": [
-      "medicina",
-      "vies"
+      "diagnostico",
+      "validacao"
     ],
     "why": "Artigo que nomeia o viés de espectro e o viés de work-up.",
     "doi": "10.1056/NEJM197810262991705",
@@ -7142,8 +7143,8 @@
     "kind": "artigo",
     "layer": "fundador",
     "themes": [
-      "medicina",
-      "vies"
+      "diagnostico",
+      "validacao"
     ],
     "why": "Correção clássica do viés de verificação parcial.",
     "doi": "10.2307/2530820",
@@ -7165,8 +7166,8 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "medicina",
-      "vies"
+      "diagnostico",
+      "validacao"
     ],
     "why": "Revisão sistemática das fontes de viés em estudos de acurácia diagnóstica.",
     "doi": "10.7326/0003-4819-140-3-200402030-00010",
@@ -7206,14 +7207,15 @@
     "authors": "J. Kleinberg, S. Mullainathan & M. Raghavan",
     "year": 2017,
     "title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
-    "venue": "8th Innovations in Theoretical Computer Science Conference (ITCS 2017), LIPIcs 67, artigo 43",
+    "venue": "8th Innovations in Theoretical Computer Science Conference (ITCS 2017), LIPIcs 67, artigo 43; preprint arXiv 1609.05807",
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
       "justica",
-      "calibracao"
+      "calibracao",
+      "ia-dados"
     ],
-    "why": "Teorema de impossibilidade entre calibração por grupo e equilíbrio entre classes.",
+    "why": "Teorema de impossibilidade: calibração por grupo e equilíbrio entre classes só coexistem em casos degenerados.",
     "doi": "10.4230/LIPIcs.ITCS.2017.43",
     "access": "livre",
     "links": [
@@ -7335,8 +7337,8 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "comunicacao",
-      "bayes"
+      "diagnostico",
+      "calibracao"
     ],
     "why": "Revisão de referência sobre analfabetismo estatístico em saúde: ginecologistas e mamografia, riscos relativos versus absolutos (pill scare de 1995) e frequências naturais como remédio.",
     "doi": "10.1111/j.1539-6053.2008.00033.x",
@@ -7358,8 +7360,7 @@
     "kind": "relatorio",
     "layer": "moderno",
     "themes": [
-      "inferencia",
-      "direito"
+      "inferencia"
     ],
     "why": "Declaração oficial de que o número '1 em 73 milhões' não tinha base estatística e de que lê-lo como chance de inocência é a falácia do promotor.",
     "access": "livre",
@@ -7468,7 +7469,7 @@
     "kind": "artigo",
     "layer": "moderno",
     "themes": [
-      "comunicacao"
+      "diagnostico"
     ],
     "why": "Documenta as consequências (mais concepções e abortos) do alerta britânico de 1995 comunicado em risco relativo.",
     "doi": "10.1093/humupd/5.6.621",
@@ -7789,27 +7790,6 @@
       }
     ],
     "doi": "10.52202/079017-1485"
-  },
-  {
-    "id": "kleinberg-2016",
-    "authors": "Jon Kleinberg, Sendhil Mullainathan, Manish Raghavan",
-    "year": 2016,
-    "title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
-    "venue": "arXiv 1609.05807 (ITCS 2017)",
-    "kind": "artigo",
-    "layer": "moderno",
-    "themes": [
-      "ia-dados"
-    ],
-    "why": "Teorema de impossibilidade: três condições naturais de justiça só coexistem em casos degenerados.",
-    "access": "livre",
-    "links": [
-      {
-        "label": "Texto",
-        "url": "https://arxiv.org/abs/1609.05807",
-        "type": "texto"
-      }
-    ]
   },
   {
     "id": "angwin-2016",
@@ -8178,7 +8158,13 @@
     ],
     "why": "Justifica a lei normal dos erros e os mínimos quadrados.",
     "access": "livre",
-    "links": []
+    "links": [
+      {
+        "label": "Edição de 1809 no Internet Archive",
+        "url": "https://archive.org/details/bub_gb_ORUOAAAAQAAJ",
+        "type": "texto"
+      }
+    ]
   },
   {
     "id": "fisher-1918",
@@ -8193,9 +8179,16 @@
       "metricas"
     ],
     "why": "Artigo em que Fisher introduz o termo 'variance' e a decomposição da variância.",
-    "access": "livre",
-    "links": [],
-    "doi": "10.1017/s0080456800012163"
+    "access": "pago",
+    "links": [
+      {
+        "label": "Cambridge Core",
+        "url": "https://doi.org/10.1017/s0080456800012163",
+        "type": "texto"
+      }
+    ],
+    "doi": "10.1017/s0080456800012163",
+    "notes": "Sem digitalização livre de origem legal conhecida; o texto está atrás do paywall da Cambridge."
   },
   {
     "id": "fisher-1922",
@@ -9023,7 +9016,13 @@
     ],
     "why": "Artigo fundador da análise de caminhos; origem tradicionalmente atribuída do termo 'coefficient of determination'. Metadados não confirmados por API.",
     "access": "livre",
-    "links": []
+    "links": [
+      {
+        "label": "Journal of Agricultural Research vol. 20 (Internet Archive)",
+        "url": "https://archive.org/details/lbg.journalofagriculvol.xx0000unse_r5x3",
+        "type": "texto"
+      }
+    ]
   },
   {
     "id": "kvalseth-1985",

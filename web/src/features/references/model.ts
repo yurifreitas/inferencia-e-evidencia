@@ -15,6 +15,9 @@ export type Theme =
   | 'validacao'
   | 'calibracao'
   | 'historia'
+  | 'inferencia'
+  | 'justica'
+  | 'ia-dados'
 
 export type Layer = 'fundador' | 'moderno'
 
@@ -65,7 +68,13 @@ export const THEME_LABEL: Record<Theme, string> = {
   validacao: 'Validação & comparação',
   calibracao: 'Probabilidade & calibração',
   historia: 'História das ideias',
+  inferencia: 'Significância & inferência',
+  justica: 'Justiça algorítmica',
+  'ia-dados': 'IA moderna & dados',
 }
+
+/** Rótulo do tema; nunca devolve vazio, mesmo se os dados trouxerem um tema fora da taxonomia. */
+export const themeLabel = (t: Theme): string => THEME_LABEL[t] ?? String(t)
 
 export const ACCESS_LABEL: Record<Access, string> = {
   livre: 'Texto completo grátis',

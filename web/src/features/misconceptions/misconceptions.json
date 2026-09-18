@@ -1101,7 +1101,7 @@
         "summary": "Chouldechova mostrou que os critérios aplicados ao COMPAS não podem ser satisfeitos simultaneamente quando a prevalência de reincidência difere entre grupos. Kleinberg, Mullainathan e Raghavan provaram que três condições naturais de justiça só coexistem em casos degenerados (previsão perfeita ou taxas-base iguais).",
         "refIds": [
           "chouldechova-2017",
-          "kleinberg-2016"
+          "kleinberg-2017"
         ]
       }
     ],
@@ -1121,7 +1121,7 @@
     "refIds": [
       "angwin-2016",
       "chouldechova-2017",
-      "kleinberg-2016"
+      "kleinberg-2017"
     ],
     "severity": "alta"
   },
