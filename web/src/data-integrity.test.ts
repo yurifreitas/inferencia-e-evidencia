@@ -4,6 +4,8 @@
  */
 import { describe, expect, it } from 'vitest'
 import { REFERENCES, PATHS } from '@/features/references/data'
+import { THEME_LABEL } from '@/features/references/model'
+import { TRADITIONS } from '@/features/references/components/Timeline/Timeline'
 import { CONCEPTS } from '@/features/concepts/data'
 import deep from '@/features/concepts/deep.json'
 import { DEBATES } from '@/features/debates/data'
@@ -77,5 +79,46 @@ describe('sanidade dos dados numéricos', () => {
   })
   it('anos das referências são plausíveis (obras antigas usam ano negativo ou datação aproximada)', () => {
     expect(REFERENCES.filter((r) => r.year < -3000 || r.year > new Date().getFullYear() + 1).map((r) => r.id)).toEqual([])
+  })
+})
+
+describe('taxonomia das referências', () => {
+  it('todo tema usado existe em THEME_LABEL', () => {
+    const bad = REFERENCES.flatMap((r) => r.themes.filter((t) => !(t in THEME_LABEL)).map((t) => `${r.id}: ${t}`))
+    expect(bad).toEqual([])
+  })
+
+  it('o gráfico por tema principal cobre o acervo inteiro', () => {
+    // A Visão geral agrupa por themes[0]; um tema fora da taxonomia sumiria do gráfico em silêncio.
+    const somaDasBarras = Object.keys(THEME_LABEL).reduce((n, t) => n + REFERENCES.filter((r) => r.themes[0] === t).length, 0)
+    expect(somaDasBarras).toBe(REFERENCES.length)
+  })
+
+  it('toda referência tem ao menos um tema, sem repetição', () => {
+    const bad = REFERENCES.filter((r) => r.themes.length === 0 || new Set(r.themes).size !== r.themes.length)
+    expect(bad.map((r) => r.id)).toEqual([])
+  })
+
+  it('referência marcada como grátis aponta para algum lugar', () => {
+    const bad = REFERENCES.filter((r) => r.access === 'livre' && r.links.length === 0)
+    expect(bad.map((r) => r.id)).toEqual([])
+  })
+
+  it('não há duas referências com o mesmo título e autores', () => {
+    const chave = (r: (typeof REFERENCES)[number]) =>
+      `${r.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()}`
+    const vistos = new Map<string, string>()
+    const bad: string[] = []
+    for (const r of REFERENCES) {
+      const k = chave(r)
+      if (vistos.has(k)) bad.push(`${vistos.get(k)} = ${r.id}`)
+      else vistos.set(k, r.id)
+    }
+    expect(bad).toEqual([])
+  })
+
+  it('todo tema pertence a alguma tradição da linha do tempo', () => {
+    const cobertos = new Set(TRADITIONS.flatMap((t) => t.themes))
+    expect(Object.keys(THEME_LABEL).filter((t) => !cobertos.has(t as never))).toEqual([])
   })
 })

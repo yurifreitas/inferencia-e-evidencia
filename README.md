@@ -8,7 +8,7 @@ Matriz é um acervo aberto e navegável sobre a matriz de confusão, *gold stand
 
 | | |
 |---|---|
-| **593** referências | DOIs conferidos no Crossref e links testados |
+| **592** referências | DOIs conferidos no Crossref e links testados |
 | **107** marcos históricos | do osso de Ishango a TREC, cada um com estudo aprofundado |
 | **133** conceitos | em 19 etapas de estudo — da tabela 2×2 à avaliação de imagem e áudio gerados —, com derivação, exemplo resolvido, exercícios e 6 simuladores |
 | **34** equívocos de hoje | "99% de acurácia", p-valor, amostras enviesadas, correlação ≠ causa, detectores de IA — com 58 casos reais |
